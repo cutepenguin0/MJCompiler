@@ -1,7 +1,0 @@
-INFO  22:47:45,054 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
-INFO  22:47:45,082 - #2 program
-INFO  22:47:45,082 - #45 test302
-INFO  22:47:45,082 - #12 void
-ERROR 22:47:45,082 - 
-Sintaksna greska na liniji 6
-ERROR 22:47:45,082 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

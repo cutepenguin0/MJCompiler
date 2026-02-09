@@ -1,5 +1,0 @@
-INFO  15:29:59,043 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
-INFO  15:29:59,051 - #1 program
-ERROR 15:29:59,051 - 
-Sintaksna greska na liniji 1
-ERROR 15:29:59,051 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 1
