@@ -1,0 +1,131 @@
+INFO  14:28:28,667 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  14:28:28,693 - #2 program
+INFO  14:28:28,693 - #18 test302
+INFO  14:28:28,693 - #7 const
+INFO  14:28:28,694 - #18 int
+INFO  14:28:28,694 - #18 jedan
+INFO  14:28:28,694 - #35 =
+INFO  14:28:28,695 - #19 1
+INFO  14:28:28,695 - #38 ;
+INFO  14:28:28,695 - #18 int
+INFO  14:28:28,696 - #18 i
+INFO  14:28:28,696 - #38 ;
+INFO  14:28:28,696 - #18 bool
+INFO  14:28:28,698 - #18 ibool
+INFO  14:28:28,698 - #38 ;
+INFO  14:28:28,698 - #18 int
+INFO  14:28:28,698 - #18 niz2
+INFO  14:28:28,698 - #38 ;
+INFO  14:28:28,698 - #18 int
+INFO  14:28:28,698 - #18 niz
+INFO  14:28:28,698 - #46 [
+INFO  14:28:28,698 - #47 ]
+INFO  14:28:28,699 - #40 ,
+INFO  14:28:28,699 - #18 niz_2
+INFO  14:28:28,699 - #46 [
+INFO  14:28:28,699 - #47 ]
+INFO  14:28:28,699 - #40 ,
+INFO  14:28:28,699 - #18 niz_3
+INFO  14:28:28,699 - #38 ;
+INFO  14:28:28,700 - #18 int
+INFO  14:28:28,700 - #18 a
+INFO  14:28:28,700 - #38 ;
+INFO  14:28:28,700 - #42 {
+INFO  14:28:28,700 - #43 }
+INFO  14:28:28,702 - Program(
+  NamespaceListDerived2(
+  ) [NamespaceListDerived2]
+  DeclarationsListDerived1(
+    DeclarationsListDerived1(
+      DeclarationsListDerived1(
+        DeclarationsListDerived1(
+          DeclarationsListDerived1(
+            DeclarationsListDerived1(
+              DeclarationsListDerived2(
+              ) [DeclarationsListDerived2]
+              DeclarationDerived1(
+                ConstDeclListDerived1(
+                  TypeDerived2(
+                  ) [TypeDerived2]
+                  ConstDeclarationsDerived1(
+                    ConstDeclDerived1(
+                      ConstValueDerived1(
+                      ) [ConstValueDerived1]
+                    ) [ConstDeclDerived1]
+                  ) [ConstDeclarationsDerived1]
+                ) [ConstDeclListDerived1]
+              ) [DeclarationDerived1]
+            ) [DeclarationsListDerived1]
+            DeclarationDerived2(
+              VarDeclListDerived1(
+                TypeDerived2(
+                ) [TypeDerived2]
+                VarDeclarationsDerived1(
+                  VarDeclDerived2(
+                  ) [VarDeclDerived2]
+                ) [VarDeclarationsDerived1]
+              ) [VarDeclListDerived1]
+            ) [DeclarationDerived2]
+          ) [DeclarationsListDerived1]
+          DeclarationDerived2(
+            VarDeclListDerived1(
+              TypeDerived2(
+              ) [TypeDerived2]
+              VarDeclarationsDerived1(
+                VarDeclDerived2(
+                ) [VarDeclDerived2]
+              ) [VarDeclarationsDerived1]
+            ) [VarDeclListDerived1]
+          ) [DeclarationDerived2]
+        ) [DeclarationsListDerived1]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            TypeDerived2(
+            ) [TypeDerived2]
+            VarDeclarationsDerived1(
+              VarDeclDerived2(
+              ) [VarDeclDerived2]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [DeclarationsListDerived1]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          TypeDerived2(
+          ) [TypeDerived2]
+          VarDeclarationsDerived2(
+            VarDeclarationsDerived2(
+              VarDeclarationsDerived1(
+                VarDeclDerived1(
+                  BracketsDerived1(
+                  ) [BracketsDerived1]
+                ) [VarDeclDerived1]
+              ) [VarDeclarationsDerived1]
+              VarDeclDerived1(
+                BracketsDerived1(
+                ) [BracketsDerived1]
+              ) [VarDeclDerived1]
+            ) [VarDeclarationsDerived2]
+            VarDeclDerived2(
+            ) [VarDeclDerived2]
+          ) [VarDeclarationsDerived2]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [DeclarationsListDerived1]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        TypeDerived2(
+        ) [TypeDerived2]
+        VarDeclarationsDerived1(
+          VarDeclDerived2(
+          ) [VarDeclDerived2]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [DeclarationsListDerived1]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [Program]
+INFO  14:28:28,702 - ===================================
+INFO  14:28:28,706 -  Print count calls = 0
+INFO  14:28:28,706 -  Deklarisanih promenljivih ima = 1

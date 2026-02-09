@@ -1,0 +1,235 @@
+INFO  11:02:04,027 - Compiling source file: /home/rastko/Desktop/gj190118/workspace/MJCompiler/test/program.mj
+INFO  11:02:04,053 - #2 program
+INFO  11:02:04,053 - #45 oporavak
+INFO  11:02:04,054 - #45 int
+INFO  11:02:04,054 - #45 a2
+INFO  11:02:04,055 - #36 ,
+INFO  11:02:04,055 - #45 b2
+INFO  11:02:04,055 - #45 c2
+ERROR 11:02:04,055 - 
+Sintaksna greska na liniji 4
+INFO  11:02:04,055 - #36 ,
+INFO  11:02:04,055 - #45 d2
+INFO  11:02:04,055 - #34 ;
+INFO  11:02:04,056 - #45 int
+ERROR 11:02:04,059 - Izvrsen oporavak do ,  na liniji 4
+INFO  11:02:04,060 - #45 a3
+INFO  11:02:04,060 - #36 ,
+INFO  11:02:04,060 - #45 b3
+INFO  11:02:04,060 - #36 ,
+INFO  11:02:04,060 - #45 c3
+INFO  11:02:04,060 - #45 d3
+ERROR 11:02:04,060 - 
+Sintaksna greska na liniji 5
+INFO  11:02:04,060 - #34 ;
+INFO  11:02:04,060 - #45 int
+INFO  11:02:04,060 - #45 a4
+INFO  11:02:04,060 - #36 ,
+ERROR 11:02:04,060 - Izvrsen oporavak do ,  na liniji 5
+INFO  11:02:04,060 - #45 b4
+INFO  11:02:04,060 - #45 c4
+ERROR 11:02:04,060 - 
+Sintaksna greska na liniji 6
+INFO  11:02:04,061 - #36 ,
+INFO  11:02:04,061 - #45 d4
+INFO  11:02:04,061 - #36 ,
+INFO  11:02:04,061 - #45 e4
+ERROR 11:02:04,061 - Izvrsen oporavak do ,  na liniji 6
+INFO  11:02:04,061 - #45 f4
+ERROR 11:02:04,061 - 
+Sintaksna greska na liniji 6
+INFO  11:02:04,061 - #36 ,
+INFO  11:02:04,061 - #45 g4
+INFO  11:02:04,061 - #34 ;
+INFO  11:02:04,061 - #38 {
+ERROR 11:02:04,061 - Izvrsen oporavak do ,  na liniji 6
+INFO  11:02:04,061 - #12 void
+INFO  11:02:04,062 - #45 main
+INFO  11:02:04,062 - #40 (
+INFO  11:02:04,063 - #41 )
+INFO  11:02:04,063 - #45 int
+INFO  11:02:04,063 - #45 bodovi
+INFO  11:02:04,063 - #34 ;
+INFO  11:02:04,063 - #45 bool
+INFO  11:02:04,063 - #45 bt
+INFO  11:02:04,063 - #34 ;
+INFO  11:02:04,063 - #38 {
+INFO  11:02:04,063 - #45 bodovi
+INFO  11:02:04,064 - #31 =
+INFO  11:02:04,064 - #45 bodovi
+INFO  11:02:04,064 - #18 +
+INFO  11:02:04,064 - #46 3
+INFO  11:02:04,065 - #34 ;
+INFO  11:02:04,065 - #39 }
+INFO  11:02:04,065 - #39 }
+INFO  11:02:04,069 - Program(
+  ProgName(
+   oporavak
+  ) [ProgName]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived2(
+              VarDeclarationsDerived2(
+                VarDeclarationsDerived1(
+                  VarDeclName(
+                   a2
+                  ) [VarDeclName]
+                ) [VarDeclarationsDerived1]
+                ErrorComma1(
+                ) [ErrorComma1]
+              ) [VarDeclarationsDerived2]
+              VarDeclName(
+               d2
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived2]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived2(
+            VarDeclarationsDerived2(
+              VarDeclarationsDerived1(
+                VarDeclName(
+                 a3
+                ) [VarDeclName]
+              ) [VarDeclarationsDerived1]
+              VarDeclName(
+               b3
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived2]
+            ErrorComma1(
+            ) [ErrorComma1]
+          ) [VarDeclarationsDerived2]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived2(
+          VarDeclarationsDerived2(
+            VarDeclarationsDerived2(
+              VarDeclarationsDerived2(
+                VarDeclarationsDerived1(
+                  VarDeclName(
+                   a4
+                  ) [VarDeclName]
+                ) [VarDeclarationsDerived1]
+                ErrorComma1(
+                ) [ErrorComma1]
+              ) [VarDeclarationsDerived2]
+              VarDeclName(
+               d4
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived2]
+            ErrorComma1(
+            ) [ErrorComma1]
+          ) [VarDeclarationsDerived2]
+          VarDeclName(
+           g4
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived2]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived1(
+          VarDeclListingDerived2(
+          ) [VarDeclListingDerived2]
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               bodovi
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [VarDeclListingDerived1]
+        VarDeclListDerived1(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             bt
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        DesignatorStatementStatementDecl(
+          AssignmentDesignator(
+            AssignmentDetailed(
+              SimpleDesignator(
+               bodovi
+              ) [SimpleDesignator]
+              AssignopDerived1(
+              ) [AssignopDerived1]
+              AddopExpr(
+                SingleTerm(
+                  SingleFactor(
+                    FactorDesignator(
+                      SimpleDesignator(
+                       bodovi
+                      ) [SimpleDesignator]
+                    ) [FactorDesignator]
+                  ) [SingleFactor]
+                ) [SingleTerm]
+                AddopPlus(
+                ) [AddopPlus]
+                SingleFactor(
+                  Const(
+                    ConstValueNumber(
+                     3
+                    ) [ConstValueNumber]
+                  ) [Const]
+                ) [SingleFactor]
+              ) [AddopExpr]
+            ) [AssignmentDetailed]
+          ) [AssignmentDesignator]
+        ) [DesignatorStatementStatementDecl]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  11:02:04,069 - ===================================
+INFO  11:02:04,074 - Deklarisana promenljiva a2 na liniji 4
+INFO  11:02:04,074 - Deklarisana promenljiva d2 na liniji 4
+INFO  11:02:04,074 - Deklarisana promenljiva a3 na liniji 5
+INFO  11:02:04,074 - Deklarisana promenljiva b3 na liniji 5
+INFO  11:02:04,074 - Deklarisana promenljiva a4 na liniji 6
+INFO  11:02:04,074 - Deklarisana promenljiva d4 na liniji 6
+INFO  11:02:04,074 - Deklarisana promenljiva g4 na liniji 6
+INFO  11:02:04,074 - Definicija metode  VOID
+INFO  11:02:04,074 - Deklarisana promenljiva bodovi na liniji 10
+INFO  11:02:04,075 - Deklarisana promenljiva bt na liniji 11
+INFO  11:02:04,075 - Upotreba lokalne promenljive bodovi na liniji 16
+INFO  11:02:04,075 - Upotreba lokalne promenljive bodovi na liniji 16
+ERROR 11:02:04,076 - Parsiranje nije uspesno zavrseno

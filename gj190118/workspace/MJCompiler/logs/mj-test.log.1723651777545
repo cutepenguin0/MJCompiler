@@ -1,0 +1,141 @@
+INFO  18:07:12,971 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  18:07:12,998 - #2 program
+INFO  18:07:12,998 - #45 test302
+INFO  18:07:12,998 - #7 const
+INFO  18:07:12,999 - #45 int
+INFO  18:07:12,999 - #45 x
+INFO  18:07:13,000 - #31 =
+INFO  18:07:13,000 - #46 5
+INFO  18:07:13,000 - #34 ;
+INFO  18:07:13,001 - #45 int
+INFO  18:07:13,001 - #45 y
+INFO  18:07:13,001 - #34 ;
+INFO  18:07:13,001 - #45 int
+INFO  18:07:13,001 - #45 s
+INFO  18:07:13,001 - #34 ;
+INFO  18:07:13,001 - #38 {
+INFO  18:07:13,002 - #12 void
+INFO  18:07:13,004 - #45 main
+INFO  18:07:13,004 - #40 (
+INFO  18:07:13,004 - #41 )
+INFO  18:07:13,004 - #45 buc
+INFO  18:07:13,005 - #45 y
+INFO  18:07:13,005 - #42 [
+INFO  18:07:13,005 - #43 ]
+INFO  18:07:13,005 - #34 ;
+INFO  18:07:13,005 - #38 {
+INFO  18:07:13,005 - #45 y
+INFO  18:07:13,006 - #31 =
+INFO  18:07:13,006 - #46 5
+INFO  18:07:13,006 - #34 ;
+INFO  18:07:13,006 - #39 }
+INFO  18:07:13,007 - #39 }
+INFO  18:07:13,010 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived1(
+          ConstDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsDerived1(
+              ConstDecl(
+               x
+                ConstValueNumber(
+                 5
+                ) [ConstValueNumber]
+              ) [ConstDecl]
+            ) [ConstDeclarationsDerived1]
+          ) [ConstDeclListDerived1]
+        ) [DeclarationDerived1]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclName(
+           s
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived2(
+        ) [VarDeclListingDerived2]
+        VarDeclListDerived1(
+          Type(
+           buc
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclNameArray(
+             y
+              BracketsDerived1(
+              ) [BracketsDerived1]
+            ) [VarDeclNameArray]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        StatementDeclDerived11(
+          Assignment(
+            SimpleDesignator(
+             y
+            ) [SimpleDesignator]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            SingleTerm(
+              SingleFactor(
+                Const(
+                  ConstValueNumber(
+                   5
+                  ) [ConstValueNumber]
+                ) [Const]
+              ) [SingleFactor]
+            ) [SingleTerm]
+          ) [Assignment]
+        ) [StatementDeclDerived11]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  18:07:13,011 - ===================================
+INFO  18:07:13,019 - Deklarisana konstanta x cija je vrednost 5
+INFO  18:07:13,019 - Deklarisana promenljiva y na liniji 5
+INFO  18:07:13,019 - Deklarisana promenljiva s na liniji 6
+INFO  18:07:13,019 - Definicija metode  VOID
+ERROR 18:07:13,022 - Nije pronadjen tip buc u tabeli simbola! 
+INFO  18:07:13,023 - Deklarisana promenljiva y na liniji 9
+ERROR 18:07:13,023 - Greska: Tipovi nisu kompatibilni na liniji 10

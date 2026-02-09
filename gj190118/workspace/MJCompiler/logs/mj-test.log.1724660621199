@@ -1,0 +1,223 @@
+INFO  10:23:15,278 - Compiling source file: /home/rastko/Desktop/gj190118/workspace/MJCompiler/test/program.mj
+INFO  10:23:15,304 - #2 program
+INFO  10:23:15,304 - #45 oporavak
+INFO  10:23:15,305 - #45 int
+INFO  10:23:15,305 - #45 a2
+INFO  10:23:15,306 - #36 ,
+INFO  10:23:15,306 - #45 b2
+INFO  10:23:15,306 - #45 c2
+ERROR 10:23:15,306 - 
+Sintaksna greska na liniji 4
+INFO  10:23:15,306 - #36 ,
+INFO  10:23:15,306 - #45 d2
+INFO  10:23:15,306 - #34 ;
+INFO  10:23:15,307 - #45 int
+ERROR 10:23:15,310 - Izvrsen oporavak do ,  na liniji 4
+INFO  10:23:15,311 - #45 a3
+INFO  10:23:15,311 - #36 ,
+INFO  10:23:15,311 - #45 b3
+INFO  10:23:15,311 - #36 ,
+INFO  10:23:15,311 - #45 c3
+INFO  10:23:15,311 - #45 d3
+ERROR 10:23:15,311 - 
+Sintaksna greska na liniji 5
+INFO  10:23:15,311 - #34 ;
+INFO  10:23:15,311 - #45 int
+INFO  10:23:15,311 - #45 a4
+INFO  10:23:15,311 - #36 ,
+ERROR 10:23:15,311 - Izvrsen oporavak do ,  na liniji 5
+INFO  10:23:15,312 - #45 b4
+INFO  10:23:15,312 - #45 c4
+ERROR 10:23:15,312 - 
+Sintaksna greska na liniji 6
+INFO  10:23:15,312 - #36 ,
+INFO  10:23:15,312 - #45 d4
+INFO  10:23:15,312 - #36 ,
+INFO  10:23:15,312 - #45 e4
+ERROR 10:23:15,312 - Izvrsen oporavak do ,  na liniji 6
+INFO  10:23:15,312 - #45 f4
+ERROR 10:23:15,312 - 
+Sintaksna greska na liniji 6
+INFO  10:23:15,312 - #36 ,
+INFO  10:23:15,312 - #45 g4
+INFO  10:23:15,312 - #34 ;
+INFO  10:23:15,312 - #38 {
+ERROR 10:23:15,312 - Izvrsen oporavak do ,  na liniji 6
+INFO  10:23:15,313 - #12 void
+INFO  10:23:15,313 - #45 main
+INFO  10:23:15,313 - #40 (
+INFO  10:23:15,314 - #41 )
+INFO  10:23:15,314 - #45 int
+INFO  10:23:15,314 - #45 bodovi
+INFO  10:23:15,314 - #34 ;
+INFO  10:23:15,314 - #45 bool
+INFO  10:23:15,314 - #45 bt
+INFO  10:23:15,314 - #34 ;
+INFO  10:23:15,315 - #38 {
+INFO  10:23:15,315 - #45 bodovi
+INFO  10:23:15,315 - #31 =
+INFO  10:23:15,315 - #46 2
+INFO  10:23:15,315 - #46 2
+ERROR 10:23:15,315 - 
+Sintaksna greska na liniji 13
+INFO  10:23:15,316 - #34 ;
+INFO  10:23:15,316 - #45 bodovi
+INFO  10:23:15,316 - #31 =
+INFO  10:23:15,316 - #34 ;
+ERROR 10:23:15,316 - Izvrsen oporavak do ;  na liniji 1
+ERROR 10:23:15,316 - 
+Sintaksna greska na liniji 14
+INFO  10:23:15,316 - #31 =
+INFO  10:23:15,316 - #46 3
+INFO  10:23:15,316 - #34 ;
+INFO  10:23:15,317 - #39 }
+INFO  10:23:15,317 - #39 }
+ERROR 10:23:15,317 - Izvrsen oporavak do ;  na liniji 1
+INFO  10:23:15,319 - Program(
+  ProgName(
+   oporavak
+  ) [ProgName]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived2(
+              VarDeclarationsDerived2(
+                VarDeclarationsDerived1(
+                  VarDeclName(
+                   a2
+                  ) [VarDeclName]
+                ) [VarDeclarationsDerived1]
+                ErrorComma1(
+                ) [ErrorComma1]
+              ) [VarDeclarationsDerived2]
+              VarDeclName(
+               d2
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived2]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived2(
+            VarDeclarationsDerived2(
+              VarDeclarationsDerived1(
+                VarDeclName(
+                 a3
+                ) [VarDeclName]
+              ) [VarDeclarationsDerived1]
+              VarDeclName(
+               b3
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived2]
+            ErrorComma1(
+            ) [ErrorComma1]
+          ) [VarDeclarationsDerived2]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived2(
+          VarDeclarationsDerived2(
+            VarDeclarationsDerived2(
+              VarDeclarationsDerived2(
+                VarDeclarationsDerived1(
+                  VarDeclName(
+                   a4
+                  ) [VarDeclName]
+                ) [VarDeclarationsDerived1]
+                ErrorComma1(
+                ) [ErrorComma1]
+              ) [VarDeclarationsDerived2]
+              VarDeclName(
+               d4
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived2]
+            ErrorComma1(
+            ) [ErrorComma1]
+          ) [VarDeclarationsDerived2]
+          VarDeclName(
+           g4
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived2]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived1(
+          VarDeclListingDerived2(
+          ) [VarDeclListingDerived2]
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               bodovi
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [VarDeclListingDerived1]
+        VarDeclListDerived1(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             bt
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived1(
+        StatementListDerived1(
+          StatementListDerived2(
+          ) [StatementListDerived2]
+          DesignatorStatementStatementDecl(
+            AssignmentErrorMissingExpr(
+            ) [AssignmentErrorMissingExpr]
+          ) [DesignatorStatementStatementDecl]
+        ) [StatementListDerived1]
+        DesignatorStatementStatementDecl(
+          AssignmentErrorMissingExpr(
+          ) [AssignmentErrorMissingExpr]
+        ) [DesignatorStatementStatementDecl]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  10:23:15,320 - ===================================
+INFO  10:23:15,324 - Deklarisana promenljiva a2 na liniji 4
+INFO  10:23:15,324 - Deklarisana promenljiva d2 na liniji 4
+INFO  10:23:15,324 - Deklarisana promenljiva a3 na liniji 5
+INFO  10:23:15,324 - Deklarisana promenljiva b3 na liniji 5
+INFO  10:23:15,324 - Deklarisana promenljiva a4 na liniji 6
+INFO  10:23:15,324 - Deklarisana promenljiva d4 na liniji 6
+INFO  10:23:15,324 - Deklarisana promenljiva g4 na liniji 6
+INFO  10:23:15,324 - Definicija metode  VOID
+INFO  10:23:15,325 - Deklarisana promenljiva bodovi na liniji 10
+INFO  10:23:15,325 - Deklarisana promenljiva bt na liniji 11
+ERROR 10:23:15,325 - Parsiranje nije uspesno zavrseno

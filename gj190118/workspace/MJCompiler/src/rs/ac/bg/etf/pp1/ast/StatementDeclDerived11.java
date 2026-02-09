@@ -1,0 +1,58 @@
+// generated with ast extension for cup
+// version 0.8
+// 26/7/2024 22:11:22
+
+
+package rs.ac.bg.etf.pp1.ast;
+
+public class StatementDeclDerived11 extends StatementDecl {
+
+    private Block Block;
+
+    public StatementDeclDerived11 (Block Block) {
+        this.Block=Block;
+        if(Block!=null) Block.setParent(this);
+    }
+
+    public Block getBlock() {
+        return Block;
+    }
+
+    public void setBlock(Block Block) {
+        this.Block=Block;
+    }
+
+    public void accept(Visitor visitor) {
+        visitor.visit(this);
+    }
+
+    public void childrenAccept(Visitor visitor) {
+        if(Block!=null) Block.accept(visitor);
+    }
+
+    public void traverseTopDown(Visitor visitor) {
+        accept(visitor);
+        if(Block!=null) Block.traverseTopDown(visitor);
+    }
+
+    public void traverseBottomUp(Visitor visitor) {
+        if(Block!=null) Block.traverseBottomUp(visitor);
+        accept(visitor);
+    }
+
+    public String toString(String tab) {
+        StringBuffer buffer=new StringBuffer();
+        buffer.append(tab);
+        buffer.append("StatementDeclDerived11(\n");
+
+        if(Block!=null)
+            buffer.append(Block.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
+        buffer.append("\n");
+
+        buffer.append(tab);
+        buffer.append(") [StatementDeclDerived11]");
+        return buffer.toString();
+    }
+}

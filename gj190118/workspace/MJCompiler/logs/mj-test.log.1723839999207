@@ -1,0 +1,142 @@
+INFO  22:26:27,879 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  22:26:27,905 - #2 program
+INFO  22:26:27,905 - #45 test302
+INFO  22:26:27,905 - #7 const
+INFO  22:26:27,906 - #45 int
+INFO  22:26:27,906 - #45 x
+INFO  22:26:27,906 - #31 =
+INFO  22:26:27,907 - #46 5
+INFO  22:26:27,907 - #34 ;
+INFO  22:26:27,907 - #45 int
+INFO  22:26:27,907 - #45 y
+INFO  22:26:27,907 - #34 ;
+INFO  22:26:27,908 - #45 int
+INFO  22:26:27,908 - #45 s
+INFO  22:26:27,908 - #34 ;
+INFO  22:26:27,908 - #38 {
+INFO  22:26:27,908 - #12 void
+INFO  22:26:27,908 - #45 main
+INFO  22:26:27,909 - #40 (
+INFO  22:26:27,909 - #41 )
+INFO  22:26:27,909 - #45 int
+INFO  22:26:27,909 - #45 y
+INFO  22:26:27,909 - #42 [
+INFO  22:26:27,910 - #43 ]
+INFO  22:26:27,910 - #34 ;
+INFO  22:26:27,910 - #38 {
+INFO  22:26:27,910 - #45 y
+INFO  22:26:27,911 - #31 =
+INFO  22:26:27,911 - #46 4
+INFO  22:26:27,911 - #34 ;
+INFO  22:26:27,911 - #39 }
+INFO  22:26:27,912 - #39 }
+INFO  22:26:27,915 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived1(
+          ConstDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsDerived1(
+              ConstDecl(
+               x
+                ConstValueNumber(
+                 5
+                ) [ConstValueNumber]
+              ) [ConstDecl]
+            ) [ConstDeclarationsDerived1]
+          ) [ConstDeclListDerived1]
+        ) [DeclarationDerived1]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclName(
+           s
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived2(
+        ) [VarDeclListingDerived2]
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclNameArray(
+             y
+              BracketsDerived1(
+              ) [BracketsDerived1]
+            ) [VarDeclNameArray]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        DesignatorStatementStatementDecl(
+          Assignment(
+            SimpleDesignator(
+             y
+            ) [SimpleDesignator]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            SingleTerm(
+              SingleFactor(
+                Const(
+                  ConstValueNumber(
+                   4
+                  ) [ConstValueNumber]
+                ) [Const]
+              ) [SingleFactor]
+            ) [SingleTerm]
+          ) [Assignment]
+        ) [DesignatorStatementStatementDecl]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  22:26:27,915 - ===================================
+INFO  22:26:27,923 - Deklarisana konstanta x cija je vrednost 5
+INFO  22:26:27,924 - Deklarisana promenljiva y na liniji 3
+INFO  22:26:27,924 - Deklarisana promenljiva s na liniji 4
+INFO  22:26:27,924 - Definicija metode  VOID
+ERROR 22:26:27,924 - Promenljiva je vec deklarisana na liniji 6
+INFO  22:26:27,924 - Upotreba globalne promenljive y na liniji 7
+INFO  22:26:27,925 - Dodela vrednosti promenljivoj y na liniji 7
+ERROR 22:26:27,925 - Parsiranje nije uspesno zavrseno

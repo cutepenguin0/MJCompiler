@@ -1,0 +1,81 @@
+INFO  23:14:04,209 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  23:14:04,236 - #2 program
+INFO  23:14:04,237 - #45 test302
+INFO  23:14:04,237 - #7 const
+INFO  23:14:04,237 - #45 String
+INFO  23:14:04,238 - #45 m
+INFO  23:14:04,238 - #31 =
+INFO  23:14:04,238 - #45 f
+ERROR 23:14:04,238 - 
+Sintaksna greska na liniji 4
+INFO  23:14:04,238 - #34 ;
+INFO  23:14:04,238 - #38 {
+INFO  23:14:04,238 - #12 void
+INFO  23:14:04,239 - #45 main
+ERROR 23:14:04,242 - Izvrsen oporavak do ; na liniji4
+INFO  23:14:04,243 - #40 (
+INFO  23:14:04,243 - #45 int
+INFO  23:14:04,243 - #45 x
+INFO  23:14:04,243 - #41 )
+INFO  23:14:04,243 - #45 int
+INFO  23:14:04,243 - #45 y
+INFO  23:14:04,243 - #34 ;
+INFO  23:14:04,244 - #38 {
+INFO  23:14:04,244 - #39 }
+INFO  23:14:04,244 - #39 }
+INFO  23:14:04,246 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  ManyDeclarationsList(
+    NoDeclarationsList(
+    ) [NoDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived3(
+      ) [VarDeclListDerived3]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      FormParsDerived1(
+        FormalParamListDerived2(
+          FormalParam(
+            Type(
+             int
+            ) [Type]
+           x
+          ) [FormalParam]
+        ) [FormalParamListDerived2]
+      ) [FormParsDerived1]
+      VarDeclListingDerived1(
+        VarDeclListingDerived2(
+        ) [VarDeclListingDerived2]
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived2(
+      ) [StatementListDerived2]
+    ) [MethodDeclWithFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  23:14:04,247 - ===================================
+INFO  23:14:04,251 - Definicija metode  VOID
+ERROR 23:14:04,251 - Metoda main ne sme imati argumente.
+INFO  23:14:04,252 - Deklarisana promenljiva y na liniji 7

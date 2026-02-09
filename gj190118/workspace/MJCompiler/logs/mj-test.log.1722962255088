@@ -1,0 +1,134 @@
+INFO  18:37:18,817 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  18:37:18,847 - #2 program
+INFO  18:37:18,847 - #45 test302
+INFO  18:37:18,847 - #17 namespace
+INFO  18:37:18,848 - #45 sizes
+INFO  18:37:18,848 - #38 {
+INFO  18:37:18,848 - #45 int
+INFO  18:37:18,848 - #45 tableSize
+INFO  18:37:18,849 - #34 ;
+INFO  18:37:18,849 - #38 {
+INFO  18:37:18,849 - #39 }
+INFO  18:37:18,849 - #39 }
+INFO  18:37:18,849 - #7 const
+INFO  18:37:18,850 - #45 int
+INFO  18:37:18,850 - #45 promenljiva
+INFO  18:37:18,850 - #31 =
+INFO  18:37:18,850 - #46 5
+INFO  18:37:18,850 - #34 ;
+INFO  18:37:18,851 - #45 int
+INFO  18:37:18,851 - #45 x
+INFO  18:37:18,851 - #34 ;
+INFO  18:37:18,851 - #45 bool
+INFO  18:37:18,851 - #45 y
+INFO  18:37:18,851 - #34 ;
+INFO  18:37:18,851 - #45 char
+INFO  18:37:18,851 - #45 c
+INFO  18:37:18,851 - #42 [
+INFO  18:37:18,852 - #43 ]
+INFO  18:37:18,852 - #34 ;
+INFO  18:37:18,852 - #38 {
+INFO  18:37:18,852 - #39 }
+INFO  18:37:18,855 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NamespaceListMultiple(
+    NoNamespace(
+    ) [NoNamespace]
+    NamespaceDecl(
+      NamespaceName(
+       sizes
+      ) [NamespaceName]
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               tableSize
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      NoMethDeclListNamespace(
+      ) [NoMethDeclListNamespace]
+    ) [NamespaceDecl]
+  ) [NamespaceListMultiple]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        ManyDeclarationsList(
+          NoDeclarationsList(
+          ) [NoDeclarationsList]
+          DeclarationDerived1(
+            ConstDeclListDerived1(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsDerived1(
+                ConstDecl(
+                 promenljiva
+                  ConstValueNumber(
+                   5
+                  ) [ConstValueNumber]
+                ) [ConstDecl]
+              ) [ConstDeclarationsDerived1]
+            ) [ConstDeclListDerived1]
+          ) [DeclarationDerived1]
+        ) [ManyDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               x
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclNameArray(
+           c
+            BracketsDerived1(
+            ) [BracketsDerived1]
+          ) [VarDeclNameArray]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [Program]
+INFO  18:37:18,856 - ===================================
+INFO  18:37:18,861 - Deklarisana promenljiva tableSize na liniji 5
+ERROR 18:37:18,863 - Greska. Ime:promenljiva se vec nalazi u tabeli simbola.
+INFO  18:37:18,864 - Deklarisana promenljiva x na liniji 9
+INFO  18:37:18,864 - Deklarisana promenljiva y na liniji 10
+INFO  18:37:18,864 - Deklarisana promenljiva c na liniji 11

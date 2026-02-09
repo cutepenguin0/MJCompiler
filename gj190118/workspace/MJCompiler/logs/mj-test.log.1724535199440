@@ -1,0 +1,196 @@
+INFO  23:29:05,677 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  23:29:05,703 - #2 program
+INFO  23:29:05,704 - #45 test301
+INFO  23:29:05,704 - #45 int
+INFO  23:29:05,704 - #45 a1
+INFO  23:29:05,705 - #36 ,
+INFO  23:29:05,705 - #45 b1
+INFO  23:29:05,705 - #36 ,
+INFO  23:29:05,705 - #45 c1
+INFO  23:29:05,705 - #36 ,
+INFO  23:29:05,705 - #45 d1
+INFO  23:29:05,705 - #34 ;
+INFO  23:29:05,705 - #45 int
+INFO  23:29:05,706 - #45 a2
+INFO  23:29:05,706 - #36 ,
+INFO  23:29:05,706 - #45 b2
+INFO  23:29:05,706 - #45 c2
+ERROR 23:29:05,706 - 
+Sintaksna greska na liniji 7
+INFO  23:29:05,706 - #36 ,
+INFO  23:29:05,707 - #45 d2
+INFO  23:29:05,707 - #34 ;
+INFO  23:29:05,707 - #45 int
+ERROR 23:29:05,707 - Izvrsen oporavak do , na liniji 
+INFO  23:29:05,708 - #45 a3
+INFO  23:29:05,708 - #36 ,
+INFO  23:29:05,708 - #45 b3
+INFO  23:29:05,708 - #36 ,
+INFO  23:29:05,708 - #45 c3
+INFO  23:29:05,708 - #45 d3
+ERROR 23:29:05,708 - 
+Sintaksna greska na liniji 8
+INFO  23:29:05,708 - #34 ;
+INFO  23:29:05,708 - #45 int
+INFO  23:29:05,708 - #45 a4
+INFO  23:29:05,708 - #36 ,
+ERROR 23:29:05,708 - Izvrsen oporavak do , na liniji 
+INFO  23:29:05,708 - #45 b4
+INFO  23:29:05,709 - #45 c4
+ERROR 23:29:05,709 - 
+Sintaksna greska na liniji 9
+INFO  23:29:05,709 - #36 ,
+INFO  23:29:05,709 - #45 d4
+INFO  23:29:05,709 - #36 ,
+INFO  23:29:05,709 - #45 e4
+ERROR 23:29:05,709 - Izvrsen oporavak do , na liniji 
+INFO  23:29:05,709 - #45 f4
+ERROR 23:29:05,709 - 
+Sintaksna greska na liniji 9
+INFO  23:29:05,709 - #36 ,
+INFO  23:29:05,709 - #45 g4
+INFO  23:29:05,709 - #34 ;
+INFO  23:29:05,709 - #38 {
+ERROR 23:29:05,709 - Izvrsen oporavak do , na liniji 
+INFO  23:29:05,709 - #12 void
+INFO  23:29:05,710 - #45 main
+INFO  23:29:05,710 - #40 (
+INFO  23:29:05,710 - #41 )
+INFO  23:29:05,710 - #45 int
+INFO  23:29:05,711 - #45 bodovi
+INFO  23:29:05,711 - #34 ;
+INFO  23:29:05,711 - #45 bool
+INFO  23:29:05,711 - #45 bt
+INFO  23:29:05,711 - #34 ;
+INFO  23:29:05,711 - #38 {
+INFO  23:29:05,711 - #39 }
+INFO  23:29:05,711 - #39 }
+INFO  23:29:05,714 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        ManyDeclarationsList(
+          NoDeclarationsList(
+          ) [NoDeclarationsList]
+          DeclarationDerived2(
+            VarDeclListDerived1(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsDerived2(
+                VarDeclarationsDerived2(
+                  VarDeclarationsDerived2(
+                    VarDeclarationsDerived1(
+                      VarDeclName(
+                       a1
+                      ) [VarDeclName]
+                    ) [VarDeclarationsDerived1]
+                    VarDeclName(
+                     b1
+                    ) [VarDeclName]
+                  ) [VarDeclarationsDerived2]
+                  VarDeclName(
+                   c1
+                  ) [VarDeclName]
+                ) [VarDeclarationsDerived2]
+                VarDeclName(
+                 d1
+                ) [VarDeclName]
+              ) [VarDeclarationsDerived2]
+            ) [VarDeclListDerived1]
+          ) [DeclarationDerived2]
+        ) [ManyDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived2(
+              ErrorComma(
+              ) [ErrorComma]
+              VarDeclName(
+               d2
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived2]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          ErrorComma(
+          ) [ErrorComma]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived2(
+          ErrorComma(
+          ) [ErrorComma]
+          VarDeclName(
+           g4
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived2]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived1(
+          VarDeclListingDerived2(
+          ) [VarDeclListingDerived2]
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               bodovi
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [VarDeclListingDerived1]
+        VarDeclListDerived1(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             bt
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived2(
+      ) [StatementListDerived2]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  23:29:05,714 - ===================================
+INFO  23:29:05,719 - Deklarisana promenljiva a1 na liniji 6
+INFO  23:29:05,719 - Deklarisana promenljiva b1 na liniji 6
+INFO  23:29:05,719 - Deklarisana promenljiva c1 na liniji 6
+INFO  23:29:05,719 - Deklarisana promenljiva d1 na liniji 6
+INFO  23:29:05,719 - Deklarisana promenljiva d2 na liniji 7
+INFO  23:29:05,719 - Deklarisana promenljiva g4 na liniji 9
+INFO  23:29:05,719 - Definicija metode  VOID
+INFO  23:29:05,719 - Deklarisana promenljiva bodovi na liniji 13
+INFO  23:29:05,719 - Deklarisana promenljiva bt na liniji 14
+ERROR 23:29:05,720 - Parsiranje nije uspesno zavrseno

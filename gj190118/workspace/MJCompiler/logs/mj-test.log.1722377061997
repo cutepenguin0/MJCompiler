@@ -1,0 +1,8 @@
+INFO  00:00:44,470 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  00:00:44,496 - #2 program
+INFO  00:00:44,496 - #18 test301
+INFO  00:00:44,497 - #18 int
+INFO  00:00:44,497 - #40 ,
+ERROR 00:00:44,497 - 
+Sintaksna greska na liniji 3
+ERROR 00:00:44,497 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

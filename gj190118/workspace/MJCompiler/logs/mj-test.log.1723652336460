@@ -1,0 +1,31 @@
+INFO  18:18:10,992 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  18:18:11,021 - #2 program
+INFO  18:18:11,022 - #45 test302
+INFO  18:18:11,022 - #7 const
+INFO  18:18:11,022 - #45 int
+INFO  18:18:11,022 - #45 x
+INFO  18:18:11,023 - #31 =
+INFO  18:18:11,023 - #46 5
+INFO  18:18:11,023 - #34 ;
+INFO  18:18:11,024 - #45 int
+INFO  18:18:11,024 - #45 y
+INFO  18:18:11,024 - #34 ;
+INFO  18:18:11,024 - #45 int
+INFO  18:18:11,024 - #45 s
+INFO  18:18:11,024 - #34 ;
+INFO  18:18:11,024 - #38 {
+INFO  18:18:11,025 - #12 void
+INFO  18:18:11,025 - #45 main
+INFO  18:18:11,025 - #40 (
+INFO  18:18:11,026 - #41 )
+INFO  18:18:11,026 - #45 int
+INFO  18:18:11,026 - #45 y
+INFO  18:18:11,026 - #42 [
+INFO  18:18:11,026 - #46 10
+ERROR 18:18:11,026 - 
+Sintaksna greska na liniji 6
+INFO  18:18:11,026 - #43 ]
+INFO  18:18:11,026 - #38 {
+INFO  18:18:11,026 - #39 }
+INFO  18:18:11,027 - #39 }
+ERROR 18:18:11,027 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8

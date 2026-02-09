@@ -1,0 +1,143 @@
+INFO  18:08:29,247 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  18:08:29,273 - #2 program
+INFO  18:08:29,273 - #18 p
+INFO  18:08:29,273 - #17 namespace
+INFO  18:08:29,274 - #18 sizes
+INFO  18:08:29,274 - #42 {
+INFO  18:08:29,274 - #7 const
+INFO  18:08:29,274 - #18 int
+INFO  18:08:29,274 - #18 tableSize
+INFO  18:08:29,275 - #35 =
+INFO  18:08:29,275 - #19 10
+INFO  18:08:29,275 - #38 ;
+INFO  18:08:29,276 - #42 {
+INFO  18:08:29,276 - #43 }
+INFO  18:08:29,276 - #43 }
+INFO  18:08:29,276 - #18 int
+INFO  18:08:29,277 - #18 rows
+INFO  18:08:29,277 - #40 ,
+INFO  18:08:29,277 - #18 column
+INFO  18:08:29,277 - #38 ;
+INFO  18:08:29,277 - #42 {
+INFO  18:08:29,277 - #12 void
+INFO  18:08:29,277 - #18 f
+INFO  18:08:29,278 - #44 (
+INFO  18:08:29,278 - #18 char
+INFO  18:08:29,278 - #18 ch
+INFO  18:08:29,278 - #40 ,
+INFO  18:08:29,278 - #18 int
+INFO  18:08:29,278 - #18 a
+INFO  18:08:29,278 - #40 ,
+INFO  18:08:29,278 - #18 int
+INFO  18:08:29,278 - #18 arg
+INFO  18:08:29,278 - #45 )
+INFO  18:08:29,279 - #42 {
+INFO  18:08:29,279 - #18 x
+INFO  18:08:29,279 - #35 =
+INFO  18:08:29,280 - #18 arg
+INFO  18:08:29,280 - #38 ;
+INFO  18:08:29,280 - #43 }
+INFO  18:08:29,281 - #43 }
+INFO  18:08:29,283 - ProgramDerived1(
+  NamespaceListDerived1(
+    NamespaceListDerived2(
+    ) [NamespaceListDerived2]
+    NamespaceDeclDerived1(
+      DeclarationsListDerived1(
+        DeclarationsListDerived2(
+        ) [DeclarationsListDerived2]
+        DeclarationDerived1(
+          ConstDeclListDerived1(
+            TypeDerived2(
+            ) [TypeDerived2]
+            ConstDeclarationsDerived1(
+              ConstDeclDerived1(
+                ConstValueDerived1(
+                ) [ConstValueDerived1]
+              ) [ConstDeclDerived1]
+            ) [ConstDeclarationsDerived1]
+          ) [ConstDeclListDerived1]
+        ) [DeclarationDerived1]
+      ) [DeclarationsListDerived1]
+      MethodDeclListDerived2(
+      ) [MethodDeclListDerived2]
+    ) [NamespaceDeclDerived1]
+  ) [NamespaceListDerived1]
+  DeclarationsListDerived1(
+    DeclarationsListDerived2(
+    ) [DeclarationsListDerived2]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        TypeDerived2(
+        ) [TypeDerived2]
+        VarDeclarationsDerived2(
+          VarDeclarationsDerived1(
+            VarDeclDerived2(
+            ) [VarDeclDerived2]
+          ) [VarDeclarationsDerived1]
+          VarDeclDerived2(
+          ) [VarDeclDerived2]
+        ) [VarDeclarationsDerived2]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [DeclarationsListDerived1]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclDerived1(
+      MethodDeclTypeDerived2(
+      ) [MethodDeclTypeDerived2]
+      FormParsDerived1(
+        FormalParamListDerived1(
+          FormalParamListDerived1(
+            FormalParamListDerived2(
+              FormalParamDeclDerived2(
+                TypeDerived2(
+                ) [TypeDerived2]
+              ) [FormalParamDeclDerived2]
+            ) [FormalParamListDerived2]
+            FormalParamDeclDerived2(
+              TypeDerived2(
+              ) [TypeDerived2]
+            ) [FormalParamDeclDerived2]
+          ) [FormalParamListDerived1]
+          FormalParamDeclDerived2(
+            TypeDerived2(
+            ) [TypeDerived2]
+          ) [FormalParamDeclDerived2]
+        ) [FormalParamListDerived1]
+      ) [FormParsDerived1]
+      VarDeclListingDerived2(
+      ) [VarDeclListingDerived2]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        StatementDeclDerived11(
+          DesignatorStatementDeclDerived1(
+            DesignatorDerived2(
+              DesignatorIdentListDerived2(
+              ) [DesignatorIdentListDerived2]
+            ) [DesignatorDerived2]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            ExprDeclDerived2(
+              TermDeclDerived2(
+                FactorDerived1(
+                  DesignatorDerived2(
+                    DesignatorIdentListDerived2(
+                    ) [DesignatorIdentListDerived2]
+                  ) [DesignatorDerived2]
+                  OptionalActParsListDerived2(
+                  ) [OptionalActParsListDerived2]
+                ) [FactorDerived1]
+              ) [TermDeclDerived2]
+            ) [ExprDeclDerived2]
+          ) [DesignatorStatementDeclDerived1]
+        ) [StatementDeclDerived11]
+      ) [StatementListDerived1]
+    ) [MethodDeclDerived1]
+  ) [MethodDeclListDerived1]
+) [ProgramDerived1]
+INFO  18:08:29,284 - ===================================
+INFO  18:08:29,288 -  Print count calls = 0
+INFO  18:08:29,288 -  Deklarisanih promenljivih ima = 0

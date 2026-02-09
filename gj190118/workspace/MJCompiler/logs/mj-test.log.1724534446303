@@ -1,0 +1,110 @@
+INFO  23:20:23,403 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  23:20:23,429 - #2 program
+INFO  23:20:23,430 - #45 test301
+INFO  23:20:23,430 - #45 int
+INFO  23:20:23,430 - #45 a
+INFO  23:20:23,431 - #36 ,
+INFO  23:20:23,431 - #45 b
+INFO  23:20:23,431 - #36 ,
+INFO  23:20:23,431 - #45 c
+INFO  23:20:23,431 - #36 ,
+INFO  23:20:23,431 - #45 d
+INFO  23:20:23,432 - #34 ;
+INFO  23:20:23,432 - #38 {
+INFO  23:20:23,432 - #12 void
+INFO  23:20:23,432 - #45 main
+INFO  23:20:23,432 - #40 (
+INFO  23:20:23,433 - #41 )
+INFO  23:20:23,433 - #45 int
+INFO  23:20:23,433 - #45 bodovi
+INFO  23:20:23,433 - #34 ;
+INFO  23:20:23,433 - #45 bool
+INFO  23:20:23,433 - #45 bt
+INFO  23:20:23,434 - #34 ;
+INFO  23:20:23,434 - #38 {
+INFO  23:20:23,434 - #39 }
+INFO  23:20:23,434 - #39 }
+INFO  23:20:23,436 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ManyDeclarationsList(
+    NoDeclarationsList(
+    ) [NoDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived2(
+          VarDeclarationsDerived2(
+            VarDeclarationsDerived2(
+              VarDeclarationsDerived1(
+                VarDeclName(
+                 a
+                ) [VarDeclName]
+              ) [VarDeclarationsDerived1]
+              VarDeclName(
+               b
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived2]
+            VarDeclName(
+             c
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived2]
+          VarDeclName(
+           d
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived2]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived1(
+          VarDeclListingDerived2(
+          ) [VarDeclListingDerived2]
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               bodovi
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [VarDeclListingDerived1]
+        VarDeclListDerived1(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             bt
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived2(
+      ) [StatementListDerived2]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  23:20:23,437 - ===================================
+INFO  23:20:23,441 - Deklarisana promenljiva a na liniji 6
+INFO  23:20:23,441 - Deklarisana promenljiva b na liniji 6
+INFO  23:20:23,442 - Deklarisana promenljiva c na liniji 6
+INFO  23:20:23,442 - Deklarisana promenljiva d na liniji 6
+INFO  23:20:23,442 - Definicija metode  VOID
+INFO  23:20:23,442 - Deklarisana promenljiva bodovi na liniji 10
+INFO  23:20:23,442 - Deklarisana promenljiva bt na liniji 11
+INFO  23:20:23,442 - Parsiranje je uspesno zavrseno

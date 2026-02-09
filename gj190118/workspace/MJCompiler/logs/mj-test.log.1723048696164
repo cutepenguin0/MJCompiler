@@ -1,0 +1,210 @@
+INFO  18:34:58,163 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  18:34:58,212 - #2 program
+INFO  18:34:58,213 - #45 test302
+INFO  18:34:58,213 - #17 namespace
+INFO  18:34:58,213 - #45 sizes
+INFO  18:34:58,213 - #38 {
+INFO  18:34:58,213 - #45 int
+INFO  18:34:58,214 - #45 tableSize
+INFO  18:34:58,214 - #34 ;
+INFO  18:34:58,214 - #38 {
+INFO  18:34:58,214 - #39 }
+INFO  18:34:58,215 - #39 }
+INFO  18:34:58,215 - #7 const
+INFO  18:34:58,215 - #45 int
+INFO  18:34:58,215 - #45 muuu
+INFO  18:34:58,215 - #31 =
+INFO  18:34:58,216 - #46 5
+INFO  18:34:58,216 - #34 ;
+INFO  18:34:58,216 - #45 int
+INFO  18:34:58,216 - #45 x
+INFO  18:34:58,216 - #34 ;
+INFO  18:34:58,217 - #45 bool
+INFO  18:34:58,217 - #45 y
+INFO  18:34:58,217 - #34 ;
+INFO  18:34:58,217 - #45 char
+INFO  18:34:58,217 - #45 c
+INFO  18:34:58,217 - #42 [
+INFO  18:34:58,217 - #43 ]
+INFO  18:34:58,217 - #34 ;
+INFO  18:34:58,217 - #38 {
+INFO  18:34:58,218 - #45 int
+INFO  18:34:58,218 - #45 f
+INFO  18:34:58,218 - #40 (
+INFO  18:34:58,218 - #45 char
+INFO  18:34:58,218 - #45 ch
+INFO  18:34:58,218 - #41 )
+INFO  18:34:58,218 - #45 int
+INFO  18:34:58,219 - #45 x
+INFO  18:34:58,219 - #34 ;
+INFO  18:34:58,219 - #38 {
+INFO  18:34:58,219 - #45 x
+INFO  18:34:58,220 - #31 =
+INFO  18:34:58,220 - #45 arg
+INFO  18:34:58,220 - #34 ;
+INFO  18:34:58,221 - #39 }
+INFO  18:34:58,221 - #39 }
+INFO  18:34:58,225 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NamespaceListMultiple(
+    NoNamespace(
+    ) [NoNamespace]
+    NamespaceDecl(
+      NamespaceName(
+       sizes
+      ) [NamespaceName]
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               tableSize
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      NoMethDeclListNamespace(
+      ) [NoMethDeclListNamespace]
+    ) [NamespaceDecl]
+  ) [NamespaceListMultiple]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        ManyDeclarationsList(
+          NoDeclarationsList(
+          ) [NoDeclarationsList]
+          DeclarationDerived1(
+            ConstDeclListDerived1(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsDerived1(
+                ConstDecl(
+                 muuu
+                  ConstValueNumber(
+                   5
+                  ) [ConstValueNumber]
+                ) [ConstDecl]
+              ) [ConstDeclarationsDerived1]
+            ) [ConstDeclListDerived1]
+          ) [DeclarationDerived1]
+        ) [ManyDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               x
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclNameArray(
+           c
+            BracketsDerived1(
+            ) [BracketsDerived1]
+          ) [VarDeclNameArray]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithFormPars(
+      MethodType(
+        Type(
+         int
+        ) [Type]
+       f
+      ) [MethodType]
+      FormParsDerived1(
+        FormalParamListDerived2(
+          FormalParamDeclDerived2(
+            Type(
+             char
+            ) [Type]
+           ch
+          ) [FormalParamDeclDerived2]
+        ) [FormalParamListDerived2]
+      ) [FormParsDerived1]
+      VarDeclListingDerived1(
+        VarDeclListingDerived2(
+        ) [VarDeclListingDerived2]
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             x
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        StatementDeclDerived11(
+          DesignatorStatementDeclDerived1(
+            DesignatorDerived2(
+              DesignatorIdentListDerived2(
+              ) [DesignatorIdentListDerived2]
+             x
+            ) [DesignatorDerived2]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            ExprDeclDerived2(
+              TermDeclDerived2(
+                FactorDerived1(
+                  DesignatorDerived2(
+                    DesignatorIdentListDerived2(
+                    ) [DesignatorIdentListDerived2]
+                   arg
+                  ) [DesignatorDerived2]
+                  OptionalActParsListDerived2(
+                  ) [OptionalActParsListDerived2]
+                ) [FactorDerived1]
+              ) [TermDeclDerived2]
+            ) [ExprDeclDerived2]
+          ) [DesignatorStatementDeclDerived1]
+        ) [StatementDeclDerived11]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  18:34:58,226 - ===================================
+INFO  18:34:58,231 - Deklarisana promenljiva tableSize na liniji 5
+INFO  18:34:58,231 - Deklarisana promenljiva x na liniji 9
+INFO  18:34:58,231 - Deklarisana promenljiva y na liniji 10
+INFO  18:34:58,231 - Deklarisana promenljiva c na liniji 11

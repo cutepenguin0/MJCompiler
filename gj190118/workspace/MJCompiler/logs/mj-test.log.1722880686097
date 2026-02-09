@@ -1,0 +1,77 @@
+INFO  19:57:39,410 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  19:57:39,438 - #2 program
+INFO  19:57:39,438 - #48 test302
+INFO  19:57:39,438 - #48 int
+INFO  19:57:39,439 - #48 x
+INFO  19:57:39,439 - #34 ;
+INFO  19:57:39,440 - #48 bool
+INFO  19:57:39,440 - #48 y
+INFO  19:57:39,440 - #34 ;
+INFO  19:57:39,440 - #48 char
+INFO  19:57:39,440 - #48 c
+INFO  19:57:39,440 - #34 ;
+INFO  19:57:39,440 - #38 {
+INFO  19:57:39,440 - #39 }
+INFO  19:57:39,442 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NamespaceListDerived2(
+  ) [NamespaceListDerived2]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            TypeSingle(
+              Type(
+               int
+              ) [Type]
+            ) [TypeSingle]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               x
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          TypeSingle(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeSingle]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        TypeSingle(
+          Type(
+           char
+          ) [Type]
+        ) [TypeSingle]
+        VarDeclarationsDerived1(
+          VarDeclName(
+           c
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [Program]
+INFO  19:57:39,443 - ===================================
+INFO  19:57:39,447 - Deklarisana promenljiva x na liniji 4
+INFO  19:57:39,448 - Deklarisana promenljiva y na liniji 5
+INFO  19:57:39,448 - Deklarisana promenljiva c na liniji 6

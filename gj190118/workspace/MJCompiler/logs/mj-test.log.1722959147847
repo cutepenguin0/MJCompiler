@@ -1,0 +1,144 @@
+INFO  17:45:22,179 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  17:45:22,210 - #2 program
+INFO  17:45:22,210 - #45 test302
+INFO  17:45:22,210 - #17 namespace
+INFO  17:45:22,211 - #45 sizes
+INFO  17:45:22,211 - #38 {
+INFO  17:45:22,211 - #45 int
+INFO  17:45:22,211 - #45 tableSize
+INFO  17:45:22,212 - #34 ;
+INFO  17:45:22,212 - #38 {
+INFO  17:45:22,212 - #39 }
+INFO  17:45:22,213 - #39 }
+INFO  17:45:22,213 - #7 const
+INFO  17:45:22,213 - #45 int
+INFO  17:45:22,213 - #45 x
+INFO  17:45:22,213 - #31 =
+INFO  17:45:22,213 - #46 5
+INFO  17:45:22,213 - #34 ;
+INFO  17:45:22,214 - #45 int
+INFO  17:45:22,214 - #45 x
+INFO  17:45:22,214 - #34 ;
+INFO  17:45:22,214 - #45 bool
+INFO  17:45:22,214 - #45 y
+INFO  17:45:22,214 - #34 ;
+INFO  17:45:22,215 - #45 char
+INFO  17:45:22,215 - #45 c
+INFO  17:45:22,215 - #42 [
+INFO  17:45:22,215 - #43 ]
+INFO  17:45:22,215 - #34 ;
+INFO  17:45:22,215 - #38 {
+INFO  17:45:22,215 - #39 }
+INFO  17:45:22,219 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NamespaceListMultiple(
+    NoNamespace(
+    ) [NoNamespace]
+    NamespaceDecl(
+      NamespaceName(
+       sizes
+      ) [NamespaceName]
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            TypeSingle(
+              Type(
+               int
+              ) [Type]
+            ) [TypeSingle]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               tableSize
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      NoMethDeclListNamespace(
+      ) [NoMethDeclListNamespace]
+    ) [NamespaceDecl]
+  ) [NamespaceListMultiple]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        ManyDeclarationsList(
+          NoDeclarationsList(
+          ) [NoDeclarationsList]
+          DeclarationDerived1(
+            ConstDeclListDerived1(
+              TypeSingle(
+                Type(
+                 int
+                ) [Type]
+              ) [TypeSingle]
+              ConstDeclarationsDerived1(
+                ConstDecl(
+                 x
+                  ConstValueNumber(
+                   5
+                  ) [ConstValueNumber]
+                ) [ConstDecl]
+              ) [ConstDeclarationsDerived1]
+            ) [ConstDeclListDerived1]
+          ) [DeclarationDerived1]
+        ) [ManyDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            TypeSingle(
+              Type(
+               int
+              ) [Type]
+            ) [TypeSingle]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               x
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          TypeSingle(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeSingle]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        TypeSingle(
+          Type(
+           char
+          ) [Type]
+        ) [TypeSingle]
+        VarDeclarationsDerived1(
+          VarDeclNameArray(
+           c
+            BracketsDerived1(
+            ) [BracketsDerived1]
+          ) [VarDeclNameArray]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [Program]
+INFO  17:45:22,219 - ===================================
+INFO  17:45:22,223 - Deklarisana promenljiva tableSize na liniji 5
+ERROR 17:45:22,226 - Greska. Ime:x se vec nalazi u tabeli simbola.
+INFO  17:45:22,227 - Deklarisana promenljiva x na liniji 9
+INFO  17:45:22,227 - Deklarisana promenljiva y na liniji 10
+INFO  17:45:22,227 - Deklarisana promenljiva c na liniji 11

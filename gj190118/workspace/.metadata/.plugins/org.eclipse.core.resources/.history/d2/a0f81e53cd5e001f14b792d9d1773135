@@ -1,0 +1,601 @@
+package rs.ac.bg.etf.pp1;
+
+import org.apache.log4j.Logger;
+
+import rs.ac.bg.etf.pp1.ast.*;
+import rs.etf.pp1.symboltable.concepts.*;
+
+public class SemanticAnalyzer extends VisitorAdaptor {
+	Obj currentMethod = null;
+	boolean returnFound = false;
+	boolean errorDetected = false;
+	int nVars;
+	int nParams;
+	private Struct requiredType = null;
+	boolean mainFound = false;
+	@SuppressWarnings("unused")
+	private int addOperation = 0;
+	@SuppressWarnings("unused")
+	private int mulOperation = 0;
+	Logger log = Logger.getLogger(getClass());
+
+	public void report_error(String message, SyntaxNode info) {
+		errorDetected = true;
+		StringBuilder msg = new StringBuilder(message);
+		int line = (info == null) ? 0 : info.getLine();
+		if (line != 0)
+
+			msg.append(" na liniji ").append(line);
+		log.error(msg.toString());
+	}
+
+	public void report_info(String message, SyntaxNode info) {
+		StringBuilder msg = new StringBuilder(message);
+		int line = (info == null) ? 0 : info.getLine();
+		if (line != 0)
+			msg.append(" na liniji ").append(line);
+		log.info(msg.toString());
+	}
+
+	// ------------------- PROGRAM ------------------------------
+	public void visit(ProgName progName) {
+
+		progName.obj = Tab.insert(Obj.Prog, progName.getProgName(), Tab.noType);
+		Tab.openScope();
+	}
+
+	public void visit(Program program) {
+		if (!mainFound) {
+			report_error("Metoda void main() nije nadjena u ovom programu. ", null);
+		}
+		nVars = Tab.currentScope().getnVars();
+		Tab.chainLocalSymbols(program.getProgName().obj);
+		Tab.closeScope();
+	}
+
+	// ------------------- VarDecl ----------------------------
+	public void visit(VarDeclName varDecl) {
+		if (Tab.find(varDecl.getVarName()) != Tab.noObj) {
+			report_error("Promenljiva je vec deklarisana", varDecl);
+			return;
+		} else {
+			report_info("Deklarisana promenljiva " + varDecl.getVarName(), varDecl);
+			Tab.insert(Obj.Var, varDecl.getVarName(), requiredType);
+		}
+	}
+
+	public void visit(VarDeclNameArray varDecl) {
+		if (Tab.find(varDecl.getVarName()) != Tab.noObj) {
+			report_error("Promenljiva je vec deklarisana", varDecl);
+			return;
+		} else {
+			report_info("Deklarisana promenljiva niz " + varDecl.getVarName(), varDecl);
+			Tab.insert(Obj.Var, varDecl.getVarName(), new Struct(Struct.Array, requiredType));
+		}
+	}
+
+	public void visit(VarDeclNameMatrix varDecl) {
+		if (Tab.find(varDecl.getVarName()) != Tab.noObj) {
+			report_error("Promenljiva je vec deklarisana ", varDecl);
+			return;
+		} else {
+			report_info("Deklarisana promenljiva matrica " + varDecl.getVarName(), varDecl);
+			Struct rowStruct = new Struct(Struct.Array, requiredType);
+			Tab.insert(Obj.Var, varDecl.getVarName(), new Struct(Struct.Array, rowStruct));
+		}
+	}
+
+	// ------------------- Type -------------------------------
+	public void visit(Type type) {
+		Obj typeNode = Tab.find(type.getTypeName());
+		if (typeNode == Tab.noObj) {
+			report_error("Nije pronadjen tip " + type.getTypeName() + " u tabeli simbola! ", null);
+			type.struct = Tab.noType;
+			requiredType = Tab.noType;
+		} else {
+			if (Obj.Type == typeNode.getKind()) {
+				type.struct = typeNode.getType();
+				requiredType = type.struct;
+			} else {
+				report_error("Greska: Ime " + type.getTypeName() + " ne predstavlja tip!", type);
+				type.struct = Tab.noType;
+			}
+		}
+	}
+
+	// -------------------- Const -----------------------------
+	public void visit(ConstDecl constDecl) {
+		if (Tab.find(constDecl.getConstName()) != Tab.noObj) {
+			report_error("Greska: Ime:" + constDecl.getConstName() + " se vec nalazi u tabeli simbola.", null);
+			return;
+		}
+		if (constDecl.getConstValue().struct != requiredType) {
+			report_error("Greska: Vrednost konstante mora da odgovara tipu konstante.", null);
+			return;
+		}
+		Obj constNode = Tab.insert(Obj.Con, constDecl.getConstName(), requiredType);
+
+		if (constDecl.getConstValue() instanceof ConstValueNumber) {
+			ConstValueNumber numValue = (ConstValueNumber) constDecl.getConstValue();
+			constNode.setAdr(numValue.getNumVal());
+		} else if (constDecl.getConstValue() instanceof ConstValueBoolean) {
+			ConstValueBoolean boolValue = (ConstValueBoolean) constDecl.getConstValue();
+			constNode.setAdr(boolValue.getBoolVal() ? 1 : 0);
+		} else if (constDecl.getConstValue() instanceof ConstValueCharacter) {
+			ConstValueCharacter charValue = (ConstValueCharacter) constDecl.getConstValue();
+			constNode.setAdr(charValue.getCharVal());
+		}
+		report_info("Deklarisana konstanta " + constNode.getName() + " cija je vrednost " + constNode.getAdr(), null);
+	}
+
+	public void visit(ConstValueNumber constValueNum) {
+		constValueNum.struct = Tab.intType;
+
+	}
+
+	public void visit(ConstValueBoolean constValueBool) {
+		constValueBool.struct = Tab.boolType;
+	}
+
+	public void visit(ConstValueCharacter constValueChar) {
+		constValueChar.struct = Tab.charType;
+	}
+
+	// ------------------ Functions --------------------------------
+
+	public void visit(MethodType methodType) {
+
+		methodType.struct = methodType.getType().struct;
+		report_info("Definicija metode sa tipom " + methodType.getType().getTypeName(), methodType);
+	}
+
+	public void visit(MethodVoid methodVoid) {
+
+		methodVoid.struct = Tab.noType;
+		report_info("Definicija metode  VOID", methodVoid);
+	}
+
+	public void visit(MethodTypeName methodTypeName) {
+
+		if (Tab.find(methodTypeName.getMethodName()) != Tab.noObj) {
+			report_error("Metoda sa imenom " + methodTypeName.getMethodName() + " vec postoji.", methodTypeName);
+			return;
+		}
+
+		currentMethod = Tab.insert(Obj.Meth, methodTypeName.getMethodName(), methodTypeName.getMethodDeclType().struct);
+		methodTypeName.obj = currentMethod;
+		if ("main".equals(currentMethod.getName())) {
+			if (currentMethod.getType() != Tab.noType) {
+				report_error("Metoda main mora biti tipa void.", methodTypeName);
+				return;
+			}
+			mainFound = true;
+		}
+
+		Tab.openScope();
+	}
+
+	public void visit(MethodDeclWithFormPars methodDecl) {
+
+		currentMethod.setLevel(nParams);
+
+		Tab.chainLocalSymbols(currentMethod);
+		if (!returnFound && currentMethod.getType() != Tab.noType) {
+			report_error("Metoda " + currentMethod.getName() + " mora imati return iskaz.", methodDecl);
+		}
+		Tab.closeScope();
+		nParams = 0;
+		returnFound = false;
+		currentMethod = null;
+	}
+
+	public void visit(MethodDeclWithoutFormPars methodDecl) {
+		currentMethod.setLevel(0);
+
+		Tab.chainLocalSymbols(currentMethod);
+		Tab.closeScope();
+
+		nParams = 0;
+		returnFound = false;
+		currentMethod = null;
+	}
+
+	// --------------------------- FORMALPARAMS -------------------------
+
+	public void visit(FormalParam formParamDecl) {
+
+		if (currentMethod.getName().equals("main")) {
+			report_error("Metoda main ne sme imati argumente.", null);
+			return;
+		}
+		nParams++;
+		Tab.insert(Obj.Var, formParamDecl.getT(), formParamDecl.getType().struct);
+		report_info("Parametar funkcije je " + formParamDecl.getT(), formParamDecl);
+	}
+
+	public void visit(ArrayFormalParam formalParam) {
+		if (currentMethod.getName().equals("main")) {
+			report_error("Metoda main ne sme imati argumente.", null);
+			return;
+		}
+		nParams++;
+		Tab.insert(Obj.Var, formalParam.getT(), new Struct(Struct.Array, formalParam.getType().struct));
+		report_info("Parametar funkcije je " + formalParam.getT(), formalParam);
+	}
+
+// ------------------- RETURN STATEMENT -----------------------
+
+	public void visit(NegativeTerm nt) {
+		nt.struct = nt.getTermDecl().struct;
+		if (nt.struct != Tab.intType) {
+			report_error("Term nije tipa int", nt);
+			nt.struct = Tab.noType;
+		}
+	}
+
+	public void visit(SingleTerm singleTerm) {
+		singleTerm.struct = singleTerm.getTermDecl().struct;
+	}
+
+	public void visit(AddopExpr addExpr) {
+		Struct t1 = addExpr.getTermDecl().struct;
+		Struct t2 = addExpr.getExprDecl().struct;
+		if (t1.compatibleWith(t2)) {
+			if (t1 == Tab.intType && t2 == Tab.intType) {
+				addExpr.struct = t1;
+			} else {
+				report_error("Podaci nisu tipa int.", addExpr);
+				addExpr.struct = Tab.noType;
+			}
+		} else {
+			report_error(" Tipovi nisu kompatibilni", addExpr);
+			addExpr.struct = Tab.noType;
+		}
+	}
+
+	public void visit(SingleFactor singleFactor) {
+		singleFactor.struct = singleFactor.getFactor().struct;
+	}
+
+	public void visit(FactorDesignator factor) {
+		factor.struct = factor.getDesignator().obj.getType();
+	}
+
+	public void visit(MulopExpr mulExpr) {
+		Struct t1 = mulExpr.getTermDecl().struct;
+		Struct t2 = mulExpr.getFactor().struct;
+		if (t1.equals(t2)) {
+			if (t1 == Tab.intType && t2 == Tab.intType) {
+				mulExpr.struct = t1;
+			} else {
+				report_error("Podaci nisu tipa int.", mulExpr);
+				mulExpr.struct = Tab.noType;
+			}
+		} else {
+			report_error("Tipovi nisu kompatibilni", mulExpr);
+			mulExpr.struct = Tab.noType;
+		}
+	}
+
+	public void visit(Const conValue) {
+		if (conValue.getConstValue().struct == Tab.intType) {
+			conValue.struct = Tab.intType;
+		} else if (conValue.getConstValue().struct == Tab.boolType) {
+			conValue.struct = Tab.boolType;
+		} else if (conValue.getConstValue().struct == Tab.charType) {
+			conValue.struct = Tab.charType;
+		}
+	}
+
+	public void visit(ExpresionInBrackets expression) {
+		expression.struct = expression.getExprDecl().obj.getType();
+	}
+
+	public void visit(Assignment designatorStatementDecl) {
+		Obj designator = designatorStatementDecl.getDesignator().obj;
+		Struct s1 = designatorStatementDecl.getExprDecl().obj.getType();
+		Struct s2 = designator.getType();
+
+		if (Obj.Var == designator.getKind() || Obj.Elem == designator.getKind()) {
+
+			if (s1.compatibleWith(s2)) {
+				report_info("Dodela vrednosti promenljivoj " + designatorStatementDecl.getDesignator().obj.getName(),
+						designatorStatementDecl);
+				s1.assignableTo(s2);
+			} else {
+				report_error("Greska: Tipovi nisu kompatibilni", designatorStatementDecl);
+			}
+		} else {
+			report_error(
+					"Izraz sa desne strane jednakosti mora da predstavlja element niza, element matrice, promenljivu ili polje unutar objekta",
+					designatorStatementDecl);
+		}
+	}
+
+//    	public void visit(ArrayIndexing singleArray) {
+//    	    boolean isMatrix = singleArray.getParent() instanceof ArrayIndexing && 
+//    	                       ((ArrayIndexing) singleArray.getParent()).getExprDecl().struct == Tab.intType;
+//
+//    	    if (singleArray.getDesignator().obj.getType().getKind() != Struct.Array) {
+//    	        if (isMatrix) {
+//    	            report_error("Designator mora biti niz ili matrica", singleArray);
+//    	            singleArray.obj = Tab.noObj;
+//    	            return;
+//    	        }
+//    	    } else {
+//    	        if (singleArray.getExprDecl().struct != Tab.intType) {
+//    	            report_error("Indeks niza mora da bude int", singleArray);
+//    	            singleArray.obj = Tab.noObj;
+//    	            return;
+//    	        }
+//
+//    	        if (isMatrix) {
+//    	            
+//    	            ArrayIndexing parentIndexing = (ArrayIndexing) singleArray.getParent();
+//    	            if (parentIndexing.getExprDecl().struct != Tab.intType) {
+//    	                report_error("Indeks mora da bude int", singleArray);
+//    	                singleArray.obj = Tab.noObj;
+//    	                return;
+//    	            }
+//
+//    	        
+//    	            if (singleArray.getParent() instanceof ArrayIndexing) {
+//    	                ArrayIndexing grandparentIndexing = (ArrayIndexing) singleArray.getParent();
+//    	                if (grandparentIndexing.getExprDecl().struct == Tab.intType) {
+//    	                    report_info("Pristupa se redu matrice", singleArray);
+//    	                } else {
+//    	                    report_info("Pristupa se koloni matrice", singleArray);
+//    	                }
+//    	            }
+//
+//    	           
+//    	            singleArray.obj = new Obj(Obj.Elem, 
+//    	                                      singleArray.getDesignator().obj.getName(), 
+//    	                                      singleArray.getDesignator().obj.getType().getElemType().getElemType());
+//    	        } else {
+//    	        	System.out.println(singleArray.getDesignator().obj.getType().getElemType().getKind());
+//    	        	System.out.println(Struct.Array);
+//    	        	System.out.println(Struct.Int);
+//    	            report_info("Pristupa se " + singleArray.getDesignator().obj.getName(), singleArray);
+//    	            singleArray.obj = new Obj(Obj.Elem, 
+//    	                                      singleArray.getDesignator().obj.getName(), 
+//    	                                      singleArray.getDesignator().obj.getType().getElemType());
+//    	        }
+//    	    }
+//    	}
+	
+
+	public void visit(ArrayIndexing singleArray) {
+	
+		if (singleArray.getExprDecl().struct != Tab.intType) {
+			report_error("Indeks mora da bude int", singleArray);
+			singleArray.obj = Tab.noObj;
+			return;
+		}
+
+		if (singleArray.getDesignator().obj.getType().getElemType().getKind() == Struct.Array) {
+			
+			report_info("Pristupa se vrsti matrice " + singleArray.getDesignator().obj.getName(), singleArray);
+			singleArray.obj = new Obj(Obj.Elem, singleArray.getDesignator().obj.getName(),
+					singleArray.getDesignator().obj.getType().getElemType());
+			
+			return;
+//		} else if (singleArray.getDesignator().obj.getType().getElemType().getKind() != Struct.Array && isMatrix) {
+//			report_info("Pristupa se koloni matrice " + singleArray.getDesignator().obj.getName(), singleArray);
+//			singleArray.obj = new Obj(Obj.Elem, singleArray.getDesignator().obj.getName(),
+//					singleArray.getDesignator().obj.getType().getElemType());
+//			isMatrix = false;
+//			return;
+		} else if (singleArray.getDesignator().obj.getType().getElemType().getKind() != Struct.Array) {
+			report_info("Pristupa se elementu niza " + singleArray.getDesignator().obj.getName(), singleArray);
+			singleArray.obj = new Obj(Obj.Elem, singleArray.getDesignator().obj.getName(),
+					singleArray.getDesignator().obj.getType().getElemType());
+			
+			return;
+		}
+	}
+
+//    	boolean isMatrix = false;
+//    	public void visit(ArrayIndexing singleArray) {
+//    		if(singleArray.getDesignator().obj.getType().getElemType().getKind() == Struct.Array) { isMatrix = true; }
+//    		
+//    	}
+
+	public void visit(Increment designatorStatementDecl) {
+		Obj designator = designatorStatementDecl.getDesignator().obj;
+		Struct s1 = designator.getType();
+		if (s1.equals(Tab.intType)) {
+			if (Obj.Var == designator.getKind() || Obj.Fld == designator.getKind() || Obj.Elem == designator.getKind()) {
+				report_info("Inkrementiranje " + designatorStatementDecl.getDesignator().obj.getName(), null);
+			} else {
+				report_error("Inkrementiranje se mora raditi na elementu niza, elementu matrice ili promenljivoj",
+						designatorStatementDecl);
+			}
+		} else {
+			report_error("Izraz nije tipa int. ", designatorStatementDecl);
+		}
+
+	}
+
+	public void visit(Decrement designatorStatementDecl) {
+		Obj designator = designatorStatementDecl.getDesignator().obj;
+		Struct s1 = designator.getType();
+		if (s1.equals(Tab.intType)) {
+			if (Obj.Var == designator.getKind() || Obj.Fld == designator.getKind()
+					|| Obj.Elem == designator.getKind()) {
+				report_info("Dekrementiranje " + designatorStatementDecl.getDesignator().obj.getName(), null);
+			} else {
+				report_error("Dekrementiranje se mora raditi na elementu niza, elementru matrice ili promenljivoj",
+						designatorStatementDecl);
+			}
+		} else {
+			report_error("Izraz nije tipa int. ", designatorStatementDecl);
+		}
+
+	}
+
+	public void visit(ArrayCreation arrayCreation) {
+		Struct arrayStruct = arrayCreation.getExprDecl().obj.getType();
+		if (arrayStruct == Tab.intType) {
+			arrayCreation.struct = new Struct(Struct.Array, arrayCreation.getType().struct);
+		} else {
+			report_error("Tip mora da bude int", arrayCreation);
+		}
+	}
+
+	public void visit(MatrixCreation matrixCreation) {
+		Struct rowType = matrixCreation.getExprDecl().obj.getType();
+		Struct colType = matrixCreation.getExprDecl().obj.getType();
+
+		if (rowType == Tab.intType && colType == Tab.intType) {
+
+			Struct elementType = matrixCreation.getType().struct;
+			Struct rowStruct = new Struct(Struct.Array, elementType);
+			Struct matrixStruct = new Struct(Struct.Array, rowStruct);
+
+			matrixCreation.struct = matrixStruct;
+		} else {
+			report_error("Oba tipa moraju da budu int", matrixCreation);
+		}
+	}
+
+	public void visit(SimpleDesignator designator) {
+		Obj designatorNode = Tab.find(designator.getName());
+		if (designatorNode == Tab.noObj) {
+			report_error(designator.getName() + " nije deklarisan!", designator);
+
+		} else {
+
+			designator.obj = designatorNode;
+			if (designatorNode.getKind() == Obj.Con) {
+				report_info("Upotreba konstante " + designator.getName(), designator);
+			} else if (designatorNode.getKind() == Obj.Var && designatorNode.getLevel() == 0) {
+				report_info("Upotreba globalne promenljive " + designator.getName(), designator);
+			} else if (designatorNode.getKind() == Obj.Var && designatorNode.getLevel() != 0) {
+				report_info("Upotreba lokalne promenljive " + designator.getName(), designator);
+			}
+		}
+	}
+	// ----------------------- designatorForArrayEtc ------------------------
+//    	public void visit(MultipleDesignator multDesignator) {
+//    		Obj designatorNode = Tab.find(multDesignator.getName());
+//    		if(designatorNode == Tab.noObj) {
+//        		report_error("Promenjiva " + multDesignator.getName() + " nije deklarisana!", multDesignator);
+//    
+//        	} 
+//        	
+//    		multDesignator.obj = designatorNode;
+//    	}
+
+	public void visit(ReadStmt readStmt) {
+		Obj designator = readStmt.getDesignator().obj;
+		Struct s1 = designator.getType();
+		if (s1.equals(Tab.intType) || s1.equals(Tab.charType) || s1.equals(Tab.boolType)) {
+			if (Obj.Var == designator.getKind() || Obj.Fld == designator.getKind()
+					|| Obj.Elem == designator.getKind()) {
+				report_info("Dekrementiranje " + readStmt.getDesignator().obj.getName(), null);
+			} else {
+				report_error("Read metoda - mora biti element niza, promenljiva ili element matrice.", readStmt);
+			}
+		} else {
+			report_error("Izraz mora biti tipa int, char ili bool. ", readStmt);
+		}
+	}
+
+	public void visit(PrintStmtWithoutNumber printStmt) {
+		Struct s1 = printStmt.getExprDecl().struct;
+
+		if (s1.equals(Tab.intType) || s1.equals(Tab.charType) || s1.equals(Tab.boolType)) {
+			report_info("Pozvana je print metoda", printStmt);
+		} else {
+			report_error("Izraz mora biti tipa int, char ili bool. ", printStmt);
+		}
+	}
+
+	public void visit(PrintStmtWithNumber printStmt) {
+		Struct s1 = printStmt.getExprDecl().struct;
+
+		if (s1.equals(Tab.intType) || s1.equals(Tab.charType) || s1.equals(Tab.boolType)) {
+			report_info("Pozvana je print metoda", printStmt);
+		} else {
+			report_error("Izraz mora biti tipa int, char ili bool. ", printStmt);
+		}
+	}
+
+	@SuppressWarnings("unused")
+	private String addOperationDecoding(int addOp) {
+		switch (addOp) {
+		case 1:
+			return "+";
+		case 2:
+			return "-";
+		default:
+			return "";
+		}
+	}
+
+	@SuppressWarnings("unused")
+	private String mulOperationDecoding(int mulOp) {
+		switch (mulOp) {
+		case 1:
+			return "*";
+		case 2:
+			return "/";
+		case 3:
+			return "%";
+		default:
+			return "";
+		}
+	}
+
+	public void visit(AddopPlus PlusOp) {
+		addOperation = 1; // 1 prikazuje PLUS
+	}
+
+	public void visit(AddopMinus MinusOp) {
+		addOperation = 2; // 2 prikazuje MINUS
+	}
+
+	public void visit(MulopMul MulOp) {
+		mulOperation = 1; // 1 prikazuje MUL
+	}
+
+	public void visit(MulopDiv DivOp) {
+		mulOperation = 2; // 2 prikazuje DIV
+	}
+
+	public void visit(MulopMov MovOp) {
+		mulOperation = 3; // 3 prikazuje MOV
+	}
+
+	public boolean passed() {
+		return !errorDetected;
+	}
+}
+
+//public void visit(SingleArrayIndexing singleArray) {   
+//	Obj array = Tab.find(singleArray.getName());
+//	
+//	if (array == Tab.noObj) {
+//        report_error("Promenljiva nije deklarisana", singleArray);
+//        singleArray.obj = Tab.noObj;
+//        return;
+//    }
+//	  if (array.getType().getKind() != Struct.Array) {
+//		report_error("Promenljiva mora biti tipa array", singleArray);
+//		singleArray.obj = Tab.noObj;
+//		return;
+//	}
+//	else {
+//		if(singleArray.getExprDecl().struct != Tab.intType) {
+//			report_error("Indeks niza mora biti tipa int", singleArray);
+//			singleArray.obj = Tab.noObj;
+//			return;
+//		}
+//		else {
+//			report_info("Pristup elementu niza "+ singleArray.getName(),singleArray);
+//			singleArray.obj = new Obj(Obj.Elem, singleArray.getName(), array.getType().getElemType());
+//		}
+//	}
+//}
+//

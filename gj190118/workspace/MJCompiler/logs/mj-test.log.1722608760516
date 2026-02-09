@@ -1,0 +1,92 @@
+INFO  16:24:49,091 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  16:24:49,117 - #2 program
+INFO  16:24:49,117 - #18 test302
+INFO  16:24:49,117 - #42 {
+INFO  16:24:49,118 - #18 int
+INFO  16:24:49,118 - #18 sum
+INFO  16:24:49,118 - #44 (
+INFO  16:24:49,119 - #18 int
+INFO  16:24:49,119 - #18 z
+INFO  16:24:49,119 - #40 ,
+INFO  16:24:49,119 - #18 int
+INFO  16:24:49,119 - #18 d
+INFO  16:24:49,119 - #45 )
+INFO  16:24:49,119 - #42 {
+INFO  16:24:49,119 - #46 [
+INFO  16:24:49,120 - #18 x
+INFO  16:24:49,120 - #40 ,
+INFO  16:24:49,120 - #18 y
+INFO  16:24:49,120 - #40 ,
+INFO  16:24:49,120 - #24 *
+INFO  16:24:49,121 - #18 ptr
+INFO  16:24:49,121 - #47 ]
+INFO  16:24:49,121 - #35 =
+INFO  16:24:49,121 - #18 value
+INFO  16:24:49,121 - #38 ;
+INFO  16:24:49,121 - #43 }
+INFO  16:24:49,121 - #43 }
+INFO  16:24:49,123 - Program(
+  NamespaceListDerived2(
+  ) [NamespaceListDerived2]
+  DeclarationsListDerived2(
+  ) [DeclarationsListDerived2]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclDerived1(
+      MethodDeclTypeDerived1(
+        TypeDerived2(
+        ) [TypeDerived2]
+      ) [MethodDeclTypeDerived1]
+      FormParsDerived1(
+        FormalParamListDerived1(
+          FormalParamListDerived2(
+            FormalParamDeclDerived2(
+              TypeDerived2(
+              ) [TypeDerived2]
+            ) [FormalParamDeclDerived2]
+          ) [FormalParamListDerived2]
+          FormalParamDeclDerived2(
+            TypeDerived2(
+            ) [TypeDerived2]
+          ) [FormalParamDeclDerived2]
+        ) [FormalParamListDerived1]
+      ) [FormParsDerived1]
+      VarDeclListingDerived2(
+      ) [VarDeclListingDerived2]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        StatementDeclDerived11(
+          DesignatorStatementDeclDerived6(
+            DesignatorListForStmtDerived1(
+              DesignatorListNotEmptyDerived2(
+                DesignatorListNotEmptyDerived1(
+                  DesignatorDerived2(
+                    DesignatorIdentListDerived2(
+                    ) [DesignatorIdentListDerived2]
+                  ) [DesignatorDerived2]
+                ) [DesignatorListNotEmptyDerived1]
+                DesignatorDerived2(
+                  DesignatorIdentListDerived2(
+                  ) [DesignatorIdentListDerived2]
+                ) [DesignatorDerived2]
+              ) [DesignatorListNotEmptyDerived2]
+            ) [DesignatorListForStmtDerived1]
+            DesignatorDerived2(
+              DesignatorIdentListDerived2(
+              ) [DesignatorIdentListDerived2]
+            ) [DesignatorDerived2]
+            DesignatorDerived2(
+              DesignatorIdentListDerived2(
+              ) [DesignatorIdentListDerived2]
+            ) [DesignatorDerived2]
+          ) [DesignatorStatementDeclDerived6]
+        ) [StatementDeclDerived11]
+      ) [StatementListDerived1]
+    ) [MethodDeclDerived1]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  16:24:49,124 - ===================================
+INFO  16:24:49,127 -  Print count calls = 0
+INFO  16:24:49,127 -  Deklarisanih promenljivih ima = 1

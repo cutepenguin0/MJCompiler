@@ -1,0 +1,23 @@
+INFO  23:33:55,979 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  23:33:56,006 - #2 program
+INFO  23:33:56,006 - #45 test301
+INFO  23:33:56,006 - #45 int
+INFO  23:33:56,007 - #45 a1
+INFO  23:33:56,007 - #36 ,
+INFO  23:33:56,007 - #45 b1
+INFO  23:33:56,007 - #36 ,
+INFO  23:33:56,007 - #45 c1
+INFO  23:33:56,008 - #36 ,
+INFO  23:33:56,008 - #45 d1
+INFO  23:33:56,008 - #34 ;
+INFO  23:33:56,008 - #45 int
+INFO  23:33:56,008 - #45 a2
+INFO  23:33:56,008 - #36 ,
+INFO  23:33:56,008 - #45 b2
+INFO  23:33:56,008 - #45 c2
+ERROR 23:33:56,008 - 
+Sintaksna greska na liniji 7
+INFO  23:33:56,009 - #36 ,
+INFO  23:33:56,009 - #45 d2
+INFO  23:33:56,009 - #34 ;
+INFO  23:33:56,009 - #45 int

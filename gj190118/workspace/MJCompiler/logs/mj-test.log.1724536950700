@@ -1,0 +1,64 @@
+INFO  00:02:09,697 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  00:02:09,750 - #2 program
+INFO  00:02:09,750 - #45 test301
+INFO  00:02:09,750 - #45 int
+INFO  00:02:09,751 - #45 a2
+INFO  00:02:09,751 - #36 ,
+INFO  00:02:09,751 - #45 b2
+INFO  00:02:09,752 - #45 c2
+ERROR 00:02:09,752 - 
+Sintaksna greska na liniji 6
+INFO  00:02:09,752 - #36 ,
+INFO  00:02:09,752 - #45 d2
+INFO  00:02:09,752 - #34 ;
+INFO  00:02:09,752 - #45 int
+ERROR 00:02:09,756 - Izvrsen oporavak do ,  na liniji 6
+INFO  00:02:09,756 - #45 a3
+INFO  00:02:09,756 - #36 ,
+INFO  00:02:09,756 - #45 b3
+INFO  00:02:09,756 - #36 ,
+INFO  00:02:09,756 - #45 c3
+INFO  00:02:09,757 - #45 d3
+ERROR 00:02:09,757 - 
+Sintaksna greska na liniji 7
+INFO  00:02:09,757 - #34 ;
+INFO  00:02:09,757 - #45 int
+INFO  00:02:09,757 - #45 a4
+INFO  00:02:09,757 - #36 ,
+ERROR 00:02:09,757 - Izvrsen oporavak do ,  na liniji 7
+INFO  00:02:09,757 - #45 b4
+INFO  00:02:09,757 - #45 c4
+ERROR 00:02:09,757 - 
+Sintaksna greska na liniji 8
+INFO  00:02:09,757 - #36 ,
+INFO  00:02:09,757 - #45 d4
+INFO  00:02:09,758 - #36 ,
+INFO  00:02:09,758 - #45 e4
+ERROR 00:02:09,758 - Izvrsen oporavak do ,  na liniji 8
+INFO  00:02:09,758 - #45 f4
+ERROR 00:02:09,758 - 
+Sintaksna greska na liniji 8
+INFO  00:02:09,758 - #36 ,
+INFO  00:02:09,758 - #45 g4
+INFO  00:02:09,758 - #34 ;
+INFO  00:02:09,758 - #38 {
+ERROR 00:02:09,758 - Izvrsen oporavak do ,  na liniji 8
+INFO  00:02:09,758 - #12 void
+INFO  00:02:09,759 - #45 main
+INFO  00:02:09,759 - #40 (
+INFO  00:02:09,759 - #41 )
+INFO  00:02:09,759 - #45 int
+INFO  00:02:09,760 - #45 bodovi
+INFO  00:02:09,760 - #34 ;
+INFO  00:02:09,760 - #45 bool
+INFO  00:02:09,760 - #45 bt
+INFO  00:02:09,760 - #34 ;
+INFO  00:02:09,760 - #38 {
+INFO  00:02:09,760 - #45 bodovi
+INFO  00:02:09,760 - #31 =
+INFO  00:02:09,761 - #34 ;
+ERROR 00:02:09,761 - 
+Sintaksna greska na liniji 15
+INFO  00:02:09,761 - #39 }
+INFO  00:02:09,761 - #39 }
+ERROR 00:02:09,761 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 20

@@ -1,0 +1,8 @@
+INFO  19:23:46,915 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  19:23:46,923 - #2 program
+INFO  19:23:46,923 - #18 m
+INFO  19:23:46,924 - Program(
+) [Program]
+INFO  19:23:46,924 - ===================================
+INFO  19:23:46,928 -  Print count calls = 0
+INFO  19:23:46,928 -  Deklarisanih promenljivih ima = 1

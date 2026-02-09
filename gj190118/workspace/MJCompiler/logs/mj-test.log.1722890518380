@@ -1,0 +1,109 @@
+INFO  22:41:05,036 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  22:41:05,077 - #2 program
+INFO  22:41:05,077 - #48 test302
+INFO  22:41:05,078 - #17 namespace
+INFO  22:41:05,078 - #48 sizes
+INFO  22:41:05,079 - #38 {
+INFO  22:41:05,079 - #48 int
+INFO  22:41:05,079 - #48 tableSize
+INFO  22:41:05,080 - #31 =
+ERROR 22:41:05,080 - 
+Sintaksna greska na liniji 5
+INFO  22:41:05,080 - #45 10
+INFO  22:41:05,080 - #34 ;
+INFO  22:41:05,080 - #38 {
+INFO  22:41:05,080 - #39 }
+INFO  22:41:05,081 - #39 }
+ERROR 22:41:05,084 - Izvrsen oporavak do ; na liniji5
+INFO  22:41:05,085 - #48 int
+INFO  22:41:05,085 - #48 x
+INFO  22:41:05,086 - #34 ;
+INFO  22:41:05,086 - #48 bool
+INFO  22:41:05,086 - #48 y
+INFO  22:41:05,086 - #34 ;
+INFO  22:41:05,086 - #48 char
+INFO  22:41:05,086 - #48 c
+INFO  22:41:05,086 - #42 [
+INFO  22:41:05,086 - #43 ]
+INFO  22:41:05,086 - #34 ;
+INFO  22:41:05,087 - #38 {
+INFO  22:41:05,087 - #39 }
+INFO  22:41:05,090 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NamespaceListDerived1(
+    NamespaceListDerived2(
+    ) [NamespaceListDerived2]
+    NamespaceDecl(
+     sizes
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived3(
+          ) [VarDeclListDerived3]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      NoMethDeclListNamespace(
+      ) [NoMethDeclListNamespace]
+    ) [NamespaceDecl]
+  ) [NamespaceListDerived1]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            TypeSingle(
+              Type(
+               int
+              ) [Type]
+            ) [TypeSingle]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               x
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          TypeSingle(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeSingle]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        TypeSingle(
+          Type(
+           char
+          ) [Type]
+        ) [TypeSingle]
+        VarDeclarationsDerived1(
+          VarDeclNameArray(
+           c
+            BracketsDerived1(
+            ) [BracketsDerived1]
+          ) [VarDeclNameArray]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [Program]
+INFO  22:41:05,090 - ===================================
+INFO  22:41:05,101 - Deklarisana promenljiva x na liniji 9
+INFO  22:41:05,101 - Deklarisana promenljiva y na liniji 10

@@ -1,0 +1,20 @@
+program oporavak
+
+	
+	int a2,b2 c2,d2;
+	int a3,b3,c3 d3;
+	int a4,b4 c4,d4,e4 f4,g4;
+	
+{
+	void main()	
+		int bodovi;
+		bool bt;
+	{
+		bodovi = 2 2;
+		bodovi = ;
+		 = 3;
+		 bodovi +;
+	}
+}
+
+

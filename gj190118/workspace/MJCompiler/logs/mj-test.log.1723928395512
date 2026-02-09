@@ -1,0 +1,92 @@
+INFO  22:59:28,591 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  22:59:28,617 - #2 program
+INFO  22:59:28,617 - #45 test302
+INFO  22:59:28,617 - #45 int
+INFO  22:59:28,618 - #45 x
+INFO  22:59:28,618 - #42 [
+INFO  22:59:28,618 - #43 ]
+INFO  22:59:28,618 - #34 ;
+INFO  22:59:28,619 - #45 int
+INFO  22:59:28,619 - #45 y
+INFO  22:59:28,619 - #34 ;
+INFO  22:59:28,619 - #38 {
+INFO  22:59:28,620 - #12 void
+INFO  22:59:28,620 - #45 main
+INFO  22:59:28,620 - #40 (
+INFO  22:59:28,621 - #41 )
+INFO  22:59:28,621 - #38 {
+INFO  22:59:28,622 - #11 read
+INFO  22:59:28,622 - #40 (
+INFO  22:59:28,622 - #45 y
+INFO  22:59:28,622 - #41 )
+INFO  22:59:28,622 - #34 ;
+INFO  22:59:28,623 - #39 }
+INFO  22:59:28,623 - #39 }
+INFO  22:59:28,625 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      NoDeclarationsList(
+      ) [NoDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclNameArray(
+             x
+              BracketsDerived1(
+              ) [BracketsDerived1]
+            ) [VarDeclNameArray]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclName(
+           y
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived2(
+      ) [VarDeclListingDerived2]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        StatementDeclDerived7(
+          ReadStmt(
+            SimpleDesignator(
+             y
+            ) [SimpleDesignator]
+          ) [ReadStmt]
+        ) [StatementDeclDerived7]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  22:59:28,625 - ===================================
+INFO  22:59:28,630 - Deklarisana promenljiva x na liniji 2
+INFO  22:59:28,630 - Deklarisana promenljiva y na liniji 3
+INFO  22:59:28,630 - Definicija metode  VOID
+INFO  22:59:28,630 - Upotreba globalne promenljive y na liniji 6
+INFO  22:59:28,631 - Dekrementiranje y
+INFO  22:59:28,631 - Parsiranje je uspesno zavrseno

@@ -1,0 +1,45 @@
+program proba
+
+	const int nula = 0;
+	const int dva = 2;
+	const int tri = 3;
+
+	int niz[];
+	char nizch[];
+	int matrica[][];
+
+	int x;
+	
+{
+	void main()	
+		int rezultat;
+	{
+		rezultat = 10;
+		rezultat = rezultat - tri;
+		rezultat = rezultat * dva;
+		print(rezultat);
+		
+		niz = new int[5];
+		niz[nula] = tri;
+		niz[1] = 7;
+		niz[dva] = niz[1] + niz[0];
+		print(niz[dva]);
+		
+		nizch = new char[4];
+		nizch[0] = 'x';
+		nizch[dva] = 'y';
+		print(nizch[0]);
+		print(nizch[dva]);
+		
+		x = 8;
+		rezultat = x * 2 + niz[1] - (tri % 2) * rezultat;
+		print(rezultat);
+		
+		matrica = new int[3][3];
+		matrica[nula][nula] = 1;
+		matrica[1][1] = dva;
+		matrica[2][2] = tri;
+		print(matrica[1][1]);
+		print(matrica[2][2]);
+	}
+}

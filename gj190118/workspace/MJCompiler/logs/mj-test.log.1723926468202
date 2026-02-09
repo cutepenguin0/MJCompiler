@@ -1,0 +1,181 @@
+INFO  22:26:04,364 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  22:26:04,390 - #2 program
+INFO  22:26:04,390 - #45 test302
+INFO  22:26:04,390 - #45 int
+INFO  22:26:04,391 - #45 x
+INFO  22:26:04,391 - #42 [
+INFO  22:26:04,391 - #43 ]
+INFO  22:26:04,391 - #34 ;
+INFO  22:26:04,392 - #38 {
+INFO  22:26:04,392 - #12 void
+INFO  22:26:04,393 - #45 main
+INFO  22:26:04,393 - #40 (
+INFO  22:26:04,393 - #41 )
+INFO  22:26:04,393 - #38 {
+INFO  22:26:04,394 - #45 x
+INFO  22:26:04,394 - #42 [
+INFO  22:26:04,394 - #46 1
+INFO  22:26:04,394 - #43 ]
+INFO  22:26:04,394 - #31 =
+INFO  22:26:04,394 - #46 5
+INFO  22:26:04,395 - #34 ;
+INFO  22:26:04,395 - #45 x
+INFO  22:26:04,396 - #42 [
+INFO  22:26:04,396 - #46 1
+INFO  22:26:04,396 - #43 ]
+INFO  22:26:04,396 - #33 --
+INFO  22:26:04,396 - #34 ;
+INFO  22:26:04,396 - #3 print
+INFO  22:26:04,396 - #40 (
+INFO  22:26:04,396 - #45 x
+INFO  22:26:04,396 - #42 [
+INFO  22:26:04,396 - #46 2
+INFO  22:26:04,396 - #19 -
+INFO  22:26:04,396 - #46 1
+INFO  22:26:04,397 - #43 ]
+INFO  22:26:04,397 - #36 ,
+INFO  22:26:04,397 - #46 1
+INFO  22:26:04,397 - #41 )
+INFO  22:26:04,397 - #34 ;
+INFO  22:26:04,397 - #39 }
+INFO  22:26:04,398 - #39 }
+INFO  22:26:04,401 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ManyDeclarationsList(
+    NoDeclarationsList(
+    ) [NoDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclNameArray(
+           x
+            BracketsDerived1(
+            ) [BracketsDerived1]
+          ) [VarDeclNameArray]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived2(
+      ) [VarDeclListingDerived2]
+      StatementListDerived1(
+        StatementListDerived1(
+          StatementListDerived1(
+            StatementListDerived2(
+            ) [StatementListDerived2]
+            DesignatorStatementStatementDecl(
+              Assignment(
+                SingleArrayIndexing(
+                  SimpleDesignator(
+                   x
+                  ) [SimpleDesignator]
+                  SingleTerm(
+                    SingleFactor(
+                      Const(
+                        ConstValueNumber(
+                         1
+                        ) [ConstValueNumber]
+                      ) [Const]
+                    ) [SingleFactor]
+                  ) [SingleTerm]
+                ) [SingleArrayIndexing]
+                AssignopDerived1(
+                ) [AssignopDerived1]
+                SingleTerm(
+                  SingleFactor(
+                    Const(
+                      ConstValueNumber(
+                       5
+                      ) [ConstValueNumber]
+                    ) [Const]
+                  ) [SingleFactor]
+                ) [SingleTerm]
+              ) [Assignment]
+            ) [DesignatorStatementStatementDecl]
+          ) [StatementListDerived1]
+          DesignatorStatementStatementDecl(
+            Decrement(
+              SingleArrayIndexing(
+                SimpleDesignator(
+                 x
+                ) [SimpleDesignator]
+                SingleTerm(
+                  SingleFactor(
+                    Const(
+                      ConstValueNumber(
+                       1
+                      ) [ConstValueNumber]
+                    ) [Const]
+                  ) [SingleFactor]
+                ) [SingleTerm]
+              ) [SingleArrayIndexing]
+            ) [Decrement]
+          ) [DesignatorStatementStatementDecl]
+        ) [StatementListDerived1]
+        StatementDeclDerived8(
+          PrintStmtWithNumber(
+            SingleTerm(
+              SingleFactor(
+                FactorDesignator(
+                  SingleArrayIndexing(
+                    SimpleDesignator(
+                     x
+                    ) [SimpleDesignator]
+                    AddopExpr(
+                      SingleTerm(
+                        SingleFactor(
+                          Const(
+                            ConstValueNumber(
+                             2
+                            ) [ConstValueNumber]
+                          ) [Const]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                      AddopMinus(
+                      ) [AddopMinus]
+                      SingleFactor(
+                        Const(
+                          ConstValueNumber(
+                           1
+                          ) [ConstValueNumber]
+                        ) [Const]
+                      ) [SingleFactor]
+                    ) [AddopExpr]
+                  ) [SingleArrayIndexing]
+                ) [FactorDesignator]
+              ) [SingleFactor]
+            ) [SingleTerm]
+           1
+          ) [PrintStmtWithNumber]
+        ) [StatementDeclDerived8]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  22:26:04,402 - ===================================
+INFO  22:26:04,406 - Deklarisana promenljiva x na liniji 2
+INFO  22:26:04,406 - Definicija metode  VOID
+INFO  22:26:04,407 - Upotreba globalne promenljive x na liniji 5
+INFO  22:26:04,407 - Pristup elementu niza x na liniji 5
+INFO  22:26:04,407 - Dodela vrednosti promenljivoj x na liniji 5
+INFO  22:26:04,407 - Upotreba globalne promenljive x na liniji 6
+INFO  22:26:04,407 - Pristup elementu niza x na liniji 6
+INFO  22:26:04,407 - Dekrementiranje x
+INFO  22:26:04,407 - Upotreba globalne promenljive x na liniji 7
+INFO  22:26:04,407 - Pristup elementu niza x na liniji 7
+INFO  22:26:04,407 - Pozvana je print metoda na liniji 7
+INFO  22:26:04,408 - Parsiranje je uspesno zavrseno

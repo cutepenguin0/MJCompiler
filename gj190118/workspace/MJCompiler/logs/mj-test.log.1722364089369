@@ -1,0 +1,18 @@
+INFO  20:27:31,047 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  20:27:31,072 - #2 program
+INFO  20:27:31,072 - #18 test301
+INFO  20:27:31,072 - #17 namespace
+INFO  20:27:31,072 - #18 sizes
+INFO  20:27:31,072 - #42 {
+INFO  20:27:31,072 - #18 int
+INFO  20:27:31,073 - #18 tableSize
+INFO  20:27:31,073 - #35 =
+ERROR 20:27:31,073 - 
+Sintaksna greska
+INFO  20:27:31,073 - #19 10
+INFO  20:27:31,073 - #38 ;
+INFO  20:27:31,073 - #18 int
+INFO  20:27:31,074 - #38 ;
+INFO  20:27:31,074 - #18 int
+INFO  20:27:31,074 - #18 x
+INFO  20:27:31,074 - #40 ,

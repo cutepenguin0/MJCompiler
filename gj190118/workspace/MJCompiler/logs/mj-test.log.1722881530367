@@ -1,0 +1,34 @@
+INFO  20:11:50,137 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  20:11:50,166 - #2 program
+INFO  20:11:50,166 - #48 test302
+INFO  20:11:50,166 - #48 int
+INFO  20:11:50,167 - #48 x
+INFO  20:11:50,167 - #34 ;
+INFO  20:11:50,167 - #48 bool
+INFO  20:11:50,167 - #48 y
+INFO  20:11:50,168 - #34 ;
+INFO  20:11:50,168 - #48 char
+INFO  20:11:50,168 - #48 c
+INFO  20:11:50,168 - #42 [
+INFO  20:11:50,168 - #43 ]
+INFO  20:11:50,168 - #34 ;
+INFO  20:11:50,168 - #17 namespace
+ERROR 20:11:50,169 - 
+Sintaksna greska na liniji 8
+INFO  20:11:50,169 - #48 sizes
+INFO  20:11:50,169 - #38 {
+INFO  20:11:50,169 - #7 const
+INFO  20:11:50,169 - #48 int
+INFO  20:11:50,169 - #48 tableSize
+INFO  20:11:50,169 - #31 =
+INFO  20:11:50,169 - #45 10
+INFO  20:11:50,170 - #34 ;
+INFO  20:11:50,170 - #38 {
+INFO  20:11:50,170 - #39 }
+INFO  20:11:50,170 - #39 }
+ERROR 20:11:50,173 - Izvrsen oporavak do ; na liniji6
+ERROR 20:11:50,173 - 
+Sintaksna greska na liniji 11
+INFO  20:11:50,173 - #38 {
+INFO  20:11:50,173 - #39 }
+ERROR 20:11:50,173 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15

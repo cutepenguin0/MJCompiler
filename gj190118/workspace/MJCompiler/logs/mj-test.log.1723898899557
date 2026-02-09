@@ -1,0 +1,57 @@
+INFO  14:47:56,889 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  14:47:56,915 - #2 program
+INFO  14:47:56,915 - #45 test302
+INFO  14:47:56,915 - #38 {
+INFO  14:47:56,916 - #12 void
+INFO  14:47:56,917 - #45 main
+INFO  14:47:56,917 - #40 (
+INFO  14:47:56,917 - #41 )
+INFO  14:47:56,917 - #38 {
+INFO  14:47:56,918 - #3 print
+INFO  14:47:56,918 - #40 (
+INFO  14:47:56,918 - #46 1
+INFO  14:47:56,918 - #41 )
+INFO  14:47:56,919 - #34 ;
+INFO  14:47:56,919 - #39 }
+INFO  14:47:56,919 - #39 }
+INFO  14:47:56,921 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoDeclarationsList(
+  ) [NoDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived2(
+      ) [VarDeclListingDerived2]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        StatementDeclDerived9(
+          PrintStmtWithoutNumber(
+            SingleTerm(
+              SingleFactor(
+                Const(
+                  ConstValueNumber(
+                   1
+                  ) [ConstValueNumber]
+                ) [Const]
+              ) [SingleFactor]
+            ) [SingleTerm]
+          ) [PrintStmtWithoutNumber]
+        ) [StatementDeclDerived9]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  14:47:56,921 - ===================================
+INFO  14:47:56,926 - Definicija metode  VOID
+INFO  14:47:56,926 - Pozvana je print metoda na liniji 5
+INFO  14:47:56,927 - Parsiranje je uspesno zavrseno

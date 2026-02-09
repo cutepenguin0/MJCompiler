@@ -1,0 +1,37 @@
+INFO  21:13:16,933 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  21:13:16,959 - #2 program
+INFO  21:13:16,959 - #18 test301
+INFO  21:13:16,959 - #18 int
+INFO  21:13:16,960 - #18 x
+INFO  21:13:16,960 - #40 ,
+INFO  21:13:16,960 - #18 y
+INFO  21:13:16,961 - #38 ;
+INFO  21:13:16,961 - #42 {
+INFO  21:13:16,961 - #43 }
+INFO  21:13:16,963 - ProgramDerived1(
+  NamespaceListDerived2(
+  ) [NamespaceListDerived2]
+  DeclarationsListDerived1(
+    DeclarationsListDerived2(
+    ) [DeclarationsListDerived2]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        TypeDerived2(
+        ) [TypeDerived2]
+        VarDeclarationsDerived2(
+          VarDeclarationsDerived1(
+            VarDeclDerived2(
+            ) [VarDeclDerived2]
+          ) [VarDeclarationsDerived1]
+          VarDeclDerived2(
+          ) [VarDeclDerived2]
+        ) [VarDeclarationsDerived2]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [DeclarationsListDerived1]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [ProgramDerived1]
+INFO  21:13:16,963 - ===================================
+INFO  21:13:16,967 -  Print count calls = 0
+INFO  21:13:16,967 -  Deklarisanih promenljivih ima = 0

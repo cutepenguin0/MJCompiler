@@ -1,0 +1,84 @@
+INFO  22:56:41,020 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  22:56:41,046 - #2 program
+INFO  22:56:41,046 - #45 test301
+INFO  22:56:41,046 - #45 int
+INFO  22:56:41,047 - #45 a
+INFO  22:56:41,047 - #36 ,
+INFO  22:56:41,047 - #45 b
+INFO  22:56:41,047 - #45 int
+ERROR 22:56:41,048 - 
+Sintaksna greska na liniji 6
+INFO  22:56:41,048 - #45 c
+INFO  22:56:41,048 - #34 ;
+INFO  22:56:41,048 - #38 {
+INFO  22:56:41,048 - #12 void
+INFO  22:56:41,048 - #45 main
+ERROR 22:56:41,051 - Izvrsen oporavak do ; na liniji 5
+INFO  22:56:41,052 - #40 (
+INFO  22:56:41,052 - #41 )
+INFO  22:56:41,053 - #45 int
+INFO  22:56:41,053 - #45 bodovi
+INFO  22:56:41,053 - #34 ;
+INFO  22:56:41,053 - #45 bool
+INFO  22:56:41,053 - #45 bt
+INFO  22:56:41,053 - #34 ;
+INFO  22:56:41,053 - #38 {
+INFO  22:56:41,053 - #39 }
+INFO  22:56:41,054 - #39 }
+INFO  22:56:41,056 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ManyDeclarationsList(
+    NoDeclarationsList(
+    ) [NoDeclarationsList]
+    DeclarationDerived2(
+      ErrorSemi(
+      ) [ErrorSemi]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived1(
+          VarDeclListingDerived2(
+          ) [VarDeclListingDerived2]
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               bodovi
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [VarDeclListingDerived1]
+        VarDeclListDerived1(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             bt
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived2(
+      ) [StatementListDerived2]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  22:56:41,056 - ===================================
+INFO  22:56:41,060 - Definicija metode  VOID
+INFO  22:56:41,060 - Deklarisana promenljiva bodovi na liniji 13
+INFO  22:56:41,060 - Deklarisana promenljiva bt na liniji 14
+ERROR 22:56:41,061 - Parsiranje nije uspesno zavrseno

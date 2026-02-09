@@ -1,0 +1,107 @@
+INFO  22:40:42,198 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  22:40:42,239 - #2 program
+INFO  22:40:42,239 - #48 test302
+INFO  22:40:42,239 - #17 namespace
+INFO  22:40:42,240 - #48 sizes
+INFO  22:40:42,240 - #38 {
+INFO  22:40:42,240 - #48 int
+INFO  22:40:42,240 - #48 tableSize
+INFO  22:40:42,241 - #31 =
+ERROR 22:40:42,241 - 
+Sintaksna greska na liniji 5
+INFO  22:40:42,241 - #45 10
+INFO  22:40:42,241 - #34 ;
+INFO  22:40:42,242 - #38 {
+INFO  22:40:42,242 - #39 }
+INFO  22:40:42,242 - #39 }
+ERROR 22:40:42,246 - Izvrsen oporavak do ; na liniji5
+INFO  22:40:42,247 - #48 int
+INFO  22:40:42,248 - #48 x
+INFO  22:40:42,248 - #34 ;
+INFO  22:40:42,248 - #48 bool
+INFO  22:40:42,249 - #48 y
+INFO  22:40:42,249 - #34 ;
+INFO  22:40:42,249 - #48 char
+INFO  22:40:42,249 - #48 c
+INFO  22:40:42,249 - #42 [
+INFO  22:40:42,249 - #43 ]
+INFO  22:40:42,249 - #34 ;
+INFO  22:40:42,250 - #38 {
+INFO  22:40:42,250 - #39 }
+INFO  22:40:42,254 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NamespaceListDerived1(
+    NamespaceListDerived2(
+    ) [NamespaceListDerived2]
+    NamespaceDecl(
+     sizes
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived3(
+          ) [VarDeclListDerived3]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      NoMethDeclListNamespace(
+      ) [NoMethDeclListNamespace]
+    ) [NamespaceDecl]
+  ) [NamespaceListDerived1]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            TypeSingle(
+              Type(
+               int
+              ) [Type]
+            ) [TypeSingle]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               x
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          TypeSingle(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeSingle]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        TypeSingle(
+          Type(
+           char
+          ) [Type]
+        ) [TypeSingle]
+        VarDeclarationsDerived1(
+          VarDeclNameArray(
+           c
+            BracketsDerived1(
+            ) [BracketsDerived1]
+          ) [VarDeclNameArray]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [Program]
+INFO  22:40:42,255 - ===================================

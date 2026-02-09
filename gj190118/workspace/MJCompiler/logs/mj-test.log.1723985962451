@@ -1,0 +1,105 @@
+INFO  14:50:02,899 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  14:50:02,926 - #2 program
+INFO  14:50:02,926 - #45 test302
+INFO  14:50:02,926 - #45 int
+INFO  14:50:02,926 - #45 x
+INFO  14:50:02,927 - #34 ;
+INFO  14:50:02,927 - #38 {
+INFO  14:50:02,927 - #12 void
+INFO  14:50:02,928 - #45 main
+INFO  14:50:02,928 - #40 (
+INFO  14:50:02,928 - #41 )
+INFO  14:50:02,929 - #38 {
+INFO  14:50:02,929 - #45 x
+INFO  14:50:02,929 - #31 =
+INFO  14:50:02,929 - #19 -
+INFO  14:50:02,930 - #46 3
+INFO  14:50:02,930 - #18 +
+INFO  14:50:02,930 - #46 5
+INFO  14:50:02,931 - #20 *
+INFO  14:50:02,931 - #46 3
+INFO  14:50:02,931 - #34 ;
+INFO  14:50:02,931 - #39 }
+INFO  14:50:02,932 - #39 }
+INFO  14:50:02,935 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ManyDeclarationsList(
+    NoDeclarationsList(
+    ) [NoDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclName(
+           x
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived2(
+      ) [VarDeclListingDerived2]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        DesignatorStatementStatementDecl(
+          Assignment(
+            SimpleDesignator(
+             x
+            ) [SimpleDesignator]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            AddopExpr(
+              NegativeTerm(
+                SingleFactor(
+                  Const(
+                    ConstValueNumber(
+                     3
+                    ) [ConstValueNumber]
+                  ) [Const]
+                ) [SingleFactor]
+              ) [NegativeTerm]
+              AddopPlus(
+              ) [AddopPlus]
+              MulopExpr(
+                SingleFactor(
+                  Const(
+                    ConstValueNumber(
+                     5
+                    ) [ConstValueNumber]
+                  ) [Const]
+                ) [SingleFactor]
+                MulopMul(
+                ) [MulopMul]
+                Const(
+                  ConstValueNumber(
+                   3
+                  ) [ConstValueNumber]
+                ) [Const]
+              ) [MulopExpr]
+            ) [AddopExpr]
+          ) [Assignment]
+        ) [DesignatorStatementStatementDecl]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  14:50:02,935 - ===================================
+INFO  14:50:02,939 - Deklarisana promenljiva x na liniji 2
+INFO  14:50:02,940 - Definicija metode  VOID
+INFO  14:50:02,940 - Upotreba globalne promenljive x na liniji 5
+INFO  14:50:02,940 - Dodela vrednosti promenljivoj x na liniji 5
+INFO  14:50:02,940 - Parsiranje je uspesno zavrseno

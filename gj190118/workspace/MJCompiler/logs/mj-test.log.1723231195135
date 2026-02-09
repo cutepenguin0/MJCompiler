@@ -1,0 +1,69 @@
+INFO  21:19:44,293 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  21:19:44,322 - #2 program
+INFO  21:19:44,322 - #45 test302
+INFO  21:19:44,322 - #38 {
+INFO  21:19:44,323 - #45 int
+INFO  21:19:44,323 - #45 f
+INFO  21:19:44,323 - #40 (
+INFO  21:19:44,323 - #45 int
+INFO  21:19:44,323 - #45 m
+INFO  21:19:44,324 - #41 )
+INFO  21:19:44,324 - #45 int
+INFO  21:19:44,324 - #45 l
+INFO  21:19:44,324 - #34 ;
+INFO  21:19:44,324 - #38 {
+INFO  21:19:44,325 - #39 }
+INFO  21:19:44,325 - #39 }
+INFO  21:19:44,327 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarationsList(
+  ) [NoDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithFormPars(
+      MethodType(
+        Type(
+         int
+        ) [Type]
+      ) [MethodType]
+     f
+      FormParsDerived1(
+        FormalParamListDerived2(
+          FormalParam(
+            Type(
+             int
+            ) [Type]
+           m
+          ) [FormalParam]
+        ) [FormalParamListDerived2]
+      ) [FormParsDerived1]
+      VarDeclListingDerived1(
+        VarDeclListingDerived2(
+        ) [VarDeclListingDerived2]
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             l
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived2(
+      ) [StatementListDerived2]
+    ) [MethodDeclWithFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  21:19:44,328 - ===================================
+INFO  21:19:44,332 - Definicija metode sa tipom int na liniji 6
+INFO  21:19:44,333 - Parametar fje je m na liniji 6
+INFO  21:19:44,333 - Deklarisana promenljiva l na liniji 6
+INFO  21:19:44,333 - Deklarisana promenljiva l na liniji 6
+ERROR 21:19:44,335 - Metoda f mora imati return iskaz. na liniji 6

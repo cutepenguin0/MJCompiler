@@ -1,0 +1,205 @@
+INFO  20:15:19,466 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  20:15:19,492 - #2 program
+INFO  20:15:19,492 - #45 test301
+INFO  20:15:19,492 - #45 int
+INFO  20:15:19,493 - #45 niz
+INFO  20:15:19,493 - #42 [
+INFO  20:15:19,493 - #43 ]
+INFO  20:15:19,493 - #34 ;
+INFO  20:15:19,494 - #38 {
+INFO  20:15:19,494 - #12 void
+INFO  20:15:19,494 - #45 main
+INFO  20:15:19,495 - #40 (
+INFO  20:15:19,495 - #41 )
+INFO  20:15:19,495 - #45 int
+INFO  20:15:19,496 - #45 bodovi
+INFO  20:15:19,496 - #34 ;
+INFO  20:15:19,496 - #45 bool
+INFO  20:15:19,496 - #45 bt
+INFO  20:15:19,496 - #34 ;
+INFO  20:15:19,496 - #38 {
+INFO  20:15:19,496 - #45 niz
+INFO  20:15:19,497 - #31 =
+INFO  20:15:19,497 - #9 new
+INFO  20:15:19,497 - #45 int
+INFO  20:15:19,497 - #42 [
+INFO  20:15:19,497 - #46 3
+INFO  20:15:19,498 - #43 ]
+INFO  20:15:19,498 - #34 ;
+INFO  20:15:19,498 - #45 niz
+INFO  20:15:19,498 - #42 [
+INFO  20:15:19,498 - #46 0
+INFO  20:15:19,498 - #43 ]
+INFO  20:15:19,498 - #31 =
+INFO  20:15:19,499 - #46 1
+INFO  20:15:19,499 - #34 ;
+INFO  20:15:19,499 - #45 niz
+INFO  20:15:19,499 - #42 [
+INFO  20:15:19,499 - #46 1
+INFO  20:15:19,499 - #43 ]
+INFO  20:15:19,499 - #31 =
+INFO  20:15:19,499 - #46 2
+INFO  20:15:19,499 - #34 ;
+INFO  20:15:19,499 - #39 }
+INFO  20:15:19,499 - #39 }
+INFO  20:15:19,503 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ManyDeclarationsList(
+    NoDeclarationsList(
+    ) [NoDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclNameArray(
+           niz
+            BracketsDerived1(
+            ) [BracketsDerived1]
+          ) [VarDeclNameArray]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived1(
+          VarDeclListingDerived2(
+          ) [VarDeclListingDerived2]
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               bodovi
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [VarDeclListingDerived1]
+        VarDeclListDerived1(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             bt
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived1(
+        StatementListDerived1(
+          StatementListDerived1(
+            StatementListDerived2(
+            ) [StatementListDerived2]
+            DesignatorStatementStatementDecl(
+              Assignment(
+                SimpleDesignator(
+                 niz
+                ) [SimpleDesignator]
+                AssignopDerived1(
+                ) [AssignopDerived1]
+                SingleTerm(
+                  SingleFactor(
+                    ArrayCreation(
+                      Type(
+                       int
+                      ) [Type]
+                      SingleTerm(
+                        SingleFactor(
+                          Const(
+                            ConstValueNumber(
+                             3
+                            ) [ConstValueNumber]
+                          ) [Const]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [ArrayCreation]
+                  ) [SingleFactor]
+                ) [SingleTerm]
+              ) [Assignment]
+            ) [DesignatorStatementStatementDecl]
+          ) [StatementListDerived1]
+          DesignatorStatementStatementDecl(
+            Assignment(
+              SingleArrayIndexing(
+               niz
+                SingleTerm(
+                  SingleFactor(
+                    Const(
+                      ConstValueNumber(
+                       0
+                      ) [ConstValueNumber]
+                    ) [Const]
+                  ) [SingleFactor]
+                ) [SingleTerm]
+              ) [SingleArrayIndexing]
+              AssignopDerived1(
+              ) [AssignopDerived1]
+              SingleTerm(
+                SingleFactor(
+                  Const(
+                    ConstValueNumber(
+                     1
+                    ) [ConstValueNumber]
+                  ) [Const]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [Assignment]
+          ) [DesignatorStatementStatementDecl]
+        ) [StatementListDerived1]
+        DesignatorStatementStatementDecl(
+          Assignment(
+            SingleArrayIndexing(
+             niz
+              SingleTerm(
+                SingleFactor(
+                  Const(
+                    ConstValueNumber(
+                     1
+                    ) [ConstValueNumber]
+                  ) [Const]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [SingleArrayIndexing]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            SingleTerm(
+              SingleFactor(
+                Const(
+                  ConstValueNumber(
+                   2
+                  ) [ConstValueNumber]
+                ) [Const]
+              ) [SingleFactor]
+            ) [SingleTerm]
+          ) [Assignment]
+        ) [DesignatorStatementStatementDecl]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  20:15:19,503 - ===================================
+INFO  20:15:19,508 - Deklarisana promenljiva niz niz na liniji 4
+INFO  20:15:19,508 - Definicija metode  VOID
+INFO  20:15:19,508 - Deklarisana promenljiva bodovi na liniji 7
+INFO  20:15:19,508 - Deklarisana promenljiva bt na liniji 8
+INFO  20:15:19,509 - Upotreba globalne promenljive niz na liniji 12
+INFO  20:15:19,509 - Dodela vrednosti promenljivoj niz na liniji 12
+INFO  20:15:19,509 - Pristup elementu niza niz na liniji 13
+INFO  20:15:19,509 - Dodela vrednosti promenljivoj niz na liniji 13
+INFO  20:15:19,509 - Pristup elementu niza niz na liniji 14
+INFO  20:15:19,509 - Dodela vrednosti promenljivoj niz na liniji 14
+INFO  20:15:19,509 - Parsiranje je uspesno zavrseno

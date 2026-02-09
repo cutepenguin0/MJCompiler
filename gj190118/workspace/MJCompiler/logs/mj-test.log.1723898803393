@@ -1,0 +1,183 @@
+INFO  14:34:54,039 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  14:34:54,089 - #2 program
+INFO  14:34:54,090 - #45 test302
+INFO  14:34:54,090 - #7 const
+INFO  14:34:54,090 - #45 int
+INFO  14:34:54,090 - #45 x
+INFO  14:34:54,091 - #31 =
+INFO  14:34:54,091 - #46 5
+INFO  14:34:54,091 - #34 ;
+INFO  14:34:54,092 - #7 const
+INFO  14:34:54,092 - #45 bool
+INFO  14:34:54,092 - #45 l
+INFO  14:34:54,092 - #31 =
+INFO  14:34:54,092 - #48 true
+INFO  14:34:54,092 - #34 ;
+INFO  14:34:54,092 - #45 int
+INFO  14:34:54,092 - #45 y
+INFO  14:34:54,092 - #34 ;
+INFO  14:34:54,093 - #45 int
+INFO  14:34:54,093 - #45 s
+INFO  14:34:54,093 - #34 ;
+INFO  14:34:54,093 - #38 {
+INFO  14:34:54,093 - #12 void
+INFO  14:34:54,093 - #45 main
+INFO  14:34:54,094 - #40 (
+INFO  14:34:54,094 - #41 )
+INFO  14:34:54,094 - #45 int
+INFO  14:34:54,094 - #45 m
+INFO  14:34:54,094 - #34 ;
+INFO  14:34:54,095 - #38 {
+INFO  14:34:54,095 - #3 print
+INFO  14:34:54,095 - #40 (
+INFO  14:34:54,095 - #46 1
+INFO  14:34:54,095 - #41 )
+INFO  14:34:54,095 - #34 ;
+INFO  14:34:54,096 - #45 y
+INFO  14:34:54,096 - #31 =
+INFO  14:34:54,096 - #46 4
+INFO  14:34:54,096 - #34 ;
+INFO  14:34:54,097 - #39 }
+INFO  14:34:54,097 - #39 }
+INFO  14:34:54,100 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        ManyDeclarationsList(
+          NoDeclarationsList(
+          ) [NoDeclarationsList]
+          DeclarationDerived1(
+            ConstDeclListDerived1(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsDerived1(
+                ConstDecl(
+                 x
+                  ConstValueNumber(
+                   5
+                  ) [ConstValueNumber]
+                ) [ConstDecl]
+              ) [ConstDeclarationsDerived1]
+            ) [ConstDeclListDerived1]
+          ) [DeclarationDerived1]
+        ) [ManyDeclarationsList]
+        DeclarationDerived1(
+          ConstDeclListDerived1(
+            Type(
+             bool
+            ) [Type]
+            ConstDeclarationsDerived1(
+              ConstDecl(
+               l
+                ConstValueBoolean(
+                 true
+                ) [ConstValueBoolean]
+              ) [ConstDecl]
+            ) [ConstDeclarationsDerived1]
+          ) [ConstDeclListDerived1]
+        ) [DeclarationDerived1]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclName(
+           s
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived2(
+        ) [VarDeclListingDerived2]
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             m
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived1(
+        StatementListDerived1(
+          StatementListDerived2(
+          ) [StatementListDerived2]
+          StatementDeclDerived9(
+            PrintStmtWithoutNumber(
+              SingleTerm(
+                SingleFactor(
+                  Const(
+                    ConstValueNumber(
+                     1
+                    ) [ConstValueNumber]
+                  ) [Const]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [PrintStmtWithoutNumber]
+          ) [StatementDeclDerived9]
+        ) [StatementListDerived1]
+        DesignatorStatementStatementDecl(
+          Assignment(
+            SimpleDesignator(
+             y
+            ) [SimpleDesignator]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            SingleTerm(
+              SingleFactor(
+                Const(
+                  ConstValueNumber(
+                   4
+                  ) [ConstValueNumber]
+                ) [Const]
+              ) [SingleFactor]
+            ) [SingleTerm]
+          ) [Assignment]
+        ) [DesignatorStatementStatementDecl]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  14:34:54,101 - ===================================
+INFO  14:34:54,109 - Deklarisana konstanta x cija je vrednost 5
+INFO  14:34:54,109 - Deklarisana konstanta l cija je vrednost 1
+INFO  14:34:54,110 - Deklarisana promenljiva y na liniji 4
+INFO  14:34:54,110 - Deklarisana promenljiva s na liniji 5
+INFO  14:34:54,110 - Definicija metode  VOID
+INFO  14:34:54,110 - Deklarisana promenljiva m na liniji 8
+INFO  14:34:54,110 - Pozvana je print metoda na liniji 9
+INFO  14:34:54,110 - Upotreba globalne promenljive y na liniji 10
+INFO  14:34:54,110 - Dodela vrednosti promenljivoj y na liniji 10
+INFO  14:34:54,111 - Parsiranje je uspesno zavrseno

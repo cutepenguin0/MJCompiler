@@ -1,0 +1,12 @@
+INFO  21:15:19,999 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  21:15:20,025 - #2 program
+INFO  21:15:20,025 - #18 test301
+INFO  21:15:20,025 - #18 int
+INFO  21:15:20,026 - #18 x
+INFO  21:15:20,026 - #40 ,
+INFO  21:15:20,027 - #38 ;
+ERROR 21:15:20,027 - 
+Sintaksna greska na liniji 3
+INFO  21:15:20,027 - #42 {
+INFO  21:15:20,027 - #43 }
+ERROR 21:15:20,027 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 4

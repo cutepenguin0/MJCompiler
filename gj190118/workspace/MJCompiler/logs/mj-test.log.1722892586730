@@ -1,0 +1,118 @@
+INFO  23:15:52,950 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  23:15:52,977 - #2 program
+INFO  23:15:52,977 - #48 test302
+INFO  23:15:52,977 - #17 namespace
+INFO  23:15:52,978 - #48 sizes
+INFO  23:15:52,978 - #38 {
+INFO  23:15:52,979 - #48 int
+INFO  23:15:52,979 - #48 tableSize
+INFO  23:15:52,979 - #34 ;
+INFO  23:15:52,980 - #38 {
+INFO  23:15:52,980 - #39 }
+INFO  23:15:52,980 - #39 }
+INFO  23:15:52,980 - #48 int
+INFO  23:15:52,981 - #48 x
+INFO  23:15:52,981 - #34 ;
+INFO  23:15:52,981 - #48 bool
+INFO  23:15:52,981 - #48 y
+INFO  23:15:52,981 - #34 ;
+INFO  23:15:52,981 - #48 char
+INFO  23:15:52,981 - #48 c
+INFO  23:15:52,981 - #42 [
+INFO  23:15:52,981 - #43 ]
+INFO  23:15:52,981 - #34 ;
+INFO  23:15:52,982 - #38 {
+INFO  23:15:52,982 - #39 }
+INFO  23:15:52,984 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NamespaceListMultiple(
+    NoNamespace(
+    ) [NoNamespace]
+    NamespaceDecl(
+      NamespaceName(
+       sizes
+      ) [NamespaceName]
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            TypeSingle(
+              Type(
+               int
+              ) [Type]
+            ) [TypeSingle]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               tableSize
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      NoMethDeclListNamespace(
+      ) [NoMethDeclListNamespace]
+    ) [NamespaceDecl]
+  ) [NamespaceListMultiple]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            TypeSingle(
+              Type(
+               int
+              ) [Type]
+            ) [TypeSingle]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               x
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          TypeSingle(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeSingle]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        TypeSingle(
+          Type(
+           char
+          ) [Type]
+        ) [TypeSingle]
+        VarDeclarationsDerived1(
+          VarDeclNameArray(
+           c
+            BracketsDerived1(
+            ) [BracketsDerived1]
+          ) [VarDeclNameArray]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [Program]
+INFO  23:15:52,985 - ===================================
+INFO  23:15:52,990 - Deklarisana promenljiva tableSize na liniji 5
+INFO  23:15:52,990 - Deklarisana promenljiva x na liniji 9
+INFO  23:15:52,990 - Deklarisana promenljiva y na liniji 10
+INFO  23:15:52,990 - Deklarisana promenljiva c na liniji 11

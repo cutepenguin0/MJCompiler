@@ -1,0 +1,64 @@
+INFO  21:17:48,231 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  21:17:48,273 - #2 program
+INFO  21:17:48,273 - #45 test302
+INFO  21:17:48,273 - #38 {
+INFO  21:17:48,275 - #45 int
+INFO  21:17:48,275 - #45 f
+INFO  21:17:48,276 - #40 (
+INFO  21:17:48,276 - #45 int
+INFO  21:17:48,276 - #45 m
+INFO  21:17:48,276 - #41 )
+INFO  21:17:48,276 - #45 int
+INFO  21:17:48,277 - #45 l
+INFO  21:17:48,277 - #34 ;
+INFO  21:17:48,277 - #38 {
+INFO  21:17:48,277 - #39 }
+INFO  21:17:48,278 - #39 }
+INFO  21:17:48,281 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarationsList(
+  ) [NoDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithFormPars(
+      MethodType(
+        Type(
+         int
+        ) [Type]
+      ) [MethodType]
+     f
+      FormParsDerived1(
+        FormalParamListDerived2(
+          FormalParam(
+            Type(
+             int
+            ) [Type]
+           m
+          ) [FormalParam]
+        ) [FormalParamListDerived2]
+      ) [FormParsDerived1]
+      VarDeclListingDerived1(
+        VarDeclListingDerived2(
+        ) [VarDeclListingDerived2]
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             l
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived2(
+      ) [StatementListDerived2]
+    ) [MethodDeclWithFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  21:17:48,281 - ===================================

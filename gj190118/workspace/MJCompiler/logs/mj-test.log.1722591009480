@@ -1,0 +1,68 @@
+INFO  14:43:21,973 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  14:43:22,002 - #2 program
+INFO  14:43:22,003 - #18 test302
+INFO  14:43:22,003 - #7 const
+INFO  14:43:22,003 - #18 int
+INFO  14:43:22,003 - #18 jedan
+INFO  14:43:22,004 - #35 =
+INFO  14:43:22,004 - #19 1
+INFO  14:43:22,004 - #38 ;
+INFO  14:43:22,004 - #18 int
+INFO  14:43:22,005 - #40 ,
+ERROR 14:43:22,005 - 
+Sintaksna greska na liniji 7
+INFO  14:43:22,005 - #18 niz_2
+INFO  14:43:22,005 - #46 [
+INFO  14:43:22,005 - #47 ]
+INFO  14:43:22,005 - #40 ,
+INFO  14:43:22,006 - #18 niz_3
+INFO  14:43:22,006 - #38 ;
+INFO  14:43:22,006 - #18 int
+INFO  14:43:22,006 - #18 a
+INFO  14:43:22,006 - #38 ;
+ERROR 14:43:22,009 - Izvrsen oporavak do ; na liniji7
+INFO  14:43:22,010 - #42 {
+INFO  14:43:22,010 - #43 }
+INFO  14:43:22,012 - Program(
+  NamespaceListDerived2(
+  ) [NamespaceListDerived2]
+  DeclarationsListDerived1(
+    DeclarationsListDerived1(
+      DeclarationsListDerived1(
+        DeclarationsListDerived2(
+        ) [DeclarationsListDerived2]
+        DeclarationDerived1(
+          ConstDeclListDerived1(
+            TypeDerived2(
+            ) [TypeDerived2]
+            ConstDeclarationsDerived1(
+              ConstDeclDerived1(
+                ConstValueDerived1(
+                ) [ConstValueDerived1]
+              ) [ConstDeclDerived1]
+            ) [ConstDeclarationsDerived1]
+          ) [ConstDeclListDerived1]
+        ) [DeclarationDerived1]
+      ) [DeclarationsListDerived1]
+      DeclarationDerived2(
+        VarDeclListDerived3(
+        ) [VarDeclListDerived3]
+      ) [DeclarationDerived2]
+    ) [DeclarationsListDerived1]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        TypeDerived2(
+        ) [TypeDerived2]
+        VarDeclarationsDerived1(
+          VarDeclDerived2(
+          ) [VarDeclDerived2]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [DeclarationsListDerived1]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [Program]
+INFO  14:43:22,012 - ===================================
+INFO  14:43:22,013 -  Print count calls = 0
+INFO  14:43:22,013 -  Deklarisanih promenljivih ima = 1

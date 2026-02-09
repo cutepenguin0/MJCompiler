@@ -1,0 +1,26 @@
+INFO  16:53:36,260 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  16:53:36,286 - #2 program
+INFO  16:53:36,286 - #45 test302
+INFO  16:53:36,286 - #45 int
+INFO  16:53:36,287 - #45 x
+INFO  16:53:36,288 - #34 ;
+INFO  16:53:36,288 - #38 {
+INFO  16:53:36,290 - #12 void
+INFO  16:53:36,290 - #45 main
+INFO  16:53:36,290 - #40 (
+INFO  16:53:36,291 - #41 )
+INFO  16:53:36,291 - #38 {
+INFO  16:53:36,291 - #45 x
+INFO  16:53:36,291 - #31 =
+INFO  16:53:36,292 - #46 3
+INFO  16:53:36,292 - #34 ;
+INFO  16:53:36,292 - #3 print
+INFO  16:53:36,292 - #40 (
+INFO  16:53:36,292 - #45 x
+INFO  16:53:36,293 - #41 )
+ERROR 16:53:36,293 - 
+Sintaksna greska na liniji 6
+INFO  16:53:36,293 - #34 ;
+INFO  16:53:36,293 - #39 }
+INFO  16:53:36,293 - #39 }
+ERROR 16:53:36,293 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8

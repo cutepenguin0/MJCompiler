@@ -1,0 +1,37 @@
+INFO  22:49:14,234 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  22:49:14,261 - #2 program
+INFO  22:49:14,262 - #45 test302
+INFO  22:49:14,262 - #38 {
+INFO  22:49:14,263 - #12 void
+INFO  22:49:14,263 - #45 main
+INFO  22:49:14,263 - #40 (
+INFO  22:49:14,264 - #41 )
+INFO  22:49:14,264 - #38 {
+INFO  22:49:14,264 - #39 }
+INFO  22:49:14,264 - #39 }
+INFO  22:49:14,266 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarationsList(
+  ) [NoDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived2(
+      ) [VarDeclListingDerived2]
+      StatementListDerived2(
+      ) [StatementListDerived2]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  22:49:14,266 - ===================================
+INFO  22:49:14,270 - Definicija metode sa VOID

@@ -1,0 +1,30 @@
+INFO  18:29:12,673 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  18:29:12,700 - #2 program
+INFO  18:29:12,700 - #18 p
+INFO  18:29:12,700 - #17 namespace
+INFO  18:29:12,700 - #18 sizes
+INFO  18:29:12,701 - #42 {
+INFO  18:29:12,701 - #7 const
+INFO  18:29:12,701 - #18 int
+INFO  18:29:12,701 - #18 tableSize
+INFO  18:29:12,701 - #35 =
+INFO  18:29:12,702 - #19 10
+INFO  18:29:12,702 - #38 ;
+INFO  18:29:12,702 - #42 {
+INFO  18:29:12,702 - #43 }
+INFO  18:29:12,703 - #43 }
+INFO  18:29:12,703 - #18 int
+INFO  18:29:12,703 - #18 rows
+INFO  18:29:12,703 - #40 ,
+INFO  18:29:12,703 - #18 column
+INFO  18:29:12,704 - #38 ;
+INFO  18:29:12,704 - #42 {
+INFO  18:29:12,704 - #12 void
+INFO  18:29:12,704 - #18 main
+INFO  18:29:12,704 - #44 (
+INFO  18:29:12,704 - #45 )
+INFO  18:29:12,705 - #18 char
+INFO  18:29:12,705 - #18 c
+ERROR 18:29:12,705 - 
+Sintaksna greska na liniji 10
+ERROR 18:29:12,705 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10

@@ -1,0 +1,71 @@
+INFO  10:47:49,694 - Compiling source file: /home/rastko/Desktop/gj190118/workspace/MJCompiler/test/program.mj
+INFO  10:47:49,721 - #2 program
+INFO  10:47:49,722 - #45 oporavak
+INFO  10:47:49,722 - #45 int
+INFO  10:47:49,723 - #45 a2
+INFO  10:47:49,723 - #36 ,
+INFO  10:47:49,723 - #45 b2
+INFO  10:47:49,723 - #45 c2
+ERROR 10:47:49,723 - 
+Sintaksna greska na liniji 4
+INFO  10:47:49,724 - #36 ,
+INFO  10:47:49,724 - #45 d2
+INFO  10:47:49,724 - #34 ;
+INFO  10:47:49,724 - #45 int
+ERROR 10:47:49,729 - Izvrsen oporavak do ,  na liniji 4
+INFO  10:47:49,730 - #45 a3
+INFO  10:47:49,730 - #36 ,
+INFO  10:47:49,730 - #45 b3
+INFO  10:47:49,730 - #36 ,
+INFO  10:47:49,730 - #45 c3
+INFO  10:47:49,731 - #45 d3
+ERROR 10:47:49,731 - 
+Sintaksna greska na liniji 5
+INFO  10:47:49,731 - #34 ;
+INFO  10:47:49,731 - #45 int
+INFO  10:47:49,731 - #45 a4
+INFO  10:47:49,731 - #36 ,
+ERROR 10:47:49,731 - Izvrsen oporavak do ,  na liniji 5
+INFO  10:47:49,731 - #45 b4
+INFO  10:47:49,731 - #45 c4
+ERROR 10:47:49,731 - 
+Sintaksna greska na liniji 6
+INFO  10:47:49,731 - #36 ,
+INFO  10:47:49,731 - #45 d4
+INFO  10:47:49,731 - #36 ,
+INFO  10:47:49,732 - #45 e4
+ERROR 10:47:49,732 - Izvrsen oporavak do ,  na liniji 6
+INFO  10:47:49,732 - #45 f4
+ERROR 10:47:49,732 - 
+Sintaksna greska na liniji 6
+INFO  10:47:49,732 - #36 ,
+INFO  10:47:49,732 - #45 g4
+INFO  10:47:49,732 - #34 ;
+INFO  10:47:49,732 - #38 {
+ERROR 10:47:49,732 - Izvrsen oporavak do ,  na liniji 6
+INFO  10:47:49,732 - #12 void
+INFO  10:47:49,733 - #45 main
+INFO  10:47:49,733 - #40 (
+INFO  10:47:49,733 - #41 )
+INFO  10:47:49,733 - #45 int
+INFO  10:47:49,733 - #45 bodovi
+INFO  10:47:49,734 - #34 ;
+INFO  10:47:49,734 - #45 bool
+INFO  10:47:49,734 - #45 bt
+INFO  10:47:49,734 - #34 ;
+INFO  10:47:49,734 - #38 {
+INFO  10:47:49,734 - #45 bodovi
+INFO  10:47:49,734 - #31 =
+INFO  10:47:49,734 - #46 2
+INFO  10:47:49,735 - #46 2
+ERROR 10:47:49,735 - 
+Sintaksna greska na liniji 13
+INFO  10:47:49,735 - #34 ;
+INFO  10:47:49,735 - #45 bodovi
+INFO  10:47:49,735 - #31 =
+INFO  10:47:49,735 - #34 ;
+ERROR 10:47:49,735 - 
+Sintaksna greska na liniji 14
+INFO  10:47:49,735 - #39 }
+INFO  10:47:49,735 - #39 }
+ERROR 10:47:49,736 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19

@@ -1,0 +1,26 @@
+INFO  16:59:58,658 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  16:59:58,684 - #2 program
+INFO  16:59:58,684 - #45 test302
+INFO  16:59:58,684 - #38 {
+INFO  16:59:58,685 - #45 int
+INFO  16:59:58,685 - #45 x
+INFO  16:59:58,686 - #34 ;
+ERROR 16:59:58,686 - 
+Sintaksna greska na liniji 3
+INFO  16:59:58,686 - #12 void
+INFO  16:59:58,686 - #45 main
+INFO  16:59:58,686 - #40 (
+INFO  16:59:58,686 - #41 )
+INFO  16:59:58,687 - #38 {
+INFO  16:59:58,687 - #45 x
+INFO  16:59:58,687 - #31 =
+INFO  16:59:58,687 - #46 3
+INFO  16:59:58,687 - #34 ;
+INFO  16:59:58,687 - #3 print
+INFO  16:59:58,687 - #40 (
+INFO  16:59:58,687 - #45 x
+INFO  16:59:58,687 - #41 )
+INFO  16:59:58,687 - #34 ;
+INFO  16:59:58,687 - #39 }
+INFO  16:59:58,687 - #39 }
+ERROR 16:59:58,687 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10

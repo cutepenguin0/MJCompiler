@@ -1,0 +1,65 @@
+INFO  21:22:25,616 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  21:22:25,678 - #2 program
+INFO  21:22:25,678 - #45 test302
+INFO  21:22:25,678 - #38 {
+INFO  21:22:25,680 - #45 int
+INFO  21:22:25,680 - #45 f
+INFO  21:22:25,681 - #40 (
+INFO  21:22:25,681 - #45 int
+INFO  21:22:25,681 - #45 m
+INFO  21:22:25,681 - #41 )
+INFO  21:22:25,682 - #45 int
+INFO  21:22:25,682 - #45 l
+INFO  21:22:25,682 - #34 ;
+INFO  21:22:25,682 - #38 {
+INFO  21:22:25,683 - #39 }
+INFO  21:22:25,683 - #39 }
+INFO  21:22:25,692 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarationsList(
+  ) [NoDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithFormPars(
+      MethodType(
+        Type(
+         int
+        ) [Type]
+      ) [MethodType]
+     f
+      FormParsDerived1(
+        FormalParamListDerived2(
+          FormalParam(
+            Type(
+             int
+            ) [Type]
+           m
+          ) [FormalParam]
+        ) [FormalParamListDerived2]
+      ) [FormParsDerived1]
+      VarDeclListingDerived1(
+        VarDeclListingDerived2(
+        ) [VarDeclListingDerived2]
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             l
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived2(
+      ) [StatementListDerived2]
+    ) [MethodDeclWithFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  21:22:25,692 - ===================================
+INFO  21:22:25,710 - Definicija metode sa tipom int na liniji 6

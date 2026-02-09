@@ -1,0 +1,242 @@
+INFO  11:30:47,197 - Compiling source file: /home/rastko/Desktop/gj190118/workspace/MJCompiler/test/program.mj
+INFO  11:30:47,224 - #2 program
+INFO  11:30:47,224 - #46 test301
+INFO  11:30:47,225 - #7 const
+INFO  11:30:47,225 - #46 int
+INFO  11:30:47,225 - #46 nula
+INFO  11:30:47,226 - #31 =
+INFO  11:30:47,226 - #47 0
+INFO  11:30:47,226 - #34 ;
+INFO  11:30:47,226 - #7 const
+INFO  11:30:47,227 - #46 int
+INFO  11:30:47,227 - #46 jedan
+INFO  11:30:47,227 - #31 =
+INFO  11:30:47,227 - #47 1
+INFO  11:30:47,227 - #34 ;
+INFO  11:30:47,227 - #7 const
+INFO  11:30:47,227 - #46 int
+INFO  11:30:47,227 - #46 pet
+INFO  11:30:47,227 - #31 =
+INFO  11:30:47,227 - #47 5
+INFO  11:30:47,227 - #34 ;
+INFO  11:30:47,227 - #46 int
+INFO  11:30:47,228 - #46 niz
+INFO  11:30:47,228 - #42 [
+INFO  11:30:47,228 - #43 ]
+INFO  11:30:47,228 - #34 ;
+INFO  11:30:47,228 - #46 char
+INFO  11:30:47,229 - #46 nizch
+INFO  11:30:47,229 - #42 [
+INFO  11:30:47,229 - #43 ]
+INFO  11:30:47,229 - #34 ;
+INFO  11:30:47,229 - #46 int
+INFO  11:30:47,229 - #46 mat
+INFO  11:30:47,229 - #42 [
+INFO  11:30:47,229 - #43 ]
+INFO  11:30:47,229 - #42 [
+INFO  11:30:47,229 - #43 ]
+INFO  11:30:47,229 - #34 ;
+INFO  11:30:47,229 - #46 int
+INFO  11:30:47,230 - #46 a
+INFO  11:30:47,230 - #34 ;
+INFO  11:30:47,230 - #38 {
+INFO  11:30:47,230 - #12 void
+INFO  11:30:47,230 - #46 main
+INFO  11:30:47,230 - #40 (
+INFO  11:30:47,231 - #41 )
+INFO  11:30:47,231 - #46 int
+INFO  11:30:47,231 - #46 bodovi
+INFO  11:30:47,231 - #34 ;
+INFO  11:30:47,231 - #46 bool
+INFO  11:30:47,232 - #46 bt
+INFO  11:30:47,232 - #34 ;
+INFO  11:30:47,232 - #38 {
+INFO  11:30:47,232 - #45 @
+INFO  11:30:47,232 - #46 mat
+INFO  11:30:47,232 - #34 ;
+INFO  11:30:47,232 - #39 }
+INFO  11:30:47,233 - #39 }
+INFO  11:30:47,236 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        ManyDeclarationsList(
+          ManyDeclarationsList(
+            ManyDeclarationsList(
+              ManyDeclarationsList(
+                NoDeclarationsList(
+                ) [NoDeclarationsList]
+                DeclarationDerived1(
+                  ConstDeclListDerived1(
+                    Type(
+                     int
+                    ) [Type]
+                    ConstDeclarationsDerived1(
+                      ConstDecl(
+                       nula
+                        ConstValueNumber(
+                         0
+                        ) [ConstValueNumber]
+                      ) [ConstDecl]
+                    ) [ConstDeclarationsDerived1]
+                  ) [ConstDeclListDerived1]
+                ) [DeclarationDerived1]
+              ) [ManyDeclarationsList]
+              DeclarationDerived1(
+                ConstDeclListDerived1(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclarationsDerived1(
+                    ConstDecl(
+                     jedan
+                      ConstValueNumber(
+                       1
+                      ) [ConstValueNumber]
+                    ) [ConstDecl]
+                  ) [ConstDeclarationsDerived1]
+                ) [ConstDeclListDerived1]
+              ) [DeclarationDerived1]
+            ) [ManyDeclarationsList]
+            DeclarationDerived1(
+              ConstDeclListDerived1(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsDerived1(
+                  ConstDecl(
+                   pet
+                    ConstValueNumber(
+                     5
+                    ) [ConstValueNumber]
+                  ) [ConstDecl]
+                ) [ConstDeclarationsDerived1]
+              ) [ConstDeclListDerived1]
+            ) [DeclarationDerived1]
+          ) [ManyDeclarationsList]
+          DeclarationDerived2(
+            VarDeclListDerived1(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsDerived1(
+                VarDeclNameArray(
+                 niz
+                  BracketsDerived1(
+                  ) [BracketsDerived1]
+                ) [VarDeclNameArray]
+              ) [VarDeclarationsDerived1]
+            ) [VarDeclListDerived1]
+          ) [DeclarationDerived2]
+        ) [ManyDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            Type(
+             char
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclNameArray(
+               nizch
+                BracketsDerived1(
+                ) [BracketsDerived1]
+              ) [VarDeclNameArray]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclNameMatrix(
+             mat
+              BracketsDerived1(
+              ) [BracketsDerived1]
+              BracketsDerived1(
+              ) [BracketsDerived1]
+            ) [VarDeclNameMatrix]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclName(
+           a
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived1(
+          VarDeclListingDerived2(
+          ) [VarDeclListingDerived2]
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               bodovi
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [VarDeclListingDerived1]
+        VarDeclListDerived1(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             bt
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        DesignatorStatementStatementDecl(
+          MaxCalc(
+            SimpleDesignator(
+             mat
+            ) [SimpleDesignator]
+          ) [MaxCalc]
+        ) [DesignatorStatementStatementDecl]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  11:30:47,237 - ===================================
+INFO  11:30:47,245 - Deklarisana konstanta nula cija je vrednost 0
+INFO  11:30:47,245 - Deklarisana konstanta jedan cija je vrednost 1
+INFO  11:30:47,245 - Deklarisana konstanta pet cija je vrednost 5
+INFO  11:30:47,245 - Deklarisana promenljiva niz niz na liniji 9
+INFO  11:30:47,246 - Deklarisana promenljiva niz nizch na liniji 10
+INFO  11:30:47,246 - Deklarisana promenljiva matrica mat na liniji 11
+INFO  11:30:47,246 - Deklarisana promenljiva a na liniji 13
+INFO  11:30:47,246 - Definicija metode  VOID
+INFO  11:30:47,246 - Deklarisana promenljiva bodovi na liniji 17
+INFO  11:30:47,246 - Deklarisana promenljiva bt na liniji 18
+INFO  11:30:47,246 - Upotreba globalne promenljive mat na liniji 23
+INFO  11:30:47,246 - U pitanju je matrica na liniji 23
+INFO  11:30:47,247 - Parsiranje je uspesno zavrseno

@@ -1,0 +1,29 @@
+INFO  00:20:49,713 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  00:20:49,739 - #2 program
+INFO  00:20:49,739 - #18 test301
+INFO  00:20:49,739 - #18 int
+INFO  00:20:49,740 - #18 x
+INFO  00:20:49,740 - #40 ,
+INFO  00:20:49,741 - #38 ;
+ERROR 00:20:49,741 - 
+Sintaksna greska na liniji 3
+INFO  00:20:49,741 - #42 {
+INFO  00:20:49,741 - #43 }
+ERROR 00:20:49,745 - Izvrsen oporavak do ; na liniji3
+INFO  00:20:49,746 - ProgramDerived1(
+  NamespaceListDerived2(
+  ) [NamespaceListDerived2]
+  DeclarationsListDerived1(
+    DeclarationsListDerived2(
+    ) [DeclarationsListDerived2]
+    DeclarationDerived2(
+      VarDeclListDerived2(
+      ) [VarDeclListDerived2]
+    ) [DeclarationDerived2]
+  ) [DeclarationsListDerived1]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [ProgramDerived1]
+INFO  00:20:49,746 - ===================================
+INFO  00:20:49,748 -  Print count calls = 0
+INFO  00:20:49,748 -  Deklarisanih promenljivih ima = 0

@@ -1,0 +1,169 @@
+INFO  09:18:03,358 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  09:18:03,385 - #2 program
+INFO  09:18:03,385 - #45 test301
+INFO  09:18:03,385 - #45 int
+INFO  09:18:03,386 - #45 mat
+INFO  09:18:03,386 - #42 [
+INFO  09:18:03,386 - #43 ]
+INFO  09:18:03,386 - #42 [
+INFO  09:18:03,386 - #43 ]
+INFO  09:18:03,387 - #34 ;
+INFO  09:18:03,387 - #38 {
+INFO  09:18:03,387 - #12 void
+INFO  09:18:03,387 - #45 main
+INFO  09:18:03,388 - #40 (
+INFO  09:18:03,388 - #41 )
+INFO  09:18:03,388 - #38 {
+INFO  09:18:03,388 - #45 mat
+INFO  09:18:03,389 - #31 =
+INFO  09:18:03,389 - #9 new
+INFO  09:18:03,389 - #45 int
+INFO  09:18:03,389 - #42 [
+INFO  09:18:03,389 - #46 2
+INFO  09:18:03,389 - #43 ]
+INFO  09:18:03,390 - #42 [
+INFO  09:18:03,390 - #46 3
+INFO  09:18:03,390 - #43 ]
+INFO  09:18:03,390 - #34 ;
+INFO  09:18:03,390 - #45 mat
+INFO  09:18:03,390 - #42 [
+INFO  09:18:03,391 - #46 1
+INFO  09:18:03,391 - #43 ]
+INFO  09:18:03,391 - #42 [
+INFO  09:18:03,392 - #46 1
+INFO  09:18:03,392 - #43 ]
+INFO  09:18:03,392 - #31 =
+INFO  09:18:03,392 - #46 6
+INFO  09:18:03,392 - #34 ;
+INFO  09:18:03,392 - #39 }
+INFO  09:18:03,392 - #39 }
+INFO  09:18:03,395 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ManyDeclarationsList(
+    NoDeclarationsList(
+    ) [NoDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclNameMatrix(
+           mat
+            BracketsDerived1(
+            ) [BracketsDerived1]
+            BracketsDerived1(
+            ) [BracketsDerived1]
+          ) [VarDeclNameMatrix]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived2(
+      ) [VarDeclListingDerived2]
+      StatementListDerived1(
+        StatementListDerived1(
+          StatementListDerived2(
+          ) [StatementListDerived2]
+          DesignatorStatementStatementDecl(
+            Assignment(
+              SimpleDesignator(
+               mat
+              ) [SimpleDesignator]
+              AssignopDerived1(
+              ) [AssignopDerived1]
+              SingleTerm(
+                SingleFactor(
+                  MatrixCreation(
+                    Type(
+                     int
+                    ) [Type]
+                    SingleTerm(
+                      SingleFactor(
+                        Const(
+                          ConstValueNumber(
+                           2
+                          ) [ConstValueNumber]
+                        ) [Const]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                    SingleTerm(
+                      SingleFactor(
+                        Const(
+                          ConstValueNumber(
+                           3
+                          ) [ConstValueNumber]
+                        ) [Const]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                  ) [MatrixCreation]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [Assignment]
+          ) [DesignatorStatementStatementDecl]
+        ) [StatementListDerived1]
+        DesignatorStatementStatementDecl(
+          Assignment(
+            ArrayIndexing(
+              ArrayIndexing(
+                SimpleDesignator(
+                 mat
+                ) [SimpleDesignator]
+                SingleTerm(
+                  SingleFactor(
+                    Const(
+                      ConstValueNumber(
+                       1
+                      ) [ConstValueNumber]
+                    ) [Const]
+                  ) [SingleFactor]
+                ) [SingleTerm]
+              ) [ArrayIndexing]
+              SingleTerm(
+                SingleFactor(
+                  Const(
+                    ConstValueNumber(
+                     1
+                    ) [ConstValueNumber]
+                  ) [Const]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [ArrayIndexing]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            SingleTerm(
+              SingleFactor(
+                Const(
+                  ConstValueNumber(
+                   6
+                  ) [ConstValueNumber]
+                ) [Const]
+              ) [SingleFactor]
+            ) [SingleTerm]
+          ) [Assignment]
+        ) [DesignatorStatementStatementDecl]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  09:18:03,396 - ===================================
+INFO  09:18:03,400 - Deklarisana promenljiva matrica mat na liniji 11
+INFO  09:18:03,401 - Definicija metode  VOID
+INFO  09:18:03,401 - Upotreba globalne promenljive mat na liniji 21
+INFO  09:18:03,401 - Dodela vrednosti promenljivoj mat na liniji 21
+INFO  09:18:03,401 - Upotreba globalne promenljive mat na liniji 22
+INFO  09:18:03,401 - Pristupa se vrsti matrice mat na liniji 22
+INFO  09:18:03,401 - Pristupa se elementu niza mat na liniji 22
+INFO  09:18:03,401 - Dodela vrednosti promenljivoj mat na liniji 22
+INFO  09:18:03,402 - Parsiranje je uspesno zavrseno

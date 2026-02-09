@@ -1,0 +1,104 @@
+INFO  19:54:51,135 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  19:54:51,162 - #2 program
+INFO  19:54:51,163 - #45 test302
+INFO  19:54:51,163 - #7 const
+INFO  19:54:51,163 - #45 int
+INFO  19:54:51,164 - #45 x
+INFO  19:54:51,164 - #31 =
+INFO  19:54:51,164 - #46 5
+INFO  19:54:51,164 - #34 ;
+INFO  19:54:51,164 - #38 {
+INFO  19:54:51,165 - #12 void
+INFO  19:54:51,165 - #45 main
+INFO  19:54:51,165 - #40 (
+INFO  19:54:51,166 - #41 )
+INFO  19:54:51,167 - #45 int
+INFO  19:54:51,167 - #45 y
+INFO  19:54:51,167 - #34 ;
+INFO  19:54:51,167 - #38 {
+INFO  19:54:51,168 - #45 y
+INFO  19:54:51,168 - #31 =
+INFO  19:54:51,169 - #46 5
+INFO  19:54:51,169 - #34 ;
+INFO  19:54:51,170 - #39 }
+INFO  19:54:51,170 - #39 }
+INFO  19:54:51,173 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  ManyDeclarationsList(
+    NoDeclarationsList(
+    ) [NoDeclarationsList]
+    DeclarationDerived1(
+      ConstDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        ConstDeclarationsDerived1(
+          ConstDecl(
+           x
+            ConstValueNumber(
+             5
+            ) [ConstValueNumber]
+          ) [ConstDecl]
+        ) [ConstDeclarationsDerived1]
+      ) [ConstDeclListDerived1]
+    ) [DeclarationDerived1]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived2(
+        ) [VarDeclListingDerived2]
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        StatementDeclDerived11(
+          Assignment(
+            SimpleDesignator(
+              NoDesignatorIdent(
+              ) [NoDesignatorIdent]
+             y
+            ) [SimpleDesignator]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            SingleTerm(
+              SingleFactor(
+                Const(
+                  ConstValueNumber(
+                   5
+                  ) [ConstValueNumber]
+                ) [Const]
+              ) [SingleFactor]
+            ) [SingleTerm]
+          ) [Assignment]
+        ) [StatementDeclDerived11]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  19:54:51,174 - ===================================
+INFO  19:54:51,183 - Deklarisana konstanta x cija je vrednost 5
+INFO  19:54:51,184 - Definicija metode  VOID
+INFO  19:54:51,184 - Deklarisana promenljiva y na liniji 7
+INFO  19:54:51,184 - Dodela vrednostiy

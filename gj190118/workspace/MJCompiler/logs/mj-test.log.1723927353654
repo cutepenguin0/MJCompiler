@@ -1,0 +1,70 @@
+INFO  22:41:21,105 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  22:41:21,131 - #2 program
+INFO  22:41:21,131 - #45 test302
+INFO  22:41:21,131 - #45 int
+INFO  22:41:21,132 - #45 x
+INFO  22:41:21,132 - #34 ;
+INFO  22:41:21,132 - #38 {
+INFO  22:41:21,133 - #12 void
+INFO  22:41:21,133 - #45 main
+INFO  22:41:21,133 - #40 (
+INFO  22:41:21,134 - #41 )
+INFO  22:41:21,134 - #38 {
+INFO  22:41:21,134 - #11 read
+INFO  22:41:21,135 - #40 (
+INFO  22:41:21,135 - #45 x
+INFO  22:41:21,135 - #41 )
+INFO  22:41:21,135 - #34 ;
+INFO  22:41:21,135 - #39 }
+INFO  22:41:21,135 - #39 }
+INFO  22:41:21,138 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  ManyDeclarationsList(
+    NoDeclarationsList(
+    ) [NoDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclName(
+           x
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived2(
+      ) [VarDeclListingDerived2]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        StatementDeclDerived7(
+          ReadStmt(
+            SimpleDesignator(
+             x
+            ) [SimpleDesignator]
+          ) [ReadStmt]
+        ) [StatementDeclDerived7]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  22:41:21,138 - ===================================
+INFO  22:41:21,143 - Deklarisana promenljiva x na liniji 2
+INFO  22:41:21,143 - Definicija metode  VOID
+INFO  22:41:21,143 - Upotreba globalne promenljive x na liniji 5
+INFO  22:41:21,143 - Dekrementiranje x
+INFO  22:41:21,144 - Parsiranje je uspesno zavrseno

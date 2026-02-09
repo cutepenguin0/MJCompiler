@@ -1,0 +1,331 @@
+INFO  17:46:43,629 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  17:46:43,655 - #2 program
+INFO  17:46:43,655 - #45 test301
+INFO  17:46:43,655 - #7 const
+INFO  17:46:43,656 - #45 int
+INFO  17:46:43,656 - #45 nula
+INFO  17:46:43,657 - #31 =
+INFO  17:46:43,657 - #46 0
+INFO  17:46:43,657 - #34 ;
+INFO  17:46:43,657 - #7 const
+INFO  17:46:43,658 - #45 int
+INFO  17:46:43,658 - #45 jedan
+INFO  17:46:43,658 - #31 =
+INFO  17:46:43,658 - #46 1
+INFO  17:46:43,658 - #34 ;
+INFO  17:46:43,658 - #7 const
+INFO  17:46:43,658 - #45 int
+INFO  17:46:43,658 - #45 pet
+INFO  17:46:43,658 - #31 =
+INFO  17:46:43,658 - #46 5
+INFO  17:46:43,658 - #34 ;
+INFO  17:46:43,658 - #45 int
+INFO  17:46:43,659 - #45 niz
+INFO  17:46:43,659 - #42 [
+INFO  17:46:43,659 - #43 ]
+INFO  17:46:43,659 - #34 ;
+INFO  17:46:43,659 - #45 char
+INFO  17:46:43,659 - #45 nizch
+INFO  17:46:43,660 - #42 [
+INFO  17:46:43,660 - #43 ]
+INFO  17:46:43,660 - #34 ;
+INFO  17:46:43,660 - #45 int
+INFO  17:46:43,660 - #45 mat
+INFO  17:46:43,660 - #42 [
+INFO  17:46:43,660 - #43 ]
+INFO  17:46:43,660 - #42 [
+INFO  17:46:43,660 - #43 ]
+INFO  17:46:43,660 - #34 ;
+INFO  17:46:43,660 - #45 int
+INFO  17:46:43,660 - #45 a
+INFO  17:46:43,661 - #34 ;
+INFO  17:46:43,661 - #38 {
+INFO  17:46:43,661 - #12 void
+INFO  17:46:43,661 - #45 main
+INFO  17:46:43,661 - #40 (
+INFO  17:46:43,662 - #41 )
+INFO  17:46:43,662 - #45 int
+INFO  17:46:43,662 - #45 bodovi
+INFO  17:46:43,662 - #34 ;
+INFO  17:46:43,662 - #45 bool
+INFO  17:46:43,662 - #45 bt
+INFO  17:46:43,662 - #34 ;
+INFO  17:46:43,662 - #38 {
+INFO  17:46:43,662 - #45 mat
+INFO  17:46:43,663 - #31 =
+INFO  17:46:43,663 - #9 new
+INFO  17:46:43,663 - #45 int
+INFO  17:46:43,663 - #42 [
+INFO  17:46:43,663 - #46 2
+INFO  17:46:43,663 - #43 ]
+INFO  17:46:43,664 - #42 [
+INFO  17:46:43,664 - #46 3
+INFO  17:46:43,664 - #43 ]
+INFO  17:46:43,664 - #34 ;
+INFO  17:46:43,664 - #45 mat
+INFO  17:46:43,664 - #42 [
+INFO  17:46:43,664 - #46 0
+INFO  17:46:43,664 - #43 ]
+INFO  17:46:43,664 - #42 [
+INFO  17:46:43,664 - #46 0
+INFO  17:46:43,664 - #43 ]
+INFO  17:46:43,665 - #31 =
+INFO  17:46:43,665 - #45 jedan
+INFO  17:46:43,665 - #34 ;
+INFO  17:46:43,665 - #39 }
+INFO  17:46:43,665 - #39 }
+INFO  17:46:43,669 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        ManyDeclarationsList(
+          ManyDeclarationsList(
+            ManyDeclarationsList(
+              ManyDeclarationsList(
+                NoDeclarationsList(
+                ) [NoDeclarationsList]
+                DeclarationDerived1(
+                  ConstDeclListDerived1(
+                    Type(
+                     int
+                    ) [Type]
+                    ConstDeclarationsDerived1(
+                      ConstDecl(
+                       nula
+                        ConstValueNumber(
+                         0
+                        ) [ConstValueNumber]
+                      ) [ConstDecl]
+                    ) [ConstDeclarationsDerived1]
+                  ) [ConstDeclListDerived1]
+                ) [DeclarationDerived1]
+              ) [ManyDeclarationsList]
+              DeclarationDerived1(
+                ConstDeclListDerived1(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclarationsDerived1(
+                    ConstDecl(
+                     jedan
+                      ConstValueNumber(
+                       1
+                      ) [ConstValueNumber]
+                    ) [ConstDecl]
+                  ) [ConstDeclarationsDerived1]
+                ) [ConstDeclListDerived1]
+              ) [DeclarationDerived1]
+            ) [ManyDeclarationsList]
+            DeclarationDerived1(
+              ConstDeclListDerived1(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsDerived1(
+                  ConstDecl(
+                   pet
+                    ConstValueNumber(
+                     5
+                    ) [ConstValueNumber]
+                  ) [ConstDecl]
+                ) [ConstDeclarationsDerived1]
+              ) [ConstDeclListDerived1]
+            ) [DeclarationDerived1]
+          ) [ManyDeclarationsList]
+          DeclarationDerived2(
+            VarDeclListDerived1(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsDerived1(
+                VarDeclNameArray(
+                 niz
+                  BracketsDerived1(
+                  ) [BracketsDerived1]
+                ) [VarDeclNameArray]
+              ) [VarDeclarationsDerived1]
+            ) [VarDeclListDerived1]
+          ) [DeclarationDerived2]
+        ) [ManyDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            Type(
+             char
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclNameArray(
+               nizch
+                BracketsDerived1(
+                ) [BracketsDerived1]
+              ) [VarDeclNameArray]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclNameMatrix(
+             mat
+              BracketsDerived1(
+              ) [BracketsDerived1]
+              BracketsDerived1(
+              ) [BracketsDerived1]
+            ) [VarDeclNameMatrix]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclName(
+           a
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived1(
+          VarDeclListingDerived2(
+          ) [VarDeclListingDerived2]
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               bodovi
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [VarDeclListingDerived1]
+        VarDeclListDerived1(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             bt
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived1(
+        StatementListDerived1(
+          StatementListDerived2(
+          ) [StatementListDerived2]
+          DesignatorStatementStatementDecl(
+            Assignment(
+              SimpleDesignator(
+               mat
+              ) [SimpleDesignator]
+              AssignopDerived1(
+              ) [AssignopDerived1]
+              SingleTerm(
+                SingleFactor(
+                  MatrixCreation(
+                    Type(
+                     int
+                    ) [Type]
+                    SingleTerm(
+                      SingleFactor(
+                        Const(
+                          ConstValueNumber(
+                           2
+                          ) [ConstValueNumber]
+                        ) [Const]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                    SingleTerm(
+                      SingleFactor(
+                        Const(
+                          ConstValueNumber(
+                           3
+                          ) [ConstValueNumber]
+                        ) [Const]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                  ) [MatrixCreation]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [Assignment]
+          ) [DesignatorStatementStatementDecl]
+        ) [StatementListDerived1]
+        DesignatorStatementStatementDecl(
+          Assignment(
+            ArrayIndexing(
+              ArrayIndexing(
+                SimpleDesignator(
+                 mat
+                ) [SimpleDesignator]
+                SingleTerm(
+                  SingleFactor(
+                    Const(
+                      ConstValueNumber(
+                       0
+                      ) [ConstValueNumber]
+                    ) [Const]
+                  ) [SingleFactor]
+                ) [SingleTerm]
+              ) [ArrayIndexing]
+              SingleTerm(
+                SingleFactor(
+                  Const(
+                    ConstValueNumber(
+                     0
+                    ) [ConstValueNumber]
+                  ) [Const]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [ArrayIndexing]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            SingleTerm(
+              SingleFactor(
+                FactorDesignator(
+                  SimpleDesignator(
+                   jedan
+                  ) [SimpleDesignator]
+                ) [FactorDesignator]
+              ) [SingleFactor]
+            ) [SingleTerm]
+          ) [Assignment]
+        ) [DesignatorStatementStatementDecl]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  17:46:43,670 - ===================================
+INFO  17:46:43,679 - Deklarisana konstanta nula cija je vrednost 0
+INFO  17:46:43,679 - Deklarisana konstanta jedan cija je vrednost 1
+INFO  17:46:43,679 - Deklarisana konstanta pet cija je vrednost 5
+INFO  17:46:43,680 - Deklarisana promenljiva niz niz na liniji 9
+INFO  17:46:43,680 - Deklarisana promenljiva niz nizch na liniji 10
+INFO  17:46:43,680 - Deklarisana promenljiva matrica mat na liniji 11
+INFO  17:46:43,681 - Deklarisana promenljiva a na liniji 13
+INFO  17:46:43,685 - Definicija metode VOID
+INFO  17:46:43,685 - Deklarisana promenljiva bodovi na liniji 17
+INFO  17:46:43,685 - Deklarisana promenljiva bt na liniji 18
+INFO  17:46:43,685 - Upotreba globalne promenljive mat na liniji 22
+INFO  17:46:43,685 - Dodela vrednosti promenljivoj mat na liniji 22
+INFO  17:46:43,685 - Upotreba globalne promenljive mat na liniji 23

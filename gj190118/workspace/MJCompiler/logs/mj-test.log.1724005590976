@@ -1,0 +1,31 @@
+INFO  20:26:18,851 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  20:26:18,877 - #2 program
+INFO  20:26:18,877 - #45 test301
+INFO  20:26:18,877 - #45 int
+INFO  20:26:18,878 - #45 niz
+INFO  20:26:18,879 - #42 [
+INFO  20:26:18,879 - #43 ]
+INFO  20:26:18,879 - #34 ;
+INFO  20:26:18,879 - #38 {
+INFO  20:26:18,880 - #12 void
+INFO  20:26:18,880 - #45 main
+INFO  20:26:18,880 - #40 (
+INFO  20:26:18,881 - #41 )
+INFO  20:26:18,881 - #45 int
+INFO  20:26:18,881 - #45 bodovi
+INFO  20:26:18,881 - #34 ;
+INFO  20:26:18,881 - #45 bool
+INFO  20:26:18,881 - #45 bt
+INFO  20:26:18,881 - #34 ;
+INFO  20:26:18,881 - #38 {
+INFO  20:26:18,882 - #3 print
+INFO  20:26:18,882 - #40 (
+INFO  20:26:18,888 - #21 /
+ERROR 20:26:18,888 - 
+Sintaksna greska na liniji 12
+INFO  20:26:18,888 - #45 n
+INFO  20:26:18,888 - #41 )
+INFO  20:26:18,889 - #34 ;
+INFO  20:26:18,889 - #39 }
+INFO  20:26:18,889 - #39 }
+ERROR 20:26:18,890 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 19

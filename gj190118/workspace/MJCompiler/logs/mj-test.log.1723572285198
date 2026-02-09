@@ -1,0 +1,142 @@
+INFO  20:03:49,911 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  20:03:49,939 - #2 program
+INFO  20:03:49,939 - #45 test302
+INFO  20:03:49,939 - #7 const
+INFO  20:03:49,940 - #45 int
+INFO  20:03:49,940 - #45 x
+INFO  20:03:49,940 - #31 =
+INFO  20:03:49,940 - #46 5
+INFO  20:03:49,940 - #34 ;
+INFO  20:03:49,941 - #45 int
+INFO  20:03:49,941 - #45 y
+INFO  20:03:49,941 - #34 ;
+INFO  20:03:49,941 - #45 int
+INFO  20:03:49,941 - #45 y
+INFO  20:03:49,941 - #34 ;
+INFO  20:03:49,941 - #38 {
+INFO  20:03:49,942 - #12 void
+INFO  20:03:49,942 - #45 main
+INFO  20:03:49,942 - #40 (
+INFO  20:03:49,942 - #41 )
+INFO  20:03:49,943 - #45 int
+INFO  20:03:49,943 - #45 y
+INFO  20:03:49,943 - #34 ;
+INFO  20:03:49,943 - #38 {
+INFO  20:03:49,943 - #45 y
+INFO  20:03:49,944 - #31 =
+INFO  20:03:49,944 - #46 5
+INFO  20:03:49,944 - #34 ;
+INFO  20:03:49,944 - #39 }
+INFO  20:03:49,945 - #39 }
+INFO  20:03:49,948 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived1(
+          ConstDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            ConstDeclarationsDerived1(
+              ConstDecl(
+               x
+                ConstValueNumber(
+                 5
+                ) [ConstValueNumber]
+              ) [ConstDecl]
+            ) [ConstDeclarationsDerived1]
+          ) [ConstDeclListDerived1]
+        ) [DeclarationDerived1]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclName(
+           y
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived2(
+        ) [VarDeclListingDerived2]
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived1(
+        StatementListDerived2(
+        ) [StatementListDerived2]
+        StatementDeclDerived11(
+          Assignment(
+            SimpleDesignator(
+              NoDesignatorIdent(
+              ) [NoDesignatorIdent]
+             y
+            ) [SimpleDesignator]
+            AssignopDerived1(
+            ) [AssignopDerived1]
+            SingleTerm(
+              SingleFactor(
+                Const(
+                  ConstValueNumber(
+                   5
+                  ) [ConstValueNumber]
+                ) [Const]
+              ) [SingleFactor]
+            ) [SingleTerm]
+          ) [Assignment]
+        ) [StatementDeclDerived11]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  20:03:49,949 - ===================================
+INFO  20:03:49,965 - Deklarisana konstanta x cija je vrednost 5
+INFO  20:03:49,965 - Deklarisana promenljiva y na liniji 5
+ERROR 20:03:49,965 - Promenljiva je vec deklarisana na liniji 6
+INFO  20:03:49,965 - Deklarisana promenljiva y na liniji 6
+INFO  20:03:49,965 - Definicija metode  VOID
+ERROR 20:03:49,966 - Promenljiva je vec deklarisana na liniji 9
+INFO  20:03:49,966 - Deklarisana promenljiva y na liniji 9
+INFO  20:03:49,966 - Dodela vrednosti promenljivoj y

@@ -1,0 +1,57 @@
+INFO  19:56:33,437 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  19:56:33,465 - #2 program
+INFO  19:56:33,465 - #48 test302
+INFO  19:56:33,465 - #48 int
+INFO  19:56:33,467 - #48 x
+INFO  19:56:33,467 - #34 ;
+INFO  19:56:33,467 - #48 bool
+INFO  19:56:33,468 - #48 y
+INFO  19:56:33,468 - #34 ;
+INFO  19:56:33,468 - #38 {
+INFO  19:56:33,468 - #39 }
+INFO  19:56:33,470 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NamespaceListDerived2(
+  ) [NamespaceListDerived2]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      NoDeclarationsList(
+      ) [NoDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          TypeSingle(
+            Type(
+             int
+            ) [Type]
+          ) [TypeSingle]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             x
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        TypeSingle(
+          Type(
+           bool
+          ) [Type]
+        ) [TypeSingle]
+        VarDeclarationsDerived1(
+          VarDeclName(
+           y
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived2(
+  ) [MethodDeclListDerived2]
+) [Program]
+INFO  19:56:33,470 - ===================================
+INFO  19:56:33,474 - Deklarisana promenljiva x na liniji 4
+INFO  19:56:33,475 - Deklarisana promenljiva y na liniji 5

@@ -1,0 +1,27 @@
+INFO  22:57:40,997 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  22:57:41,024 - #2 program
+INFO  22:57:41,024 - #45 test301
+INFO  22:57:41,024 - #45 int
+INFO  22:57:41,025 - #45 a
+INFO  22:57:41,025 - #45 b
+ERROR 22:57:41,026 - 
+Sintaksna greska na liniji 5
+INFO  22:57:41,026 - #34 ;
+INFO  22:57:41,026 - #45 int
+INFO  22:57:41,026 - #45 c
+INFO  22:57:41,026 - #34 ;
+INFO  22:57:41,026 - #38 {
+INFO  22:57:41,027 - #12 void
+INFO  22:57:41,027 - #45 main
+INFO  22:57:41,027 - #40 (
+INFO  22:57:41,027 - #41 )
+INFO  22:57:41,027 - #45 int
+INFO  22:57:41,027 - #45 bodovi
+INFO  22:57:41,027 - #34 ;
+INFO  22:57:41,027 - #45 bool
+INFO  22:57:41,027 - #45 bt
+INFO  22:57:41,027 - #34 ;
+INFO  22:57:41,027 - #38 {
+INFO  22:57:41,027 - #39 }
+INFO  22:57:41,027 - #39 }
+ERROR 22:57:41,028 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 21

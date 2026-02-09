@@ -1,0 +1,870 @@
+INFO  19:19:49,087 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  19:19:49,114 - #2 program
+INFO  19:19:49,114 - #45 test301
+INFO  19:19:49,114 - #7 const
+INFO  19:19:49,115 - #45 int
+INFO  19:19:49,115 - #45 nula
+INFO  19:19:49,115 - #31 =
+INFO  19:19:49,115 - #46 0
+INFO  19:19:49,115 - #34 ;
+INFO  19:19:49,116 - #7 const
+INFO  19:19:49,116 - #45 int
+INFO  19:19:49,116 - #45 jedan
+INFO  19:19:49,116 - #31 =
+INFO  19:19:49,116 - #46 1
+INFO  19:19:49,116 - #34 ;
+INFO  19:19:49,116 - #7 const
+INFO  19:19:49,116 - #45 int
+INFO  19:19:49,117 - #45 pet
+INFO  19:19:49,117 - #31 =
+INFO  19:19:49,117 - #46 5
+INFO  19:19:49,117 - #34 ;
+INFO  19:19:49,117 - #45 int
+INFO  19:19:49,117 - #45 niz
+INFO  19:19:49,117 - #42 [
+INFO  19:19:49,117 - #43 ]
+INFO  19:19:49,117 - #34 ;
+INFO  19:19:49,118 - #45 char
+INFO  19:19:49,118 - #45 nizch
+INFO  19:19:49,118 - #42 [
+INFO  19:19:49,118 - #43 ]
+INFO  19:19:49,118 - #34 ;
+INFO  19:19:49,118 - #45 int
+INFO  19:19:49,118 - #45 mat
+INFO  19:19:49,118 - #42 [
+INFO  19:19:49,118 - #43 ]
+INFO  19:19:49,118 - #42 [
+INFO  19:19:49,118 - #43 ]
+INFO  19:19:49,118 - #34 ;
+INFO  19:19:49,119 - #45 int
+INFO  19:19:49,119 - #45 a
+INFO  19:19:49,119 - #34 ;
+INFO  19:19:49,119 - #38 {
+INFO  19:19:49,119 - #12 void
+INFO  19:19:49,119 - #45 main
+INFO  19:19:49,119 - #40 (
+INFO  19:19:49,120 - #41 )
+INFO  19:19:49,120 - #45 int
+INFO  19:19:49,121 - #45 bodovi
+INFO  19:19:49,121 - #34 ;
+INFO  19:19:49,121 - #45 bool
+INFO  19:19:49,121 - #45 bt
+INFO  19:19:49,121 - #34 ;
+INFO  19:19:49,121 - #38 {
+INFO  19:19:49,121 - #45 mat
+INFO  19:19:49,122 - #31 =
+INFO  19:19:49,122 - #9 new
+INFO  19:19:49,122 - #45 int
+INFO  19:19:49,122 - #42 [
+INFO  19:19:49,122 - #46 2
+INFO  19:19:49,122 - #43 ]
+INFO  19:19:49,123 - #42 [
+INFO  19:19:49,123 - #46 3
+INFO  19:19:49,123 - #43 ]
+INFO  19:19:49,123 - #34 ;
+INFO  19:19:49,123 - #45 mat
+INFO  19:19:49,123 - #42 [
+INFO  19:19:49,123 - #45 nula
+INFO  19:19:49,123 - #43 ]
+INFO  19:19:49,124 - #42 [
+INFO  19:19:49,124 - #45 jedan
+INFO  19:19:49,124 - #19 -
+INFO  19:19:49,124 - #46 1
+INFO  19:19:49,124 - #43 ]
+INFO  19:19:49,125 - #31 =
+INFO  19:19:49,125 - #45 jedan
+INFO  19:19:49,125 - #34 ;
+INFO  19:19:49,125 - #45 mat
+INFO  19:19:49,125 - #42 [
+INFO  19:19:49,125 - #46 0
+INFO  19:19:49,125 - #43 ]
+INFO  19:19:49,125 - #42 [
+INFO  19:19:49,125 - #45 mat
+INFO  19:19:49,125 - #42 [
+INFO  19:19:49,126 - #46 0
+INFO  19:19:49,126 - #43 ]
+INFO  19:19:49,126 - #42 [
+INFO  19:19:49,126 - #46 0
+INFO  19:19:49,126 - #43 ]
+INFO  19:19:49,126 - #43 ]
+INFO  19:19:49,126 - #31 =
+INFO  19:19:49,126 - #46 2
+INFO  19:19:49,126 - #34 ;
+INFO  19:19:49,126 - #45 mat
+INFO  19:19:49,126 - #42 [
+INFO  19:19:49,126 - #46 0
+INFO  19:19:49,126 - #43 ]
+INFO  19:19:49,126 - #42 [
+INFO  19:19:49,126 - #45 mat
+INFO  19:19:49,127 - #42 [
+INFO  19:19:49,127 - #46 0
+INFO  19:19:49,127 - #43 ]
+INFO  19:19:49,127 - #42 [
+INFO  19:19:49,127 - #46 1
+INFO  19:19:49,127 - #43 ]
+INFO  19:19:49,127 - #43 ]
+INFO  19:19:49,127 - #31 =
+INFO  19:19:49,127 - #46 5
+INFO  19:19:49,127 - #34 ;
+INFO  19:19:49,127 - #45 mat
+INFO  19:19:49,127 - #42 [
+INFO  19:19:49,127 - #46 1
+INFO  19:19:49,127 - #43 ]
+INFO  19:19:49,127 - #42 [
+INFO  19:19:49,127 - #45 mat
+INFO  19:19:49,128 - #42 [
+INFO  19:19:49,128 - #46 0
+INFO  19:19:49,128 - #43 ]
+INFO  19:19:49,128 - #42 [
+INFO  19:19:49,128 - #46 0
+INFO  19:19:49,128 - #43 ]
+INFO  19:19:49,128 - #20 *
+INFO  19:19:49,128 - #46 2
+INFO  19:19:49,129 - #43 ]
+INFO  19:19:49,129 - #31 =
+INFO  19:19:49,129 - #46 4
+INFO  19:19:49,129 - #34 ;
+INFO  19:19:49,129 - #45 mat
+INFO  19:19:49,129 - #42 [
+INFO  19:19:49,129 - #45 mat
+INFO  19:19:49,129 - #42 [
+INFO  19:19:49,129 - #46 0
+INFO  19:19:49,129 - #43 ]
+INFO  19:19:49,129 - #42 [
+INFO  19:19:49,129 - #46 0
+INFO  19:19:49,130 - #43 ]
+INFO  19:19:49,130 - #43 ]
+INFO  19:19:49,130 - #42 [
+INFO  19:19:49,130 - #46 1
+INFO  19:19:49,130 - #43 ]
+INFO  19:19:49,130 - #31 =
+INFO  19:19:49,130 - #46 3
+INFO  19:19:49,130 - #34 ;
+INFO  19:19:49,130 - #45 mat
+INFO  19:19:49,130 - #42 [
+INFO  19:19:49,130 - #46 1
+INFO  19:19:49,130 - #43 ]
+INFO  19:19:49,130 - #42 [
+INFO  19:19:49,130 - #46 0
+INFO  19:19:49,130 - #43 ]
+INFO  19:19:49,130 - #31 =
+INFO  19:19:49,131 - #46 2
+INFO  19:19:49,131 - #34 ;
+INFO  19:19:49,131 - #3 print
+INFO  19:19:49,131 - #40 (
+INFO  19:19:49,131 - #45 mat
+INFO  19:19:49,131 - #42 [
+INFO  19:19:49,131 - #46 1
+INFO  19:19:49,131 - #43 ]
+INFO  19:19:49,131 - #42 [
+INFO  19:19:49,131 - #46 2
+INFO  19:19:49,131 - #43 ]
+INFO  19:19:49,131 - #41 )
+INFO  19:19:49,131 - #34 ;
+INFO  19:19:49,131 - #3 print
+INFO  19:19:49,132 - #40 (
+INFO  19:19:49,132 - #45 mat
+INFO  19:19:49,132 - #42 [
+INFO  19:19:49,132 - #46 0
+INFO  19:19:49,132 - #43 ]
+INFO  19:19:49,132 - #42 [
+INFO  19:19:49,132 - #46 2
+INFO  19:19:49,132 - #43 ]
+INFO  19:19:49,132 - #41 )
+INFO  19:19:49,132 - #34 ;
+INFO  19:19:49,132 - #39 }
+INFO  19:19:49,132 - #39 }
+INFO  19:19:49,143 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        ManyDeclarationsList(
+          ManyDeclarationsList(
+            ManyDeclarationsList(
+              ManyDeclarationsList(
+                NoDeclarationsList(
+                ) [NoDeclarationsList]
+                DeclarationDerived1(
+                  ConstDeclListDerived1(
+                    Type(
+                     int
+                    ) [Type]
+                    ConstDeclarationsDerived1(
+                      ConstDecl(
+                       nula
+                        ConstValueNumber(
+                         0
+                        ) [ConstValueNumber]
+                      ) [ConstDecl]
+                    ) [ConstDeclarationsDerived1]
+                  ) [ConstDeclListDerived1]
+                ) [DeclarationDerived1]
+              ) [ManyDeclarationsList]
+              DeclarationDerived1(
+                ConstDeclListDerived1(
+                  Type(
+                   int
+                  ) [Type]
+                  ConstDeclarationsDerived1(
+                    ConstDecl(
+                     jedan
+                      ConstValueNumber(
+                       1
+                      ) [ConstValueNumber]
+                    ) [ConstDecl]
+                  ) [ConstDeclarationsDerived1]
+                ) [ConstDeclListDerived1]
+              ) [DeclarationDerived1]
+            ) [ManyDeclarationsList]
+            DeclarationDerived1(
+              ConstDeclListDerived1(
+                Type(
+                 int
+                ) [Type]
+                ConstDeclarationsDerived1(
+                  ConstDecl(
+                   pet
+                    ConstValueNumber(
+                     5
+                    ) [ConstValueNumber]
+                  ) [ConstDecl]
+                ) [ConstDeclarationsDerived1]
+              ) [ConstDeclListDerived1]
+            ) [DeclarationDerived1]
+          ) [ManyDeclarationsList]
+          DeclarationDerived2(
+            VarDeclListDerived1(
+              Type(
+               int
+              ) [Type]
+              VarDeclarationsDerived1(
+                VarDeclNameArray(
+                 niz
+                  BracketsDerived1(
+                  ) [BracketsDerived1]
+                ) [VarDeclNameArray]
+              ) [VarDeclarationsDerived1]
+            ) [VarDeclListDerived1]
+          ) [DeclarationDerived2]
+        ) [ManyDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            Type(
+             char
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclNameArray(
+               nizch
+                BracketsDerived1(
+                ) [BracketsDerived1]
+              ) [VarDeclNameArray]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclNameMatrix(
+             mat
+              BracketsDerived1(
+              ) [BracketsDerived1]
+              BracketsDerived1(
+              ) [BracketsDerived1]
+            ) [VarDeclNameMatrix]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclName(
+           a
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived1(
+          VarDeclListingDerived2(
+          ) [VarDeclListingDerived2]
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               bodovi
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [VarDeclListingDerived1]
+        VarDeclListDerived1(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             bt
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived1(
+        StatementListDerived1(
+          StatementListDerived1(
+            StatementListDerived1(
+              StatementListDerived1(
+                StatementListDerived1(
+                  StatementListDerived1(
+                    StatementListDerived1(
+                      StatementListDerived1(
+                        StatementListDerived2(
+                        ) [StatementListDerived2]
+                        DesignatorStatementStatementDecl(
+                          Assignment(
+                            SimpleDesignator(
+                             mat
+                            ) [SimpleDesignator]
+                            AssignopDerived1(
+                            ) [AssignopDerived1]
+                            SingleTerm(
+                              SingleFactor(
+                                MatrixCreation(
+                                  Type(
+                                   int
+                                  ) [Type]
+                                  SingleTerm(
+                                    SingleFactor(
+                                      Const(
+                                        ConstValueNumber(
+                                         2
+                                        ) [ConstValueNumber]
+                                      ) [Const]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                  SingleTerm(
+                                    SingleFactor(
+                                      Const(
+                                        ConstValueNumber(
+                                         3
+                                        ) [ConstValueNumber]
+                                      ) [Const]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [MatrixCreation]
+                              ) [SingleFactor]
+                            ) [SingleTerm]
+                          ) [Assignment]
+                        ) [DesignatorStatementStatementDecl]
+                      ) [StatementListDerived1]
+                      DesignatorStatementStatementDecl(
+                        Assignment(
+                          ArrayIndexing(
+                            ArrayIndexing(
+                              SimpleDesignator(
+                               mat
+                              ) [SimpleDesignator]
+                              SingleTerm(
+                                SingleFactor(
+                                  FactorDesignator(
+                                    SimpleDesignator(
+                                     nula
+                                    ) [SimpleDesignator]
+                                  ) [FactorDesignator]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                            ) [ArrayIndexing]
+                            AddopExpr(
+                              SingleTerm(
+                                SingleFactor(
+                                  FactorDesignator(
+                                    SimpleDesignator(
+                                     jedan
+                                    ) [SimpleDesignator]
+                                  ) [FactorDesignator]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                              AddopMinus(
+                              ) [AddopMinus]
+                              SingleFactor(
+                                Const(
+                                  ConstValueNumber(
+                                   1
+                                  ) [ConstValueNumber]
+                                ) [Const]
+                              ) [SingleFactor]
+                            ) [AddopExpr]
+                          ) [ArrayIndexing]
+                          AssignopDerived1(
+                          ) [AssignopDerived1]
+                          SingleTerm(
+                            SingleFactor(
+                              FactorDesignator(
+                                SimpleDesignator(
+                                 jedan
+                                ) [SimpleDesignator]
+                              ) [FactorDesignator]
+                            ) [SingleFactor]
+                          ) [SingleTerm]
+                        ) [Assignment]
+                      ) [DesignatorStatementStatementDecl]
+                    ) [StatementListDerived1]
+                    DesignatorStatementStatementDecl(
+                      Assignment(
+                        ArrayIndexing(
+                          ArrayIndexing(
+                            SimpleDesignator(
+                             mat
+                            ) [SimpleDesignator]
+                            SingleTerm(
+                              SingleFactor(
+                                Const(
+                                  ConstValueNumber(
+                                   0
+                                  ) [ConstValueNumber]
+                                ) [Const]
+                              ) [SingleFactor]
+                            ) [SingleTerm]
+                          ) [ArrayIndexing]
+                          SingleTerm(
+                            SingleFactor(
+                              FactorDesignator(
+                                ArrayIndexing(
+                                  ArrayIndexing(
+                                    SimpleDesignator(
+                                     mat
+                                    ) [SimpleDesignator]
+                                    SingleTerm(
+                                      SingleFactor(
+                                        Const(
+                                          ConstValueNumber(
+                                           0
+                                          ) [ConstValueNumber]
+                                        ) [Const]
+                                      ) [SingleFactor]
+                                    ) [SingleTerm]
+                                  ) [ArrayIndexing]
+                                  SingleTerm(
+                                    SingleFactor(
+                                      Const(
+                                        ConstValueNumber(
+                                         0
+                                        ) [ConstValueNumber]
+                                      ) [Const]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [ArrayIndexing]
+                              ) [FactorDesignator]
+                            ) [SingleFactor]
+                          ) [SingleTerm]
+                        ) [ArrayIndexing]
+                        AssignopDerived1(
+                        ) [AssignopDerived1]
+                        SingleTerm(
+                          SingleFactor(
+                            Const(
+                              ConstValueNumber(
+                               2
+                              ) [ConstValueNumber]
+                            ) [Const]
+                          ) [SingleFactor]
+                        ) [SingleTerm]
+                      ) [Assignment]
+                    ) [DesignatorStatementStatementDecl]
+                  ) [StatementListDerived1]
+                  DesignatorStatementStatementDecl(
+                    Assignment(
+                      ArrayIndexing(
+                        ArrayIndexing(
+                          SimpleDesignator(
+                           mat
+                          ) [SimpleDesignator]
+                          SingleTerm(
+                            SingleFactor(
+                              Const(
+                                ConstValueNumber(
+                                 0
+                                ) [ConstValueNumber]
+                              ) [Const]
+                            ) [SingleFactor]
+                          ) [SingleTerm]
+                        ) [ArrayIndexing]
+                        SingleTerm(
+                          SingleFactor(
+                            FactorDesignator(
+                              ArrayIndexing(
+                                ArrayIndexing(
+                                  SimpleDesignator(
+                                   mat
+                                  ) [SimpleDesignator]
+                                  SingleTerm(
+                                    SingleFactor(
+                                      Const(
+                                        ConstValueNumber(
+                                         0
+                                        ) [ConstValueNumber]
+                                      ) [Const]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [ArrayIndexing]
+                                SingleTerm(
+                                  SingleFactor(
+                                    Const(
+                                      ConstValueNumber(
+                                       1
+                                      ) [ConstValueNumber]
+                                    ) [Const]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [ArrayIndexing]
+                            ) [FactorDesignator]
+                          ) [SingleFactor]
+                        ) [SingleTerm]
+                      ) [ArrayIndexing]
+                      AssignopDerived1(
+                      ) [AssignopDerived1]
+                      SingleTerm(
+                        SingleFactor(
+                          Const(
+                            ConstValueNumber(
+                             5
+                            ) [ConstValueNumber]
+                          ) [Const]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [Assignment]
+                  ) [DesignatorStatementStatementDecl]
+                ) [StatementListDerived1]
+                DesignatorStatementStatementDecl(
+                  Assignment(
+                    ArrayIndexing(
+                      ArrayIndexing(
+                        SimpleDesignator(
+                         mat
+                        ) [SimpleDesignator]
+                        SingleTerm(
+                          SingleFactor(
+                            Const(
+                              ConstValueNumber(
+                               1
+                              ) [ConstValueNumber]
+                            ) [Const]
+                          ) [SingleFactor]
+                        ) [SingleTerm]
+                      ) [ArrayIndexing]
+                      SingleTerm(
+                        MulopExpr(
+                          SingleFactor(
+                            FactorDesignator(
+                              ArrayIndexing(
+                                ArrayIndexing(
+                                  SimpleDesignator(
+                                   mat
+                                  ) [SimpleDesignator]
+                                  SingleTerm(
+                                    SingleFactor(
+                                      Const(
+                                        ConstValueNumber(
+                                         0
+                                        ) [ConstValueNumber]
+                                      ) [Const]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [ArrayIndexing]
+                                SingleTerm(
+                                  SingleFactor(
+                                    Const(
+                                      ConstValueNumber(
+                                       0
+                                      ) [ConstValueNumber]
+                                    ) [Const]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [ArrayIndexing]
+                            ) [FactorDesignator]
+                          ) [SingleFactor]
+                          MulopMul(
+                          ) [MulopMul]
+                          Const(
+                            ConstValueNumber(
+                             2
+                            ) [ConstValueNumber]
+                          ) [Const]
+                        ) [MulopExpr]
+                      ) [SingleTerm]
+                    ) [ArrayIndexing]
+                    AssignopDerived1(
+                    ) [AssignopDerived1]
+                    SingleTerm(
+                      SingleFactor(
+                        Const(
+                          ConstValueNumber(
+                           4
+                          ) [ConstValueNumber]
+                        ) [Const]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                  ) [Assignment]
+                ) [DesignatorStatementStatementDecl]
+              ) [StatementListDerived1]
+              DesignatorStatementStatementDecl(
+                Assignment(
+                  ArrayIndexing(
+                    ArrayIndexing(
+                      SimpleDesignator(
+                       mat
+                      ) [SimpleDesignator]
+                      SingleTerm(
+                        SingleFactor(
+                          FactorDesignator(
+                            ArrayIndexing(
+                              ArrayIndexing(
+                                SimpleDesignator(
+                                 mat
+                                ) [SimpleDesignator]
+                                SingleTerm(
+                                  SingleFactor(
+                                    Const(
+                                      ConstValueNumber(
+                                       0
+                                      ) [ConstValueNumber]
+                                    ) [Const]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [ArrayIndexing]
+                              SingleTerm(
+                                SingleFactor(
+                                  Const(
+                                    ConstValueNumber(
+                                     0
+                                    ) [ConstValueNumber]
+                                  ) [Const]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                            ) [ArrayIndexing]
+                          ) [FactorDesignator]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [ArrayIndexing]
+                    SingleTerm(
+                      SingleFactor(
+                        Const(
+                          ConstValueNumber(
+                           1
+                          ) [ConstValueNumber]
+                        ) [Const]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                  ) [ArrayIndexing]
+                  AssignopDerived1(
+                  ) [AssignopDerived1]
+                  SingleTerm(
+                    SingleFactor(
+                      Const(
+                        ConstValueNumber(
+                         3
+                        ) [ConstValueNumber]
+                      ) [Const]
+                    ) [SingleFactor]
+                  ) [SingleTerm]
+                ) [Assignment]
+              ) [DesignatorStatementStatementDecl]
+            ) [StatementListDerived1]
+            DesignatorStatementStatementDecl(
+              Assignment(
+                ArrayIndexing(
+                  ArrayIndexing(
+                    SimpleDesignator(
+                     mat
+                    ) [SimpleDesignator]
+                    SingleTerm(
+                      SingleFactor(
+                        Const(
+                          ConstValueNumber(
+                           1
+                          ) [ConstValueNumber]
+                        ) [Const]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                  ) [ArrayIndexing]
+                  SingleTerm(
+                    SingleFactor(
+                      Const(
+                        ConstValueNumber(
+                         0
+                        ) [ConstValueNumber]
+                      ) [Const]
+                    ) [SingleFactor]
+                  ) [SingleTerm]
+                ) [ArrayIndexing]
+                AssignopDerived1(
+                ) [AssignopDerived1]
+                SingleTerm(
+                  SingleFactor(
+                    Const(
+                      ConstValueNumber(
+                       2
+                      ) [ConstValueNumber]
+                    ) [Const]
+                  ) [SingleFactor]
+                ) [SingleTerm]
+              ) [Assignment]
+            ) [DesignatorStatementStatementDecl]
+          ) [StatementListDerived1]
+          StatementDeclDerived9(
+            PrintStmtWithoutNumber(
+              SingleTerm(
+                SingleFactor(
+                  FactorDesignator(
+                    ArrayIndexing(
+                      ArrayIndexing(
+                        SimpleDesignator(
+                         mat
+                        ) [SimpleDesignator]
+                        SingleTerm(
+                          SingleFactor(
+                            Const(
+                              ConstValueNumber(
+                               1
+                              ) [ConstValueNumber]
+                            ) [Const]
+                          ) [SingleFactor]
+                        ) [SingleTerm]
+                      ) [ArrayIndexing]
+                      SingleTerm(
+                        SingleFactor(
+                          Const(
+                            ConstValueNumber(
+                             2
+                            ) [ConstValueNumber]
+                          ) [Const]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [ArrayIndexing]
+                  ) [FactorDesignator]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [PrintStmtWithoutNumber]
+          ) [StatementDeclDerived9]
+        ) [StatementListDerived1]
+        StatementDeclDerived9(
+          PrintStmtWithoutNumber(
+            SingleTerm(
+              SingleFactor(
+                FactorDesignator(
+                  ArrayIndexing(
+                    ArrayIndexing(
+                      SimpleDesignator(
+                       mat
+                      ) [SimpleDesignator]
+                      SingleTerm(
+                        SingleFactor(
+                          Const(
+                            ConstValueNumber(
+                             0
+                            ) [ConstValueNumber]
+                          ) [Const]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [ArrayIndexing]
+                    SingleTerm(
+                      SingleFactor(
+                        Const(
+                          ConstValueNumber(
+                           2
+                          ) [ConstValueNumber]
+                        ) [Const]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                  ) [ArrayIndexing]
+                ) [FactorDesignator]
+              ) [SingleFactor]
+            ) [SingleTerm]
+          ) [PrintStmtWithoutNumber]
+        ) [StatementDeclDerived9]
+      ) [StatementListDerived1]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  19:19:49,144 - ===================================
+INFO  19:19:49,152 - Deklarisana konstanta nula cija je vrednost 0
+INFO  19:19:49,152 - Deklarisana konstanta jedan cija je vrednost 1
+INFO  19:19:49,152 - Deklarisana konstanta pet cija je vrednost 5
+INFO  19:19:49,153 - Deklarisana promenljiva niz niz na liniji 9
+INFO  19:19:49,153 - Deklarisana promenljiva niz nizch na liniji 10
+INFO  19:19:49,153 - Deklarisana promenljiva matrica mat na liniji 11
+INFO  19:19:49,153 - Deklarisana promenljiva a na liniji 13
+INFO  19:19:49,153 - Definicija metode  VOID
+INFO  19:19:49,153 - Deklarisana promenljiva bodovi na liniji 17
+INFO  19:19:49,153 - Deklarisana promenljiva bt na liniji 18
+INFO  19:19:49,153 - Upotreba globalne promenljive mat na liniji 22
+INFO  19:19:49,153 - Dodela vrednosti promenljivoj mat na liniji 22
+INFO  19:19:49,154 - Upotreba globalne promenljive mat na liniji 23
+INFO  19:19:49,154 - Upotreba konstante nula na liniji 23
+INFO  19:19:49,154 - Pristupa se mat na liniji 23
+INFO  19:19:49,154 - Upotreba konstante jedan na liniji 23
+INFO  19:19:49,156 - Pristupa se mat na liniji 23
+INFO  19:19:49,156 - Upotreba konstante jedan na liniji 23
+INFO  19:19:49,156 - Dodela vrednosti promenljivoj mat na liniji 23
+INFO  19:19:49,156 - Upotreba globalne promenljive mat na liniji 24
+INFO  19:19:49,156 - Pristupa se mat na liniji 24
+INFO  19:19:49,156 - Upotreba globalne promenljive mat na liniji 24
+INFO  19:19:49,156 - Pristupa se mat na liniji 24
+INFO  19:19:49,156 - Pristupa se mat na liniji 24
+INFO  19:19:49,157 - Pristupa se mat na liniji 24
+INFO  19:19:49,157 - Dodela vrednosti promenljivoj mat na liniji 24
+INFO  19:19:49,157 - Upotreba globalne promenljive mat na liniji 25
+INFO  19:19:49,157 - Pristupa se mat na liniji 25
+INFO  19:19:49,157 - Upotreba globalne promenljive mat na liniji 25
+INFO  19:19:49,157 - Pristupa se mat na liniji 25
+INFO  19:19:49,157 - Pristupa se mat na liniji 25
+INFO  19:19:49,157 - Pristupa se mat na liniji 25
+INFO  19:19:49,157 - Dodela vrednosti promenljivoj mat na liniji 25
+INFO  19:19:49,157 - Upotreba globalne promenljive mat na liniji 26
+INFO  19:19:49,157 - Pristupa se mat na liniji 26
+INFO  19:19:49,157 - Upotreba globalne promenljive mat na liniji 26
+INFO  19:19:49,157 - Pristupa se mat na liniji 26
+INFO  19:19:49,157 - Pristupa se mat na liniji 26
+INFO  19:19:49,157 - Pristupa se mat na liniji 26
+INFO  19:19:49,157 - Dodela vrednosti promenljivoj mat na liniji 26
+INFO  19:19:49,158 - Upotreba globalne promenljive mat na liniji 27
+INFO  19:19:49,158 - Upotreba globalne promenljive mat na liniji 27
+INFO  19:19:49,158 - Pristupa se mat na liniji 27
+INFO  19:19:49,158 - Pristupa se mat na liniji 27
+INFO  19:19:49,158 - Pristupa se mat na liniji 27
+INFO  19:19:49,158 - Pristupa se mat na liniji 27
+INFO  19:19:49,158 - Dodela vrednosti promenljivoj mat na liniji 27
+INFO  19:19:49,158 - Upotreba globalne promenljive mat na liniji 28
+INFO  19:19:49,158 - Pristupa se mat na liniji 28
+INFO  19:19:49,158 - Pristupa se mat na liniji 28
+INFO  19:19:49,158 - Dodela vrednosti promenljivoj mat na liniji 28
+INFO  19:19:49,158 - Upotreba globalne promenljive mat na liniji 30
+INFO  19:19:49,159 - Pristupa se mat na liniji 30
+INFO  19:19:49,159 - Pristupa se mat na liniji 30
+INFO  19:19:49,159 - Pozvana je print metoda na liniji 30
+INFO  19:19:49,159 - Upotreba globalne promenljive mat na liniji 31
+INFO  19:19:49,159 - Pristupa se mat na liniji 31
+INFO  19:19:49,159 - Pristupa se mat na liniji 31
+INFO  19:19:49,159 - Pozvana je print metoda na liniji 31
+INFO  19:19:49,159 - Parsiranje je uspesno zavrseno

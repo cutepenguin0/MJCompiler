@@ -1,0 +1,194 @@
+INFO  23:54:04,783 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  23:54:04,809 - #2 program
+INFO  23:54:04,809 - #45 test301
+INFO  23:54:04,810 - #45 int
+INFO  23:54:04,810 - #45 a2
+INFO  23:54:04,811 - #36 ,
+INFO  23:54:04,811 - #45 b2
+INFO  23:54:04,811 - #45 c2
+ERROR 23:54:04,811 - 
+Sintaksna greska na liniji 6
+INFO  23:54:04,811 - #36 ,
+INFO  23:54:04,811 - #45 d2
+INFO  23:54:04,811 - #34 ;
+INFO  23:54:04,812 - #45 int
+ERROR 23:54:04,812 - Izvrsen oporavak do ,  na liniji 
+INFO  23:54:04,813 - #45 a3
+INFO  23:54:04,813 - #36 ,
+INFO  23:54:04,813 - #45 b3
+INFO  23:54:04,813 - #36 ,
+INFO  23:54:04,813 - #45 c3
+INFO  23:54:04,813 - #45 d3
+ERROR 23:54:04,813 - 
+Sintaksna greska na liniji 7
+INFO  23:54:04,813 - #34 ;
+INFO  23:54:04,813 - #45 int
+INFO  23:54:04,813 - #45 a4
+INFO  23:54:04,813 - #36 ,
+ERROR 23:54:04,813 - Izvrsen oporavak do ,  na liniji 
+INFO  23:54:04,813 - #45 b4
+INFO  23:54:04,813 - #45 c4
+ERROR 23:54:04,813 - 
+Sintaksna greska na liniji 8
+INFO  23:54:04,814 - #36 ,
+INFO  23:54:04,814 - #45 d4
+INFO  23:54:04,814 - #36 ,
+INFO  23:54:04,814 - #45 e4
+ERROR 23:54:04,814 - Izvrsen oporavak do ,  na liniji 
+INFO  23:54:04,814 - #45 f4
+ERROR 23:54:04,814 - 
+Sintaksna greska na liniji 8
+INFO  23:54:04,814 - #36 ,
+INFO  23:54:04,814 - #45 g4
+INFO  23:54:04,814 - #34 ;
+INFO  23:54:04,814 - #38 {
+ERROR 23:54:04,814 - Izvrsen oporavak do ,  na liniji 
+INFO  23:54:04,814 - #12 void
+INFO  23:54:04,815 - #45 main
+INFO  23:54:04,815 - #40 (
+INFO  23:54:04,815 - #41 )
+INFO  23:54:04,815 - #45 int
+INFO  23:54:04,816 - #45 bodovi
+INFO  23:54:04,816 - #34 ;
+INFO  23:54:04,816 - #45 bool
+INFO  23:54:04,816 - #45 bt
+INFO  23:54:04,816 - #34 ;
+INFO  23:54:04,816 - #38 {
+INFO  23:54:04,816 - #39 }
+INFO  23:54:04,816 - #39 }
+INFO  23:54:04,819 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived2(
+              VarDeclarationsDerived2(
+                VarDeclarationsDerived1(
+                  VarDeclName(
+                   a2
+                  ) [VarDeclName]
+                ) [VarDeclarationsDerived1]
+                ErrorComma1(
+                ) [ErrorComma1]
+              ) [VarDeclarationsDerived2]
+              VarDeclName(
+               d2
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived2]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived2(
+            VarDeclarationsDerived2(
+              VarDeclarationsDerived1(
+                VarDeclName(
+                 a3
+                ) [VarDeclName]
+              ) [VarDeclarationsDerived1]
+              VarDeclName(
+               b3
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived2]
+            ErrorComma1(
+            ) [ErrorComma1]
+          ) [VarDeclarationsDerived2]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsDerived2(
+          VarDeclarationsDerived2(
+            VarDeclarationsDerived2(
+              VarDeclarationsDerived2(
+                VarDeclarationsDerived1(
+                  VarDeclName(
+                   a4
+                  ) [VarDeclName]
+                ) [VarDeclarationsDerived1]
+                ErrorComma1(
+                ) [ErrorComma1]
+              ) [VarDeclarationsDerived2]
+              VarDeclName(
+               d4
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived2]
+            ErrorComma1(
+            ) [ErrorComma1]
+          ) [VarDeclarationsDerived2]
+          VarDeclName(
+           g4
+          ) [VarDeclName]
+        ) [VarDeclarationsDerived2]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived1(
+        VarDeclListingDerived1(
+          VarDeclListingDerived2(
+          ) [VarDeclListingDerived2]
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               bodovi
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [VarDeclListingDerived1]
+        VarDeclListDerived1(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             bt
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived2(
+      ) [StatementListDerived2]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  23:54:04,819 - ===================================
+INFO  23:54:04,824 - Deklarisana promenljiva a2 na liniji 6
+INFO  23:54:04,824 - Deklarisana promenljiva d2 na liniji 6
+INFO  23:54:04,824 - Deklarisana promenljiva a3 na liniji 7
+INFO  23:54:04,824 - Deklarisana promenljiva b3 na liniji 7
+INFO  23:54:04,824 - Deklarisana promenljiva a4 na liniji 8
+INFO  23:54:04,824 - Deklarisana promenljiva d4 na liniji 8
+INFO  23:54:04,824 - Deklarisana promenljiva g4 na liniji 8
+INFO  23:54:04,824 - Definicija metode  VOID
+INFO  23:54:04,824 - Deklarisana promenljiva bodovi na liniji 12
+INFO  23:54:04,824 - Deklarisana promenljiva bt na liniji 13
+ERROR 23:54:04,825 - Parsiranje nije uspesno zavrseno

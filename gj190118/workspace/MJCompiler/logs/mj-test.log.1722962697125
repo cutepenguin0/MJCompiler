@@ -1,0 +1,173 @@
+INFO  18:44:41,080 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  18:44:41,109 - #2 program
+INFO  18:44:41,109 - #45 test302
+INFO  18:44:41,109 - #17 namespace
+INFO  18:44:41,110 - #45 sizes
+INFO  18:44:41,110 - #38 {
+INFO  18:44:41,110 - #45 int
+INFO  18:44:41,110 - #45 tableSize
+INFO  18:44:41,111 - #34 ;
+INFO  18:44:41,111 - #38 {
+INFO  18:44:41,111 - #39 }
+INFO  18:44:41,111 - #39 }
+INFO  18:44:41,111 - #7 const
+INFO  18:44:41,112 - #45 int
+INFO  18:44:41,112 - #45 promenljiva
+INFO  18:44:41,112 - #31 =
+INFO  18:44:41,112 - #46 5
+INFO  18:44:41,112 - #34 ;
+INFO  18:44:41,113 - #45 int
+INFO  18:44:41,113 - #45 x
+INFO  18:44:41,113 - #34 ;
+INFO  18:44:41,113 - #45 bool
+INFO  18:44:41,113 - #45 y
+INFO  18:44:41,113 - #34 ;
+INFO  18:44:41,113 - #45 char
+INFO  18:44:41,113 - #45 c
+INFO  18:44:41,113 - #42 [
+INFO  18:44:41,113 - #43 ]
+INFO  18:44:41,113 - #34 ;
+INFO  18:44:41,114 - #38 {
+INFO  18:44:41,114 - #45 int
+INFO  18:44:41,114 - #45 main
+INFO  18:44:41,114 - #40 (
+INFO  18:44:41,115 - #41 )
+INFO  18:44:41,115 - #45 int
+INFO  18:44:41,115 - #45 x
+INFO  18:44:41,115 - #34 ;
+INFO  18:44:41,115 - #38 {
+INFO  18:44:41,115 - #39 }
+INFO  18:44:41,115 - #39 }
+INFO  18:44:41,119 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NamespaceListMultiple(
+    NoNamespace(
+    ) [NoNamespace]
+    NamespaceDecl(
+      NamespaceName(
+       sizes
+      ) [NamespaceName]
+      ManyDeclarationsList(
+        NoDeclarationsList(
+        ) [NoDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               tableSize
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      NoMethDeclListNamespace(
+      ) [NoMethDeclListNamespace]
+    ) [NamespaceDecl]
+  ) [NamespaceListMultiple]
+  ManyDeclarationsList(
+    ManyDeclarationsList(
+      ManyDeclarationsList(
+        ManyDeclarationsList(
+          NoDeclarationsList(
+          ) [NoDeclarationsList]
+          DeclarationDerived1(
+            ConstDeclListDerived1(
+              Type(
+               int
+              ) [Type]
+              ConstDeclarationsDerived1(
+                ConstDecl(
+                 promenljiva
+                  ConstValueNumber(
+                   5
+                  ) [ConstValueNumber]
+                ) [ConstDecl]
+              ) [ConstDeclarationsDerived1]
+            ) [ConstDeclListDerived1]
+          ) [DeclarationDerived1]
+        ) [ManyDeclarationsList]
+        DeclarationDerived2(
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclName(
+               x
+              ) [VarDeclName]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [DeclarationDerived2]
+      ) [ManyDeclarationsList]
+      DeclarationDerived2(
+        VarDeclListDerived1(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             y
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [DeclarationDerived2]
+    ) [ManyDeclarationsList]
+    DeclarationDerived2(
+      VarDeclListDerived1(
+        Type(
+         char
+        ) [Type]
+        VarDeclarationsDerived1(
+          VarDeclNameArray(
+           c
+            BracketsDerived1(
+            ) [BracketsDerived1]
+          ) [VarDeclNameArray]
+        ) [VarDeclarationsDerived1]
+      ) [VarDeclListDerived1]
+    ) [DeclarationDerived2]
+  ) [ManyDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived2(
+    ) [MethodDeclListDerived2]
+    MethodDeclWithoutFormPars(
+      MethodType(
+        Type(
+         int
+        ) [Type]
+      ) [MethodType]
+     main
+      VarDeclListingDerived1(
+        VarDeclListingDerived2(
+        ) [VarDeclListingDerived2]
+        VarDeclListDerived1(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsDerived1(
+            VarDeclName(
+             x
+            ) [VarDeclName]
+          ) [VarDeclarationsDerived1]
+        ) [VarDeclListDerived1]
+      ) [VarDeclListingDerived1]
+      StatementListDerived2(
+      ) [StatementListDerived2]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  18:44:41,119 - ===================================
+INFO  18:44:41,123 - Deklarisana promenljiva tableSize na liniji 5
+ERROR 18:44:41,126 - Greska. Ime:promenljiva se vec nalazi u tabeli simbola.
+INFO  18:44:41,126 - Deklarisana promenljiva x na liniji 9
+INFO  18:44:41,126 - Deklarisana promenljiva y na liniji 10
+INFO  18:44:41,126 - Deklarisana promenljiva c na liniji 11
+INFO  18:44:41,127 - Definicija metode sa tipom int na liniji 14
+INFO  18:44:41,127 - Deklarisana promenljiva x na liniji 14
+INFO  18:44:41,127 - Deklarisana je metodamain na liniji 14
+INFO  18:44:41,127 - Deklarisana promenljiva x na liniji 14

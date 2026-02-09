@@ -1,0 +1,94 @@
+INFO  22:47:58,726 - Compiling source file: /home/rastko/Desktop/pp1_projekat/workspace/MJCompiler/test/program.mj
+INFO  22:47:58,754 - #2 program
+INFO  22:47:58,754 - #45 test302
+INFO  22:47:58,755 - #38 {
+INFO  22:47:58,755 - #45 int
+INFO  22:47:58,756 - #45 f
+INFO  22:47:58,756 - #40 (
+INFO  22:47:58,757 - #45 int
+INFO  22:47:58,757 - #45 m
+INFO  22:47:58,757 - #41 )
+INFO  22:47:58,757 - #45 int
+INFO  22:47:58,757 - #45 y
+INFO  22:47:58,757 - #42 [
+INFO  22:47:58,757 - #43 ]
+INFO  22:47:58,758 - #34 ;
+INFO  22:47:58,758 - #38 {
+INFO  22:47:58,758 - #39 }
+INFO  22:47:58,759 - #12 void
+INFO  22:47:58,759 - #45 main
+INFO  22:47:58,759 - #40 (
+INFO  22:47:58,759 - #41 )
+INFO  22:47:58,759 - #38 {
+INFO  22:47:58,759 - #39 }
+INFO  22:47:58,759 - #39 }
+INFO  22:47:58,762 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  NoDeclarationsList(
+  ) [NoDeclarationsList]
+  MethodDeclListDerived1(
+    MethodDeclListDerived1(
+      MethodDeclListDerived2(
+      ) [MethodDeclListDerived2]
+      MethodDeclWithFormPars(
+        MethodTypeName(
+          MethodType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodType]
+         f
+        ) [MethodTypeName]
+        FormParsDerived1(
+          FormalParamListDerived2(
+            FormalParam(
+              Type(
+               int
+              ) [Type]
+             m
+            ) [FormalParam]
+          ) [FormalParamListDerived2]
+        ) [FormParsDerived1]
+        VarDeclListingDerived1(
+          VarDeclListingDerived2(
+          ) [VarDeclListingDerived2]
+          VarDeclListDerived1(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsDerived1(
+              VarDeclNameArray(
+               y
+                BracketsDerived1(
+                ) [BracketsDerived1]
+              ) [VarDeclNameArray]
+            ) [VarDeclarationsDerived1]
+          ) [VarDeclListDerived1]
+        ) [VarDeclListingDerived1]
+        StatementListDerived2(
+        ) [StatementListDerived2]
+      ) [MethodDeclWithFormPars]
+    ) [MethodDeclListDerived1]
+    MethodDeclWithoutFormPars(
+      MethodTypeName(
+        MethodVoid(
+        ) [MethodVoid]
+       main
+      ) [MethodTypeName]
+      VarDeclListingDerived2(
+      ) [VarDeclListingDerived2]
+      StatementListDerived2(
+      ) [StatementListDerived2]
+    ) [MethodDeclWithoutFormPars]
+  ) [MethodDeclListDerived1]
+) [Program]
+INFO  22:47:58,762 - ===================================
+INFO  22:47:58,766 - Definicija metode sa tipom int na liniji 6
+INFO  22:47:58,767 - Parametar funkcije je m na liniji 6
+INFO  22:47:58,767 - Deklarisana promenljiva y na liniji 6
+ERROR 22:47:58,769 - Metoda f mora imati return iskaz. na liniji 6
+INFO  22:47:58,769 - Definicija metode sa VOID
